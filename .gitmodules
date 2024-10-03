@@ -13,3 +13,6 @@
 [submodule "kubernetes-configs"]
 	path = kubernetes-configs
 	url = https://github.com/austinsonger/Kubernetes-configs
+[submodule "templates"]
+	path = templates
+	url = https://github.com/austinsonger/base-templates
