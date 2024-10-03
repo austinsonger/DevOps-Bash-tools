@@ -9,7 +9,7 @@
 	url = https://github.com/austinsonger/Vagrant-templates
 [submodule "packer"]
 	path = packer
-	url = https://github.com/austinsonger/Packer-templates
+	url = https://github.com/austinsonger/Packer
 [submodule "kubernetes-configs"]
 	path = kubernetes-configs
 	url = https://github.com/austinsonger/Kubernetes-configs
