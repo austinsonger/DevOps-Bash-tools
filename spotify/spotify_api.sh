@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 #  vim:ts=4:sts=4:sw=4:et
 #
-#  args: /v1/users/harisekhon
+#  args: /v1/users/austinsonger
 #
 #  Author: Hari Sekhon
 #  Date: 2020-06-23 17:17:18 +0100 (Tue, 23 Jun 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -37,7 +37,7 @@ $usage_auth_help
 
 Examples:
 
-spotify_api.sh /v1/users/harisekhon
+spotify_api.sh /v1/users/austinsonger
 
 SPOTIFY_PRIVATE=1 spotify_api.sh /v1/me/tracks
 

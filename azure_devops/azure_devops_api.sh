@@ -5,13 +5,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-10-23 17:58:16 +0100 (Fri, 23 Oct 2020)
 #
-#  https://azure_devops.com/harisekhon/bash-tools
+#  https://azure_devops.com/austinsonger/bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -56,21 +56,21 @@ Examples:
 
     ${0##*/} /{organization}/{project}/_apis/git/repositories  | jq .
 
-    ${0##*/} /harisekhon/GitHub/_apis/git/repositories  | jq .
+    ${0##*/} /austinsonger/GitHub/_apis/git/repositories  | jq .
 
 
 # List a user or organization's Azure DevOps Pipelines:
 
     ${0##*/} /{username}/{project}/_apis/pipelines | jq .
 
-    ${0##*/} /harisekhon/GitHub/_apis/pipelines | jq .
+    ${0##*/} /austinsonger/GitHub/_apis/pipelines | jq .
 
 
 # Get a specific pipeline (has an href to the build yaml):
 
     ${0##*/} /{username}/{project}/_apis/pipelines/{id} | jq .
 
-    ${0##*/} /harisekhon/GitHub/_apis/pipelines/1 | jq .
+    ${0##*/} /austinsonger/GitHub/_apis/pipelines/1 | jq .
 
 
 For convenience the following tokens in the form :token, <token>, {token} are replaced:

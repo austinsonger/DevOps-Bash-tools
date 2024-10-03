@@ -1,33 +1,33 @@
 # Hari Sekhon - DevOps Bash Tools
 
-[![GitHub stars](https://img.shields.io/github/stars/harisekhon/devops-bash-tools?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/harisekhon/devops-bash-tools?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools/network)
-[![Lines of Code](https://img.shields.io/badge/lines%20of%20code-96k-lightgrey?logo=codecademy)](https://github.com/HariSekhon/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/LICENSE)
-[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-HariSekhon-blue?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmZmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPgo=)](https://www.linkedin.com/in/HariSekhon/)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/HariSekhon/DevOps-Bash-tools?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools/commits/master)
+[![GitHub stars](https://img.shields.io/github/stars/austinsonger/devops-bash-tools?logo=github)](https://github.com/austinsonger/DevOps-Bash-tools/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/austinsonger/devops-bash-tools?logo=github)](https://github.com/austinsonger/DevOps-Bash-tools/network)
+[![Lines of Code](https://img.shields.io/badge/lines%20of%20code-96k-lightgrey?logo=codecademy)](https://github.com/austinsonger/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/LICENSE)
+[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-austinsonger-blue?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmZmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPgo=)](https://www.linkedin.com/in/austinsonger/)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/austinsonger/DevOps-Bash-tools?logo=github)](https://github.com/austinsonger/DevOps-Bash-tools/commits/master)
 
-[![Codacy](https://app.codacy.com/project/badge/Grade/dffc1bfd13404c95b5a0ab97fd47974e)](https://www.codacy.com/gh/HariSekhon/DevOps-Bash-tools/dashboard)
-[![CodeFactor](https://www.codefactor.io/repository/github/harisekhon/devops-bash-tools/badge)](https://www.codefactor.io/repository/github/harisekhon/devops-bash-tools)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_DevOps-Bash-tools&metric=alert_status)](https://sonarcloud.io/dashboard?id=HariSekhon_DevOps-Bash-tools)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_DevOps-Bash-tools&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=HariSekhon_DevOps-Bash-tools)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_DevOps-Bash-tools&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=HariSekhon_DevOps-Bash-tools)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_DevOps-Bash-tools&metric=security_rating)](https://sonarcloud.io/dashboard?id=HariSekhon_DevOps-Bash-tools)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_DevOps-Bash-tools&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=HariSekhon_DevOps-Bash-tools)
+[![Codacy](https://app.codacy.com/project/badge/Grade/dffc1bfd13404c95b5a0ab97fd47974e)](https://www.codacy.com/gh/austinsonger/DevOps-Bash-tools/dashboard)
+[![CodeFactor](https://www.codefactor.io/repository/github/austinsonger/devops-bash-tools/badge)](https://www.codefactor.io/repository/github/austinsonger/devops-bash-tools)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=austinsonger_DevOps-Bash-tools&metric=alert_status)](https://sonarcloud.io/dashboard?id=austinsonger_DevOps-Bash-tools)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=austinsonger_DevOps-Bash-tools&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=austinsonger_DevOps-Bash-tools)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=austinsonger_DevOps-Bash-tools&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=austinsonger_DevOps-Bash-tools)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=austinsonger_DevOps-Bash-tools&metric=security_rating)](https://sonarcloud.io/dashboard?id=austinsonger_DevOps-Bash-tools)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=austinsonger_DevOps-Bash-tools&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=austinsonger_DevOps-Bash-tools)
 
 <!--
 BitBucket exposes HTML comments - open issue - works properly on GitHub/GitLab
 doesn't detect shell code properly
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_DevOps-Bash-tools&metric=ncloc)](https://sonarcloud.io/dashboard?id=HariSekhon_DevOps-Bash-tools)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=austinsonger_DevOps-Bash-tools&metric=ncloc)](https://sonarcloud.io/dashboard?id=austinsonger_DevOps-Bash-tools)
 -->
 
-[![Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux)](https://github.com/HariSekhon/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
-[![Mac](https://img.shields.io/badge/OS-Mac-blue?logo=apple)](https://github.com/HariSekhon/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
-[![Docker](https://img.shields.io/badge/container-Docker-blue?logo=docker&logoColor=white)](https://hub.docker.com/r/harisekhon/bash-tools)
-[![Dockerfile](https://img.shields.io/badge/repo-Dockerfiles-blue?logo=docker&logoColor=white)](https://github.com/HariSekhon/Dockerfiles)
-[![DockerHub Pulls](https://img.shields.io/docker/pulls/harisekhon/bash-tools?label=DockerHub%20pulls&logo=docker&logoColor=white)](https://hub.docker.com/r/harisekhon/bash-tools)
-[![StarTrack](https://img.shields.io/badge/Star-Track-blue?logo=github)](https://seladb.github.io/StarTrack-js/#/preload?r=HariSekhon,Nagios-Plugins&r=HariSekhon,Dockerfiles&r=HariSekhon,DevOps-Python-tools&r=HariSekhon,DevOps-Perl-tools&r=HariSekhon,DevOps-Bash-tools&r=HariSekhon,HAProxy-configs&r=HariSekhon,SQL-scripts)
-[![StarCharts](https://img.shields.io/badge/Star-Charts-blue?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/STARCHARTS.md)
+[![Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux)](https://github.com/austinsonger/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
+[![Mac](https://img.shields.io/badge/OS-Mac-blue?logo=apple)](https://github.com/austinsonger/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
+[![Docker](https://img.shields.io/badge/container-Docker-blue?logo=docker&logoColor=white)](https://hub.docker.com/r/austinsonger/bash-tools)
+[![Dockerfile](https://img.shields.io/badge/repo-Dockerfiles-blue?logo=docker&logoColor=white)](https://github.com/austinsonger/Dockerfiles)
+[![DockerHub Pulls](https://img.shields.io/docker/pulls/austinsonger/bash-tools?label=DockerHub%20pulls&logo=docker&logoColor=white)](https://hub.docker.com/r/austinsonger/bash-tools)
+[![StarTrack](https://img.shields.io/badge/Star-Track-blue?logo=github)](https://seladb.github.io/StarTrack-js/#/preload?r=austinsonger,Nagios-Plugins&r=austinsonger,Dockerfiles&r=austinsonger,DevOps-Python-tools&r=austinsonger,DevOps-Perl-tools&r=austinsonger,DevOps-Bash-tools&r=austinsonger,HAProxy-configs&r=austinsonger,SQL-scripts)
+[![StarCharts](https://img.shields.io/badge/Star-Charts-blue?logo=github)](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/STARCHARTS.md)
 
 [![Mac Homebrew](https://img.shields.io/badge/Mac-Homebrew-999999?logo=apple&logoColor=white)](https://brew.sh/)
 [![Alpine](https://img.shields.io/badge/Linux-Alpine-0D597F?logo=alpine%20linux)](https://alpinelinux.org/)
@@ -39,89 +39,89 @@ doesn't detect shell code properly
 [![Ubuntu](https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 
 <!-- TODO: fix
-[![DockerHub Build Automated](https://img.shields.io/docker/automated/harisekhon/bash-tools?logo=docker&logoColor=white)](https://hub.docker.com/r/harisekhon/bash-tools)
-[![Docker Build Status](https://img.shields.io/docker/cloud/build/harisekhon/bash-tools?logo=docker&logoColor=white)](https://hub.docker.com/r/harisekhon/bash-tools/builds)
+[![DockerHub Build Automated](https://img.shields.io/docker/automated/austinsonger/bash-tools?logo=docker&logoColor=white)](https://hub.docker.com/r/austinsonger/bash-tools)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/austinsonger/bash-tools?logo=docker&logoColor=white)](https://hub.docker.com/r/austinsonger/bash-tools/builds)
 -->
 
 <!--
 official badges without logos to differentiate them
 
 this one I don't trust it'll stick around so using shields version instead
-[![Build Status](https://badges.herokuapp.com/travis/HariSekhon/DevOps-Bash-tools?label=Travis%20CI)](https://travis-ci.org/HariSekhon/DevOps-Bash-tools)
+[![Build Status](https://badges.herokuapp.com/travis/austinsonger/DevOps-Bash-tools?label=Travis%20CI)](https://travis-ci.org/austinsonger/DevOps-Bash-tools)
 
 awkward URLs more nicely replaced with shields.io
 
-[![AppVeyor](https://ci.appveyor.com/api/projects/status/u6f97cskcgb30sce/branch/master?svg=true)](https://ci.appveyor.com/project/HariSekhon/devops-bash-tools/branch/master)
-[![Drone](https://cloud.drone.io/api/badges/HariSekhon/DevOps-Bash-tools/status.svg)](https://cloud.drone.io/HariSekhon/DevOps-Bash-tools)
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/u6f97cskcgb30sce/branch/master?svg=true)](https://ci.appveyor.com/project/austinsonger/devops-bash-tools/branch/master)
+[![Drone](https://cloud.drone.io/api/badges/austinsonger/DevOps-Bash-tools/status.svg)](https://cloud.drone.io/austinsonger/DevOps-Bash-tools)
 -->
 
-[![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://harisekhon.github.io/CI-CD/)
-[![Jenkins](https://img.shields.io/badge/Jenkins-ready-blue?logo=jenkins&logoColor=white)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/Jenkinsfile)
-[![Concourse](https://img.shields.io/badge/Concourse-ready-blue?logo=concourse&logoColor=white)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/cicd/.concourse.yml)
-[![GoCD](https://img.shields.io/badge/GoCD-ready-blue?logo=go&logoColor=white)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/cicd/.gocd.yml)
-[![TeamCity](https://img.shields.io/badge/TeamCity-ready-blue?logo=teamcity)](https://github.com/HariSekhon/TeamCity-CI)
+[![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://austinsonger.github.io/CI-CD/)
+[![Jenkins](https://img.shields.io/badge/Jenkins-ready-blue?logo=jenkins&logoColor=white)](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/Jenkinsfile)
+[![Concourse](https://img.shields.io/badge/Concourse-ready-blue?logo=concourse&logoColor=white)](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/cicd/.concourse.yml)
+[![GoCD](https://img.shields.io/badge/GoCD-ready-blue?logo=go&logoColor=white)](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/cicd/.gocd.yml)
+[![TeamCity](https://img.shields.io/badge/TeamCity-ready-blue?logo=teamcity)](https://github.com/austinsonger/TeamCity-CI)
 
-[![CircleCI](https://circleci.com/gh/HariSekhon/DevOps-Bash-tools.svg?style=svg)](https://circleci.com/gh/HariSekhon/DevOps-Bash-tools)
+[![CircleCI](https://circleci.com/gh/austinsonger/DevOps-Bash-tools.svg?style=svg)](https://circleci.com/gh/austinsonger/DevOps-Bash-tools)
 [![BuildKite](https://img.shields.io/buildkite/f11bdd9690a9bac9a8edc6094dc2f2b9af3218a7a15d4ec17d/master?label=BuildKite&logo=buildkite)](https://buildkite.com/hari-sekhon/devops-bash-tools)
-[![AppVeyor](https://img.shields.io/appveyor/build/harisekhon/devops-bash-tools/master?logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/HariSekhon/devops-bash-tools/branch/master)
-[![Drone](https://img.shields.io/drone/build/HariSekhon/DevOps-Bash-tools/master?logo=drone&label=Drone)](https://cloud.drone.io/HariSekhon/DevOps-Bash-tools)
-[![Codefresh](https://g.codefresh.io/api/badges/pipeline/harisekhon/GitHub%2FDevOps-Bash-tools?branch=master&key=eyJhbGciOiJIUzI1NiJ9.NWU1MmM5OGNiM2FiOWUzM2Y3ZDZmYjM3.O69674cW7vYom3v5JOGKXDbYgCVIJU9EWhXUMHl3zwA&type=cf-1)](https://g.codefresh.io/pipelines/edit/new/builds?id=5e53eaeea284e010982eaa6e&pipeline=DevOps-Bash-tools&projects=GitHub&projectId=5e52ca8ea284e00f882ea992&context=github&filter=page:1;pageSize:10;timeFrameStart:week)
-[![Cirrus CI](https://img.shields.io/cirrus/github/HariSekhon/DevOps-Bash-tools/master?logo=Cirrus%20CI&label=Cirrus%20CI)](https://cirrus-ci.com/github/HariSekhon/DevOps-Bash-tools)
-[![Semaphore](https://harisekhon.semaphoreci.com/badges/DevOps-Bash-tools.svg)](https://harisekhon.semaphoreci.com/projects/DevOps-Bash-tools)
-[![Buddy](https://img.shields.io/badge/Buddy-ready-1A86FD?logo=buddy)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/buddy.yml)
-[![Shippable](https://img.shields.io/badge/Shippable-legacy-lightgrey?logo=jfrog&label=Shippable)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/shippable.yml)
-[![Travis CI](https://img.shields.io/badge/TravisCI-ready-blue?logo=travis&label=Travis%20CI)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/travis/.travis.yml)
+[![AppVeyor](https://img.shields.io/appveyor/build/austinsonger/devops-bash-tools/master?logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/austinsonger/devops-bash-tools/branch/master)
+[![Drone](https://img.shields.io/drone/build/austinsonger/DevOps-Bash-tools/master?logo=drone&label=Drone)](https://cloud.drone.io/austinsonger/DevOps-Bash-tools)
+[![Codefresh](https://g.codefresh.io/api/badges/pipeline/austinsonger/GitHub%2FDevOps-Bash-tools?branch=master&key=eyJhbGciOiJIUzI1NiJ9.NWU1MmM5OGNiM2FiOWUzM2Y3ZDZmYjM3.O69674cW7vYom3v5JOGKXDbYgCVIJU9EWhXUMHl3zwA&type=cf-1)](https://g.codefresh.io/pipelines/edit/new/builds?id=5e53eaeea284e010982eaa6e&pipeline=DevOps-Bash-tools&projects=GitHub&projectId=5e52ca8ea284e00f882ea992&context=github&filter=page:1;pageSize:10;timeFrameStart:week)
+[![Cirrus CI](https://img.shields.io/cirrus/github/austinsonger/DevOps-Bash-tools/master?logo=Cirrus%20CI&label=Cirrus%20CI)](https://cirrus-ci.com/github/austinsonger/DevOps-Bash-tools)
+[![Semaphore](https://austinsonger.semaphoreci.com/badges/DevOps-Bash-tools.svg)](https://austinsonger.semaphoreci.com/projects/DevOps-Bash-tools)
+[![Buddy](https://img.shields.io/badge/Buddy-ready-1A86FD?logo=buddy)](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/buddy.yml)
+[![Shippable](https://img.shields.io/badge/Shippable-legacy-lightgrey?logo=jfrog&label=Shippable)](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/shippable.yml)
+[![Travis CI](https://img.shields.io/badge/TravisCI-ready-blue?logo=travis&label=Travis%20CI)](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/travis/.travis.yml)
 [![Reviewed by Hound](https://img.shields.io/badge/Reviewed%20by-Hound-8E64B0.svg)](https://houndci.com)
 
-[![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-2088FF?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools)
-[![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-FCA121?logo=gitlab)](https://gitlab.com/HariSekhon/DevOps-Bash-tools)
-[![Repo on Azure DevOps](https://img.shields.io/badge/repo-Azure%20DevOps-0078D7?logo=azure%20devops)](https://dev.azure.com/harisekhon/GitHub/_git/DevOps-Bash-tools)
-[![Repo on BitBucket](https://img.shields.io/badge/repo-BitBucket-0052CC?logo=bitbucket)](https://bitbucket.org/HariSekhon/DevOps-Bash-tools)
+[![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-2088FF?logo=github)](https://github.com/austinsonger/DevOps-Bash-tools)
+[![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-FCA121?logo=gitlab)](https://gitlab.com/austinsonger/DevOps-Bash-tools)
+[![Repo on Azure DevOps](https://img.shields.io/badge/repo-Azure%20DevOps-0078D7?logo=azure%20devops)](https://dev.azure.com/austinsonger/GitHub/_git/DevOps-Bash-tools)
+[![Repo on BitBucket](https://img.shields.io/badge/repo-BitBucket-0052CC?logo=bitbucket)](https://bitbucket.org/austinsonger/DevOps-Bash-tools)
 
-[![Azure DevOps Pipeline](https://dev.azure.com/harisekhon/GitHub/_apis/build/status/HariSekhon.DevOps-Bash-tools?branchName=master)](https://dev.azure.com/harisekhon/GitHub/_build/latest?definitionId=1&branchName=master)
-[![GitLab Pipeline](https://img.shields.io/badge/GitLab%20CI-legacy-lightgrey?logo=gitlab)](https://gitlab.com/HariSekhon/DevOps-Bash-tools/pipelines)
-[![BitBucket Pipeline](https://img.shields.io/badge/Bitbucket%20CI-legacy-lightgrey?logo=bitbucket)](https://bitbucket.org/harisekhon/devops-bash-tools/addon/pipelines/home#!/)
-[![AWS CodeBuild](https://img.shields.io/badge/AWS%20CodeBuild-ready-blue?logo=amazon%20aws)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/cicd/buildspec.yml)
-[![GCP Cloud Build](https://img.shields.io/badge/GCP%20Cloud%20Build-ready-blue?logo=google%20cloud&logoColor=white)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/cicd/cloudbuild.yaml)
+[![Azure DevOps Pipeline](https://dev.azure.com/austinsonger/GitHub/_apis/build/status/austinsonger.DevOps-Bash-tools?branchName=master)](https://dev.azure.com/austinsonger/GitHub/_build/latest?definitionId=1&branchName=master)
+[![GitLab Pipeline](https://img.shields.io/badge/GitLab%20CI-legacy-lightgrey?logo=gitlab)](https://gitlab.com/austinsonger/DevOps-Bash-tools/pipelines)
+[![BitBucket Pipeline](https://img.shields.io/badge/Bitbucket%20CI-legacy-lightgrey?logo=bitbucket)](https://bitbucket.org/austinsonger/devops-bash-tools/addon/pipelines/home#!/)
+[![AWS CodeBuild](https://img.shields.io/badge/AWS%20CodeBuild-ready-blue?logo=amazon%20aws)](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/cicd/buildspec.yml)
+[![GCP Cloud Build](https://img.shields.io/badge/GCP%20Cloud%20Build-ready-blue?logo=google%20cloud&logoColor=white)](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/cicd/cloudbuild.yaml)
 
-[![ShellCheck](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/shellcheck.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/shellcheck.yaml)
-[![JSON](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/json.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/json.yaml)
-[![YAML](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/yaml.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/yaml.yaml)
-[![XML](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/xml.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/xml.yaml)
-[![Validation](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/validate.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/validate.yaml)
-[![Kics](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/kics.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/kics.yaml)
-[![Grype](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/grype.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/grype.yaml)
-[![Semgrep](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/semgrep.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/semgrep.yaml)
-[![Semgrep Cloud](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/semgrep-cloud.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/semgrep-cloud.yaml)
-[![Trivy](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/trivy.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/trivy.yaml)
+[![ShellCheck](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/shellcheck.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/shellcheck.yaml)
+[![JSON](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/json.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/json.yaml)
+[![YAML](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/yaml.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/yaml.yaml)
+[![XML](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/xml.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/xml.yaml)
+[![Validation](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/validate.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/validate.yaml)
+[![Kics](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/kics.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/kics.yaml)
+[![Grype](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/grype.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/grype.yaml)
+[![Semgrep](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/semgrep.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/semgrep.yaml)
+[![Semgrep Cloud](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/semgrep-cloud.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/semgrep-cloud.yaml)
+[![Trivy](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/trivy.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/trivy.yaml)
 
-[![Docker Build (Alpine)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/docker_bash_alpine.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/docker_bash_alpine.yaml)
-[![Docker Build (Debian)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/docker_bash_debian.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/docker_bash_debian.yaml)
-[![Docker Build (Fedora)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/docker_bash_fedora.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/docker_bash_fedora.yaml)
-[![Docker Build (Ubuntu)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/docker_bash_ubuntu.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/docker_bash_ubuntu.yaml)
+[![Docker Build (Alpine)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/docker_bash_alpine.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/docker_bash_alpine.yaml)
+[![Docker Build (Debian)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/docker_bash_debian.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/docker_bash_debian.yaml)
+[![Docker Build (Fedora)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/docker_bash_fedora.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/docker_bash_fedora.yaml)
+[![Docker Build (Ubuntu)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/docker_bash_ubuntu.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/docker_bash_ubuntu.yaml)
 
-[![GitHub Actions Ubuntu](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/GitHub%20Actions%20Ubuntu/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22GitHub+Actions+Ubuntu%22)
-[![Mac](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/mac.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/mac.yaml)
-[![Mac 11](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/mac_11.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/mac_11.yaml)
-[![Mac 12](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/mac_12.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/mac_12.yaml)
-[![Ubuntu](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Ubuntu/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Ubuntu%22)
-[![Ubuntu 20.04](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Ubuntu%2020.04/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Ubuntu+20.04%22)
-[![Ubuntu 22.04](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Ubuntu%2022.04/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Ubuntu+22.04%22)
-[![Debian](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Debian/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Debian%22)
-[![Debian 10](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Debian%2010/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Debian+10%22)
-[![Debian 11](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Debian%2011/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Debian+11%22)
-[![Debian 12](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Debian%2012/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Debian+12%22)
-[![Fedora](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Fedora/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Fedora%22)
-[![Alpine](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Alpine/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Alpine%22)
-[![Alpine 3](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Alpine%203/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Alpine+3%22)
+[![GitHub Actions Ubuntu](https://github.com/austinsonger/DevOps-Bash-tools/workflows/GitHub%20Actions%20Ubuntu/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22GitHub+Actions+Ubuntu%22)
+[![Mac](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/mac.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/mac.yaml)
+[![Mac 11](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/mac_11.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/mac_11.yaml)
+[![Mac 12](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/mac_12.yaml/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions/workflows/mac_12.yaml)
+[![Ubuntu](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Ubuntu/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Ubuntu%22)
+[![Ubuntu 20.04](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Ubuntu%2020.04/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Ubuntu+20.04%22)
+[![Ubuntu 22.04](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Ubuntu%2022.04/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Ubuntu+22.04%22)
+[![Debian](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Debian/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Debian%22)
+[![Debian 10](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Debian%2010/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Debian+10%22)
+[![Debian 11](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Debian%2011/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Debian+11%22)
+[![Debian 12](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Debian%2012/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Debian+12%22)
+[![Fedora](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Fedora/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Fedora%22)
+[![Alpine](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Alpine/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Alpine%22)
+[![Alpine 3](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Alpine%203/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Alpine+3%22)
 
-[![Python 3.7](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Python%203.7/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Python+3.7%22)
-[![Python 3.8](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Python%203.8/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Python+3.8%22)
-[![Python 3.9](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Python%203.9/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Python+3.9%22)
-[![Python 3.10](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Python%203.10/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Python+3.10%22)
-[![Python 3.11](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Python%203.11/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Python+3.11%22)
+[![Python 3.7](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Python%203.7/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Python+3.7%22)
+[![Python 3.8](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Python%203.8/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Python+3.8%22)
+[![Python 3.9](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Python%203.9/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Python+3.9%22)
+[![Python 3.10](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Python%203.10/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Python+3.10%22)
+[![Python 3.11](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Python%203.11/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Python+3.11%22)
 <!--
-[![Self Hosted](https://github.com/HariSekhon/DevOps-Bash-tools/workflows/Self%20Hosted/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions?query=workflow%3A%22Self+Hosted%22)
+[![Self Hosted](https://github.com/austinsonger/DevOps-Bash-tools/workflows/Self%20Hosted/badge.svg)](https://github.com/austinsonger/DevOps-Bash-tools/actions?query=workflow%3A%22Self+Hosted%22)
 -->
 
 <!-- TODO: https://codecov.io, https://coveralls.io -->
@@ -132,16 +132,16 @@ awkward URLs more nicely replaced with shields.io
 
 Fast, Advanced Systems Engineering, Automation, APIs, shorter CLIs, etc.
 
-Heavily used in many [GitHub repos](https://github.com/search?o=desc&q=user%3Aharisekhon+type%3Arepository&type=Repositories), dozens of [DockerHub builds](https://hub.docker.com/r/harisekhon) ([Dockerfiles](https://github.com/HariSekhon/Dockerfiles)) and 600+ [CI builds](https://harisekhon.github.io/CI-CD/).
+Heavily used in many [GitHub repos](https://github.com/search?o=desc&q=user%3Aaustinsonger+type%3Arepository&type=Repositories), dozens of [DockerHub builds](https://hub.docker.com/r/austinsonger) ([Dockerfiles](https://github.com/austinsonger/Dockerfiles)) and 600+ [CI builds](https://austinsonger.github.io/CI-CD/).
 
 ## Summary
 
-- Scripts for many popular DevOps technologies, see [Inventory](https://github.com/HariSekhon/DevOps-Bash-tools#inventory) below for more details
+- Scripts for many popular DevOps technologies, see [Inventory](https://github.com/austinsonger/DevOps-Bash-tools#inventory) below for more details
 - Advanced configs for common tools like [Git](https://git-scm.com/), [vim](https://www.vim.org/), [screen](https://www.gnu.org/software/screen/), [tmux](https://github.com/tmux/tmux/wiki), [PostgreSQL psql](https://www.postgresql.org/) etc...
-- CI configs for most major Continuous Integration products (see [CI builds](https://harisekhon.github.io/CI-CD/) page)
-- CI scripts for a drop-in framework of standard checks to run in all [CI builds](https://harisekhon.github.io/CI-CD/), CI detection, accounting for installation differences across CI environments, root vs user, virtualenvs etc.
+- CI configs for most major Continuous Integration products (see [CI builds](https://austinsonger.github.io/CI-CD/) page)
+- CI scripts for a drop-in framework of standard checks to run in all [CI builds](https://austinsonger.github.io/CI-CD/), CI detection, accounting for installation differences across CI environments, root vs user, virtualenvs etc.
 - API scripts auto-handling authentication, tokens and other details to quickly query popular APIs with a few keystrokes just supplying the `/path/endpoint`
-- Advanced Bash environment - `.bashrc` + `.bash.d/*.sh` - aliases, functions, colouring, dynamic Git & shell behaviour enhancements, automatic pathing for installations and major languages like Python, Perl, Ruby, NodeJS, Golang across Linux distributions and Mac. See [.bash.d/README.md](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/.bash.d/README.md)
+- Advanced Bash environment - `.bashrc` + `.bash.d/*.sh` - aliases, functions, colouring, dynamic Git & shell behaviour enhancements, automatic pathing for installations and major languages like Python, Perl, Ruby, NodeJS, Golang across Linux distributions and Mac. See [.bash.d/README.md](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/.bash.d/README.md)
 - Installs the best systems packages -
   [AWS CLI](https://aws.amazon.com/cli/),
   [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest),
@@ -161,14 +161,14 @@ Heavily used in many [GitHub repos](https://github.com/search?o=desc&q=user%3Aha
   - `install/` - contains many installation scripts for popular open source software and direct binary downloads from GitHub releases
   - `configs/` - contains many dot configs for common technologies like ViM, top, Screen, Tmux, MySQL, PostgreSQL etc.
   - `setup/` - contains setup scripts, package lists, extra configs, Mac OS X settings etc.
-- Utility Libraries used by many hundreds of scripts and [builds](https://harisekhon.github.io/CI-CD/) across [repos](https://github.com/search?o=desc&q=user%3Aharisekhon+type%3Arepository&type=Repositories):
+- Utility Libraries used by many hundreds of scripts and [builds](https://austinsonger.github.io/CI-CD/) across [repos](https://github.com/search?o=desc&q=user%3Aaustinsonger+type%3Arepository&type=Repositories):
   - `.bash.d/` - interactive library
   - `lib/` - scripting and CI library
-- [SQL Scripts](https://github.com/HariSekhon/SQL-scripts) - 100+ scripts for [PostgreSQL](https://www.postgresql.org/), [MySQL](https://www.mysql.com/), [AWS Athena](https://aws.amazon.com/athena/) + [CloudTrail](https://aws.amazon.com/cloudtrail/), [Google BigQuery](https://cloud.google.com/bigquery)
-- [Templates](https://github.com/HariSekhon/Templates) - templates for common programming languages and build configs
-- [Kubernetes Configs](https://github.com/HariSekhon/Kubernetes-configs) - Kubernetes YAML configs for most common scenarios, including Production Best Practices, Tips & Tricks
+- [SQL Scripts](https://github.com/austinsonger/SQL-scripts) - 100+ scripts for [PostgreSQL](https://www.postgresql.org/), [MySQL](https://www.mysql.com/), [AWS Athena](https://aws.amazon.com/athena/) + [CloudTrail](https://aws.amazon.com/cloudtrail/), [Google BigQuery](https://cloud.google.com/bigquery)
+- [Templates](https://github.com/austinsonger/Templates) - templates for common programming languages and build configs
+- [Kubernetes Configs](https://github.com/austinsonger/Kubernetes-configs) - Kubernetes YAML configs for most common scenarios, including Production Best Practices, Tips & Tricks
 
-See Also: [similar DevOps repos](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/README.md#see-also) in other languages
+See Also: [similar DevOps repos](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/README.md#see-also) in other languages
 
 Hari Sekhon
 
@@ -176,7 +176,7 @@ Cloud & Big Data Contractor, United Kingdom
 
 (ex-Cloudera, former Hortonworks Consultant)
 
-[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-HariSekhon-blue?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmZmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPgo=)](https://www.linkedin.com/in/HariSekhon/)
+[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-austinsonger-blue?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmZmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPgo=)](https://www.linkedin.com/in/austinsonger/)
 <br>*(you're welcome to connect with me on LinkedIn)*
 
 ### Quick Setup
@@ -187,7 +187,7 @@ To bootstrap, install packages and link in to your shell profile to inherit all 
 curl -L https://git.io/bash-bootstrap | sh
 ```
 
-- Adds sourcing to `.bashrc`/`.bash_profile` to automatically inherit all `.bash.d/*.sh` environment enhancements for all technologies (see [Inventory](https://github.com/HariSekhon/DevOps-Bash-tools#Inventory) below)
+- Adds sourcing to `.bashrc`/`.bash_profile` to automatically inherit all `.bash.d/*.sh` environment enhancements for all technologies (see [Inventory](https://github.com/austinsonger/DevOps-Bash-tools#Inventory) below)
 - Symlinks `.*` config dotfiles to `$HOME` for [git](https://git-scm.com/), [vim](https://www.vim.org/), top, [htop](https://hisham.hm/htop/), [screen](https://www.gnu.org/software/screen/), [tmux](https://github.com/tmux/tmux/wiki), [editorconfig](https://editorconfig.org/), [Ansible](https://www.ansible.com/), [PostgreSQL](https://www.postgresql.org/) `.psqlrc` etc. (only when they don't already exist so there is no conflict with your own configs)
 - Installs OS package dependencies for all scripts (detects the OS and installs the right RPMs, Debs, Apk or Mac HomeBrew packages)
 - Installs Python packages
@@ -196,12 +196,12 @@ curl -L https://git.io/bash-bootstrap | sh
 To only install package dependencies to run scripts, simply `cd` to the git clone directory and run `make`:
 
 ```shell
-git clone https://github.com/HariSekhon/DevOps-Bash-tools bash-tools
+git clone https://github.com/austinsonger/DevOps-Bash-tools bash-tools
 cd bash-tools
 make
 ```
 
-`make install` sets your shell profile to source this repo. See [Individual Setup Parts](https://github.com/HariSekhon/DevOps-Bash-tools#Individual-Setup-Parts) below for more install/uninstall options.
+`make install` sets your shell profile to source this repo. See [Individual Setup Parts](https://github.com/austinsonger/DevOps-Bash-tools#Individual-Setup-Parts) below for more install/uninstall options.
 
 ## Index
 
@@ -211,7 +211,7 @@ make
 - [GCP - Google Cloud Platform](#gcp---google-cloud-platform) - massive GCP auto-inventory, scripts for GCE, GKE, GCR, Secret Manager, BigQuery, Cloud SQL, Cloud Scheduler, Terraform service account creation
 - [Kubernetes](#kubernetes) - massive Kubernetes auto-inventory, cluster management scripts & tricks
 - [Docker](#docker) - Docker API, Dockerhub API, Quay.io API scripts
-- [Databases](#databases) - fast CLI wrappers, instant Docker sandboxes (PostgreSQL, MySQL, MariaDB, SQLite), [SQL scripts](https://github.com/HariSekhon/SQL-scripts), SQL script testers against all versions of a DB, advanced `.psqlrc`
+- [Databases](#databases) - fast CLI wrappers, instant Docker sandboxes (PostgreSQL, MySQL, MariaDB, SQLite), [SQL scripts](https://github.com/austinsonger/SQL-scripts), SQL script testers against all versions of a DB, advanced `.psqlrc`
 - [Data](#data) - data tools, converters and format validators for Avro, Parquet, CSV, JSON, INI / Properties files (Java), LDAP LDIF, XML, YAML
 - [Big Data & NoSQL](#big-data--nosql) - Kafka, Hadoop, HDFS, Hive, Impala, ZooKeeper, Cloudera Manager API & Cloudera Navigator API scripts
 - [Git - GitHub, GitLab, Bitbucket, Azure DevOps](#git---github-gitlab-bitbucket-azure-devops) - scripts for Git local & mirror management, GitHub, GitLab & BitBucket APIs
@@ -230,8 +230,8 @@ make
 - [Spotify](#spotify) - 40+ Spotify API scripts for backups, managing playlists, track deduplication, URI conversion, search, add/delete, liked tracks, followed artists, top artists, top tracks etc.
 - [More Linux & Mac](#more-linux--mac) - more systems administration scripts, package installation automation
 - [Builds, Languages & Linting](#builds-languages--linting) - programming language, build system & CI linting
-- [Templates](https://github.com/HariSekhon/Templates) - Templates for AWS, GCP, Terraform, Docker, Jenkins, Cloud Build, Vagrant, Puppet, Python, Bash, Go, Perl, Java, Scala, Groovy, Maven, SBT, Gradle, Make, GitHub Actions, CircleCI, Jenkinsfile, Makefile, Dockerfile, docker-compose.yml etc.
-- [Kubernetes Configs](https://github.com/HariSekhon/Kubernetes-configs) - Kubernetes YAML configs for most common scenarios, including Production Best Practices, Tips & Tricks
+- [Templates](https://github.com/austinsonger/Templates) - Templates for AWS, GCP, Terraform, Docker, Jenkins, Cloud Build, Vagrant, Puppet, Python, Bash, Go, Perl, Java, Scala, Groovy, Maven, SBT, Gradle, Make, GitHub Actions, CircleCI, Jenkinsfile, Makefile, Dockerfile, docker-compose.yml etc.
+- [Kubernetes Configs](https://github.com/austinsonger/Kubernetes-configs) - Kubernetes YAML configs for most common scenarios, including Production Best Practices, Tips & Tricks
 
 ### Linux & Mac
 
@@ -257,14 +257,14 @@ Top-level `.bashrc`, `bin/`, `.bash.d/` and `configs/` directories:
   - [Kafka](http://kafka.apache.org/)
   - [Vagrant](https://www.vagrantup.com/)
   - automatic GPG and SSH agent handling for handling encrypted private keys without re-entering passwords, and lazy evaluation to only prompt key load the first time SSH is called
-  - and lots more - see [.bash.d/README](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/.bash.d/README.md) for a more detailed list
+  - and lots more - see [.bash.d/README](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/.bash.d/README.md) for a more detailed list
   - run `make bash` to link `.bashrc`/`.bash_profile` and the `.*` dot config files to your `$HOME` directory to auto-inherit everything
 - `lib/*.sh` - Bash utility libraries full of functions for
   [Docker](https://www.docker.com/),
   environment,
   CI detection ([Travis CI](https://travis-ci.org/), [Jenkins](https://jenkins.io/) etc),
   port and HTTP url availability content checks etc.
-  Sourced from all my other [GitHub repos](https://github.com/harisekhon) to make setting up Dockerized tests easier.
+  Sourced from all my other [GitHub repos](https://github.com/austinsonger) to make setting up Dockerized tests easier.
 - `install/install_*.sh` - various simple to use installation scripts for common technologies like
   [AWS CLI](https://aws.amazon.com/cli/),
   [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest),
@@ -323,28 +323,28 @@ Top-level `.bashrc`, `bin/`, `.bash.d/` and `configs/` directories:
 - `ssh_dump_stats.sh` - uses SSH and `dump_stats.sh` to dump common command outputs from remote servers to a local tarball. Useful for vendor support cases
 - `ssh_dump_logs.sh` - Uses SSH to dump logs from server to local text files for uploading to vendor support cases
 - `ssl_get_cert.sh` - gets a remote `host:port` server's SSL cert in a format you can pipe, save and use locally, for example in Java truststores
-- `ssl_verify_cert.sh` - verifies a remote SSL certificate (battle tested more feature-rich version `check_ssl_cert.pl` exists in the [Advanced Nagios Plugins](https://github.com/HariSekhon/Nagios-Plugins) repo)
+- `ssl_verify_cert.sh` - verifies a remote SSL certificate (battle tested more feature-rich version `check_ssl_cert.pl` exists in the [Advanced Nagios Plugins](https://github.com/austinsonger/Nagios-Plugins) repo)
 - `ssl_verify_cert_by_ip.sh` - verifies SSL certificates on specific IP addresses, useful to test SSL source addresses for CDNs, such as Cloudflare Proxied sources before enabling SSL Full-Strict Mode for end-to-end, or Kubernetes ingresses (see also `curl_k8s_ingress.sh`)
 - `urlencode.sh` / `urldecode.sh` - URL encode/decode quickly on the command line, in pipes etc.
 - `urlopen.sh` - opens the given URL from first arg or stdin, or first URL found in a given file. Uses the system's default browser
 - `vagrant_hosts.sh` - generate `/etc/hosts` output from a `Vagrantfile`
 - `vagrant_total_mb.sh` - calculate the RAM committed to VMs in a `Vagrantfile`
 
-See also [Knowledge Base notes for Linux](https://github.com/HariSekhon/Knowledge-Base/blob/main/linux.md)
-and [Mac](https://github.com/HariSekhon/Knowledge-Base/blob/main/linux.md).
+See also [Knowledge Base notes for Linux](https://github.com/austinsonger/Knowledge-Base/blob/main/linux.md)
+and [Mac](https://github.com/austinsonger/Knowledge-Base/blob/main/linux.md).
 
 ### Databases
 
 `mysql/`, `postgres/`, `sql/` and `bin/` directories:
 
-- [sql/](https://github.com/HariSekhon/SQL-scripts) - 100+ SQL scripts for [PostgreSQL](https://www.postgresql.org/), [MySQL](https://www.mysql.com/), [Google BigQuery](https://cloud.google.com/bigquery) and [AWS Athena](https://aws.amazon.com/athena/) [CloudTrail](https://aws.amazon.com/cloudtrail/) logs integration
+- [sql/](https://github.com/austinsonger/SQL-scripts) - 100+ SQL scripts for [PostgreSQL](https://www.postgresql.org/), [MySQL](https://www.mysql.com/), [Google BigQuery](https://cloud.google.com/bigquery) and [AWS Athena](https://aws.amazon.com/athena/) [CloudTrail](https://aws.amazon.com/cloudtrail/) logs integration
 - `sqlite.sh` - one-touch [SQLite](https://www.sqlite.org/index.html), starts sqlite3 shell with sample 'chinook' database loaded
 - `mysql*.sh` - [MySQL](https://www.mysql.com/) scripts:
   - `mysql.sh` - shortens `mysql` command to connect to [MySQL](https://www.mysql.com/) by auto-populating switches from both standard environment variables like `$MYSQL_TCP_PORT`, `$DBI_USER`, `$MYSQL_PWD` (see [doc](https://dev.mysql.com/doc/refman/8.0/en/environment-variables.html)) and other common environment variables like `$MYSQL_HOST` / `$HOST`, `$MYSQL_USER` / `$USER`, `$MYSQL_PASSWORD` / `$PASSWORD`, `$MYSQL_DATABASE` / `$DATABASE`
   - `mysql_foreach_table.sh` - executes a SQL query against every table, replacing `{db}` and `{table}` in each iteration eg. `select count(*) from {table}`
   - `mysql_*.sh` - various scripts using `mysql.sh` for row counts, iterating each table, or outputting clean lists of databases and tables for quick scripting
   - `mysqld.sh` - one-touch [MySQL](https://www.mysql.com/), boots docker container + drops in to `mysql` shell, with `/sql` scripts mounted in container for easy sourcing eg. `source /sql/<name>.sql`. Optionally loads sample 'chinook' database
-  - see also the [SQL Scripts](https://github.com/HariSekhon/SQL-scripts) repo for many more straight MySQL SQL scripts
+  - see also the [SQL Scripts](https://github.com/austinsonger/SQL-scripts) repo for many more straight MySQL SQL scripts
 - `mariadb.sh` - one-touch [MariaDB](https://mariadb.org/), boots docker container + drops in to `mysql` shell, with `/sql` scripts mounted in container for easy sourcing eg. `source /sql/<name>.sql`. Optionally loads sample 'chinook' database
 - `postgres*.sh` / `psql.sh` - [PostgreSQL](https://www.postgresql.org/) scripts:
   - `postgres.sh` - one-touch [PostgreSQL](https://www.postgresql.org/), boots docker container + drops in to `psql` shell, with `/sql` scripts mounted in container for easy sourcing eg. `\i /sql/<name>.sql`. Optionally loads sample 'chinook' database
@@ -365,7 +365,7 @@ and [Mac](https://github.com/HariSekhon/Knowledge-Base/blob/main/linux.md).
   - `aws_terraform_create_dynamodb_table.sh` - creates a Terraform locking table in DynamoDB for use with the S3 backend, plus custom IAM policy which can be applied to less privileged accounts
   - `aws_terraform_create_all.sh` - runs all of the above, plus also applies the custom DynamoDB IAM policy to the user to ensure if the account is less privileged it can still get the Terraform lock (useful for GitHub Actions environment secret for a read only user to generate Terraform Plans in Pull Request without needing approval)
   - `aws_terraform_iam_grant_s3_dynamodb.sh` - creates IAM policies to access any S3 buckets and DynamoDB tables with `terraform-state` or `tf-state` in their names, and attaches them to the given user. Useful for limited permissions CI/CD accounts that run Terraform Plan eg. in GitHub Actions pull requests
-  - `aws_account_summary.sh` - prints AWS account summary in `key = value` pairs for easy viewing / grepping of things like `AccountMFAEnabled`, `AccountAccessKeysPresent`, useful for checking whether the root account has MFA enabled and no access keys, comparing number of users vs number of MFA devices etc. (see also `check_aws_root_account.py` in [Advanced Nagios Plugins](https://github.com/HariSekhon/Nagios-Plugins))
+  - `aws_account_summary.sh` - prints AWS account summary in `key = value` pairs for easy viewing / grepping of things like `AccountMFAEnabled`, `AccountAccessKeysPresent`, useful for checking whether the root account has MFA enabled and no access keys, comparing number of users vs number of MFA devices etc. (see also `check_aws_root_account.py` in [Advanced Nagios Plugins](https://github.com/austinsonger/Nagios-Plugins))
   - `aws_billing_alarm.sh` - creates a [CloudWatch](https://aws.amazon.com/cloudwatch/) billing alarm and [SNS](https://aws.amazon.com/sns/) topic with subscription to email you when you incur charges above a given threshold. This is often the first thing you want to do on an account
   - `aws_budget_alarm.sh` - creates an [AWS Budgets](https://aws.amazon.com/cloudwatch/) billing alarm and [SNS](https://aws.amazon.com/sns/) topic with subscription to email you when both when you start incurring forecasted charges of over 80% of your budget, and 90% actual usage. This is often the first thing you want to do on an account
   - `aws_batch_stale_jobs.sh` - lists [AWS Batch](https://aws.amazon.com/batch/) jobs that are older than N hours in a given queue
@@ -414,7 +414,7 @@ and [Mac](https://github.com/HariSekhon/Knowledge-Base/blob/main/linux.md).
     - `aws_iam_policy_delete.sh` - deletes an IAM policy, by first handling all prerequisite steps of deleting all prior versions and all detaching all users, groups and roles
     - `aws_iam_generate_credentials_report_wait.sh` - generates an AWS IAM [credentials report](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_getting-report.html)
     - `aws_iam_users.sh` - list your IAM users
-    - `aws_iam_users_access_key_age.sh` - prints AWS users [access key](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html) status and age (see also `aws_users_access_key_age.py` in [DevOps Python tools](https://github.com/HariSekhon/DevOps-Python-tools) which can filter by age and status)
+    - `aws_iam_users_access_key_age.sh` - prints AWS users [access key](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html) status and age (see also `aws_users_access_key_age.py` in [DevOps Python tools](https://github.com/austinsonger/DevOps-Python-tools) which can filter by age and status)
     - `aws_iam_users_access_key_age_report.sh` - prints AWS users [access key](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html) status and age using a bulk credentials report (faster for many users)
     - `aws_iam_users_access_key_last_used.sh` - prints AWS users [access keys](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html) last used date
     - `aws_iam_users_access_key_last_used_report.sh` - same as above using bulk credentials report (faster for many users)
@@ -457,7 +457,7 @@ and [Mac](https://github.com/HariSekhon/Knowledge-Base/blob/main/linux.md).
     - `aws_secret_get.sh` - gets a secret value for a given secret from Secrets Manager, retrieving either a secure string or secure binary depending on which is available
   - `eksctl_cluster.sh` - downloads [eksctl](https://eksctl.io/) and creates an [AWS EKS](https://aws.amazon.com/eks/) Kubernetes cluster
 
-See also [Knowledge Base notes for AWS](https://github.com/HariSekhon/Knowledge-Base/blob/main/aws.md).
+See also [Knowledge Base notes for AWS](https://github.com/austinsonger/Knowledge-Base/blob/main/aws.md).
 
 ### GCP - Google Cloud Platform
 
@@ -494,8 +494,8 @@ See also [Knowledge Base notes for AWS](https://github.com/HariSekhon/Knowledge-
     - `gcp_secret_update.sh` - reads a value from a command line argument or non-echo prompt and updates a given GCP Secrets Manager secret. Useful for uploading a password without exposing it on your screen
     - `gcp_secret_get.sh` - finds the latest version of a given GCP Secret Manager secret and returns its value. Used by adjacent scripts
     - `gcp_secret_label_k8s.sh` - labels a given existing GCP secret with the current kubectl cluster name and namespace for later use by `gcp_secrets_to_kubernetes.sh`
-    - `gcp_secrets_to_kubernetes.sh` - loads GCP secrets to Kubernetes secrets in a 1-to-1 mapping. Can specify a list of secrets or auto-loads all GCP secrets with labels `kubernetes-cluster` and `kubernetes-namespace` matching the current `kubectl` context (`kcd` to the right namespace first, see `.bash.d/kubernetes`). See also `kubernetes_get_secret_values.sh` to debug the actual values that got loaded. See also [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) / [External Secrets](https://external-secrets.io/) in my [Kubernetes repo](https://github.com/HariSekhon/Kubernetes-configs)
-    - `gcp_secrets_to_kubernetes_multipart.sh` - creates a Kubernetes secret from multiple GCP secrets (used to put `private.pem` and `public.pem` into the same secret to appear as files on volume mounts for apps in pods to use). See also [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) / [External Secrets](https://external-secrets.io/) in my [Kubernetes repo](https://github.com/HariSekhon/Kubernetes-configs)
+    - `gcp_secrets_to_kubernetes.sh` - loads GCP secrets to Kubernetes secrets in a 1-to-1 mapping. Can specify a list of secrets or auto-loads all GCP secrets with labels `kubernetes-cluster` and `kubernetes-namespace` matching the current `kubectl` context (`kcd` to the right namespace first, see `.bash.d/kubernetes`). See also `kubernetes_get_secret_values.sh` to debug the actual values that got loaded. See also [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) / [External Secrets](https://external-secrets.io/) in my [Kubernetes repo](https://github.com/austinsonger/Kubernetes-configs)
+    - `gcp_secrets_to_kubernetes_multipart.sh` - creates a Kubernetes secret from multiple GCP secrets (used to put `private.pem` and `public.pem` into the same secret to appear as files on volume mounts for apps in pods to use). See also [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) / [External Secrets](https://external-secrets.io/) in my [Kubernetes repo](https://github.com/austinsonger/Kubernetes-configs)
     - `gcp_secrets_labels.sh` - lists GCP Secrets and their labels, one per line suitable for quick views or shell pipelines
     - `gcp_secrets_update_lable.sh` - updates all GCP secrets in current project matching label key=value with a new label value
     - `gcp_service_account_credential_to_secret.sh` - creates GCP service account and exports a credential key to GCP Secret Manager (useful to stage or combine with `gcp_secrets_to_kubernetes.sh`)
@@ -520,7 +520,7 @@ See also [Knowledge Base notes for AWS](https://github.com/HariSekhon/Knowledge-
     - `gcr_tags_timestamps.sh` - lists all the tags and their timestamps for a given GCR docker image
     - `gcr_tags_old.sh` - lists tags older than N days for a given GCR docker image
     - `gcr_delete_old_tags.sh` - deletes tags older than N days for a given GCR docker image. Lists the image:tags to be deleted and prompts for confirmation safety
-    - see also [cloudbuild.yaml](https://github.com/HariSekhon/Templates/blob/master/cloudbuild.yaml) in the [Templates](https://github.com/HariSekhon/Templates) repo
+    - see also [cloudbuild.yaml](https://github.com/austinsonger/Templates/blob/master/cloudbuild.yaml) in the [Templates](https://github.com/austinsonger/Templates) repo
   - CI/CD on GCP - trigger Google Cloud Build and GKE Kubernetes deployments from orthogonal CI/CD systems like Jenkins / TeamCity:
     - `gcp_ci_build.sh` - script template for CI/CD to trigger Google Cloud Build to build docker container image with extra datetime and latest tagging
     - `gcp_ci_deploy_k8s.sh` - script template for CI/CD to deploy GCR docker image to GKE Kubernetes using Kustomize
@@ -546,7 +546,7 @@ See also [Knowledge Base notes for AWS](https://github.com/HariSekhon/Knowledge-
     - `gcp_sql_create_readonly_service_account.sh` - creates a service account with read-only permissions to Cloud SQL eg. to run export backups to GCS
     - `gcp_sql_grant_instances_gcs_object_creator.sh` - grants minimal GCS objectCreator permission on a bucket to primary Cloud SQL instances for exports
   - `gcp_cloud_schedule_sql_exports.sh` - creates Google [Cloud Scheduler](https://cloud.google.com/scheduler) jobs to trigger a [Cloud Function](https://cloud.google.com/functions) via [PubSub](https://cloud.google.com/pubsub) to run [Cloud SQL](https://cloud.google.com/sql) exports to [GCS](https://cloud.google.com/storage) for all [Cloud SQL](https://cloud.google.com/sql) instances in the current GCP project
-    - the Python [GCF](https://cloud.google.com/functions) function is in the [DevOps Python tools](https://github.com/HariSekhon/DevOps-Python-tools) repo
+    - the Python [GCF](https://cloud.google.com/functions) function is in the [DevOps Python tools](https://github.com/austinsonger/DevOps-Python-tools) repo
   - `bigquery_*.sh` - [BigQuery](https://cloud.google.com/bigquery) scripts:
     - `bigquery_list_datasets.sh` - lists BigQuery datasets in the current GCP project
     - `bigquery_list_tables.sh` - lists BigQuery tables in a given dataset
@@ -559,7 +559,7 @@ See also [Knowledge Base notes for AWS](https://github.com/HariSekhon/Knowledge-
     - `bigquery_tables_row_counts_all_datasets.sh` - gets the row counts for all tables in all datasets in the current GCP project
     - `bigquery_generate_query_biggest_tables_across_datasets_by_row_count.sh` - generates a BigQuery SQL query to find the top 10 biggest tables by row count
     - `bigquery_generate_query_biggest_tables_across_datasets_by_size.sh` - generates a BigQuery SQL query to find the top 10 biggest tables by size
-    - see also the [SQL Scripts](https://github.com/HariSekhon/SQL-scripts) repo for many more straight BigQuery SQL scripts
+    - see also the [SQL Scripts](https://github.com/austinsonger/SQL-scripts) repo for many more straight BigQuery SQL scripts
   - GCP [IAM](https://cloud.google.com/iam) scripts:
     - `gcp_service_account*.sh`:
       - `gcp_service_account_credential_to_secret.sh` - creates GCP service account and exports a credential key to GCP Secret Manager (useful to stage or combine with `gcp_secrets_to_kubernetes.sh`)
@@ -580,7 +580,7 @@ See also [Knowledge Base notes for AWS](https://github.com/HariSekhon/Knowledge-
   - `gcs_bucket_project.sh` - finds the GCP project that a given bucket belongs to using the GCP Storage API
   - `gcs_curl_file.sh` - retrieves a GCS file's contents from a given bucket and path using the GCP Storage API. Useful for starting shell pipelines or being called from other scripts
 
-See also [Knowledge Base notes for GCP](https://github.com/HariSekhon/Knowledge-Base/blob/main/gcp.md).
+See also [Knowledge Base notes for GCP](https://github.com/austinsonger/Knowledge-Base/blob/main/gcp.md).
 
 ### Kubernetes
 
@@ -626,10 +626,10 @@ See also [Knowledge Base notes for GCP](https://github.com/HariSekhon/Knowledge-
 - `kubernetes_foreach_namespace.sh` - executes a command across all kubernetes namespaces in the current cluster context, replacing `{namespace}` in each iteration
   - Can be chained with `kubernetes_foreach_context.sh` and useful when combined with `gcp_secrets_to_kubernetes.sh` to load all secrets from GCP to Kubernetes for the current cluster, or combined with `gke_kube_creds.sh` and `kubernetes_foreach_context.sh` for all clusters!
 - `kubernetes_api.sh` - finds Kubernetes API and runs your curl arguments against it, auto-getting authorization token and auto-populating OAuth authentication header
-- `kubernetes_autoscaler_release.sh` - finds the latest Kubernetes Autoscaler release that matches your local Kubernetes cluster version using kubectl and the GitHub API. Useful for quickly finding the image override version for `eks-cluster-autoscaler-kustomization.yaml` in the [Kubernetes configs](https://github.com/HariSekhon/Kubernetes-configs) repo
+- `kubernetes_autoscaler_release.sh` - finds the latest Kubernetes Autoscaler release that matches your local Kubernetes cluster version using kubectl and the GitHub API. Useful for quickly finding the image override version for `eks-cluster-autoscaler-kustomization.yaml` in the [Kubernetes configs](https://github.com/austinsonger/Kubernetes-configs) repo
 - `kubernetes_etcd_backup.sh` - creates a timestamped backup of the Kubernetes Etcd database for a kubeadm cluster
 - `kubernetes_delete_stuck_namespace.sh` - to forcibly delete those pesky kubernetes namespaces of 3rd party apps like Knative that get stuck and hang indefinitely on the finalizers during deletion
-- `kubeadm_join_cmd.sh` - outputs `kubeadm join` command (generates new token) to join an existing Kubernetes cluster (used in [vagrant kubernetes](https://github.com/HariSekhon/DevOps-Bash-tools/tree/master/vagrant/kubernetes) provisioning scripts)
+- `kubeadm_join_cmd.sh` - outputs `kubeadm join` command (generates new token) to join an existing Kubernetes cluster (used in [vagrant kubernetes](https://github.com/austinsonger/DevOps-Bash-tools/tree/master/vagrant/kubernetes) provisioning scripts)
 - `kubeadm_join_cmd2.sh` - outputs `kubeadm join` command manually (calculates cert hash + generates new token) to join an existing Kubernetes cluster
 - `kubectl_exec.sh` - finds and execs to the first Kubernetes pod matching the given name regex, optionally specifying the container name regex to exec to, and shows the full generated `kubectl exec` command line for clarity
 - `kubectl_exec2.sh` - finds and execs to the first Kubernetes pod matching given pod filters, optionally specifying the container to exec to, and shows the full generated `kubectl exec` command line for clarity
@@ -667,7 +667,7 @@ See also [Knowledge Base notes for GCP](https://github.com/HariSekhon/Knowledge-
   - `kubectl_port_forward_spark.sh` - does the above for Spark UI
 - `helm_template.sh` - templates a Helm chart for Kustomize deployments
 - `kustomize_parse_helm_charts.sh` - parses the [Helm](https://helm.sh/) charts from one or more `kustomization.yaml` files into TSV format for further shell pipe processing
-- `kustomize_install_helm_charts.sh` - installs the [Helm](https://helm.sh/) charts from one or more `kustomization.yaml` files the old fashioned Helm CLI way so that tools like [Nova](https://github.com/FairwindsOps/nova) can be used to detect outdated charts (used in [Kubernetes-configs](https://github.com/HariSekhon/Kubernetes-configs) repo's [CI](https://github.com/HariSekhon/Kubernetes-configs/actions/workflows/nova.yaml))
+- `kustomize_install_helm_charts.sh` - installs the [Helm](https://helm.sh/) charts from one or more `kustomization.yaml` files the old fashioned Helm CLI way so that tools like [Nova](https://github.com/FairwindsOps/nova) can be used to detect outdated charts (used in [Kubernetes-configs](https://github.com/austinsonger/Kubernetes-configs) repo's [CI](https://github.com/austinsonger/Kubernetes-configs/actions/workflows/nova.yaml))
 - `kustomize_update_helm_chart_versions.sh` - updates one or more `kustomization.yaml` files to the latest versions of any charts they contain
 - `kustomize_materialize.sh` - recursively materializes all `kustomization.yaml` to `kustomization.materialized.yaml` in the same directories for scanning with tools like [Pluto](https://github.com/FairwindsOps/pluto) to detect deprecated API objects inherited from embedded Helm charts. Parallelized for performance
 - ArgoCD:
@@ -682,10 +682,10 @@ See also [Knowledge Base notes for GCP](https://github.com/HariSekhon/Knowledge-
 - Rancher:
   - `rancher_api.sh` - queries the Rancher API with authentication
   - `rancher_kube_creds.sh` - downloads all Rancher clusters credentials into subdirectories matching cluster names, with `.envrc` in each, so a quick `cd` into one and your kubectl is ready to rock
-- see also Google Kubernetes Engine scripts in the [GCP - Google Cloud Platform](https://github.com/HariSekhon/DevOps-Bash-tools/#gcp---google-cloud-platform) section above
-- see also the [Kubernetes configs](https://github.com/HariSekhon/Kubernetes-configs) repo
+- see also Google Kubernetes Engine scripts in the [GCP - Google Cloud Platform](https://github.com/austinsonger/DevOps-Bash-tools/#gcp---google-cloud-platform) section above
+- see also the [Kubernetes configs](https://github.com/austinsonger/Kubernetes-configs) repo
 
-See also [Knowledge Base notes for Kubernetes](https://github.com/HariSekhon/Knowledge-Base/blob/main/kubernetes.md).
+See also [Knowledge Base notes for Kubernetes](https://github.com/austinsonger/Knowledge-Base/blob/main/kubernetes.md).
 
 ### Docker
 
@@ -700,14 +700,14 @@ See also [Knowledge Base notes for Kubernetes](https://github.com/HariSekhon/Kno
   - `docker_registry_list_tags.sh` - lists tags for a given image in a private Docker Registry
   - `docker_registry_get_image_manifest.sh` - gets a given image:tag manifest from a private Docker Registry
   - `docker_registry_tag_image.sh` - tags a given image with a new tag in a private Docker Registry via the API without pulling and pushing the image data (must faster and more efficient)
-  - `dockerhub_list_tags.sh` - lists tags for a given DockerHub repo. See also [dockerhub_show_tags.py](https://github.com/HariSekhon/DevOps-Python-tools/blob/master/dockerhub_show_tags.py) in the [DevOps Python tools](https://github.com/HariSekhon/DevOps-Python-tools) repo.
+  - `dockerhub_list_tags.sh` - lists tags for a given DockerHub repo. See also [dockerhub_show_tags.py](https://github.com/austinsonger/DevOps-Python-tools/blob/master/dockerhub_show_tags.py) in the [DevOps Python tools](https://github.com/austinsonger/DevOps-Python-tools) repo.
   - `dockerhub_list_tags_by_last_updated.sh` - lists tags for a given DockerHub repo sorted by last updated timestamp descending
   - `dockerhub_search.sh` - searches with a configurable number of returned items (older docker cli was limited to 25 results)
   - `clean_caches.sh` - cleans out OS package and programming language caches, call near end of `Dockerfile` to reduce Docker image size
-  - see also the [Dockerfiles](https://github.com/HariSekhon/Dockerfiles) repo
+  - see also the [Dockerfiles](https://github.com/austinsonger/Dockerfiles) repo
 - `quay_api.sh` - queries the [Quay.io](https://quay.io/) API with OAuth2 authentication token `$QUAY_TOKEN`
 
-See also [Knowledge Base notes for Docker](https://github.com/HariSekhon/Knowledge-Base/blob/main/docker.md).
+See also [Knowledge Base notes for Docker](https://github.com/austinsonger/Knowledge-Base/blob/main/docker.md).
 
 ### Data
 
@@ -719,7 +719,7 @@ See also [Knowledge Base notes for Docker](https://github.com/HariSekhon/Knowled
   when downloading)
 - `csv_header_indices.sh` - list CSV headers with their zero indexed numbers, useful reference when coding against
   column positions
-- Data format validation `validate_*.py` from [DevOps Python Tools repo](https://github.com/HariSekhon/DevOps-Python-tools):
+- Data format validation `validate_*.py` from [DevOps Python Tools repo](https://github.com/austinsonger/DevOps-Python-tools):
 
   - CSV
   - JSON
@@ -731,13 +731,13 @@ See also [Knowledge Base notes for Docker](https://github.com/HariSekhon/Knowled
   - YAML
 
 - `json2yaml.sh` - converts JSON to YAML
-- `yaml2json.sh` - converts YAML to JSON - needed for some APIs like GitLab CI linting (see [Gitlab](https://github.com/HariSekhon/DevOps-Bash-tools#git---github-gitlab-bitbucket-azure-devops) section above)
+- `yaml2json.sh` - converts YAML to JSON - needed for some APIs like GitLab CI linting (see [Gitlab](https://github.com/austinsonger/DevOps-Bash-tools#git---github-gitlab-bitbucket-azure-devops) section above)
 
 ### Big Data & NoSQL
 
 `bigdata/` and `kafka/` directories:
 
-- `kafka_*.sh` - scripts to make [Kafka](http://kafka.apache.org/) CLI usage easier including auto-setting Kerberos to source TGT from environment and auto-populating broker and zookeeper addresses. These are auto-added to the `$PATH` when `.bashrc` is sourced. For something similar for [Solr](https://lucene.apache.org/solr/), see `solr_cli.pl` in the [DevOps Perl Tools](https://github.com/HariSekhon/DevOps-Perl-tools) repo.
+- `kafka_*.sh` - scripts to make [Kafka](http://kafka.apache.org/) CLI usage easier including auto-setting Kerberos to source TGT from environment and auto-populating broker and zookeeper addresses. These are auto-added to the `$PATH` when `.bashrc` is sourced. For something similar for [Solr](https://lucene.apache.org/solr/), see `solr_cli.pl` in the [DevOps Perl Tools](https://github.com/austinsonger/DevOps-Perl-tools) repo.
 - `zookeeper*.sh` - [Apache ZooKeeper](https://zookeeper.apache.org/) scripts:
   - `zookeeper_client.sh` - shortens `zookeeper-client` command by auto-populating the zookeeper quorum from the environment variable `$ZOOKEEPERS` or else parsing the zookeeper quorum from `/etc/**/*-site.xml` to make it faster and easier to connect
   - `zookeeper_shell.sh` - shortens Kafka's `zookeeper-shell` command by auto-populating the zookeeper quorum from the environment variable `$KAFKA_ZOOKEEPERS` and optionally `$KAFKA_ZOOKEEPER_ROOT` to make it faster and easier to connect
@@ -752,7 +752,7 @@ See also [Knowledge Base notes for Docker](https://github.com/HariSekhon/Knowled
   - `hive_tables_row_counts.sh` - lists the row count per Hive table
   - `hive_tables_column_counts.sh` - lists the column count per Hive table
 - ` impala*.sh` - [Apache Impala](https://impala.apache.org/) scripts:
-  - `impala_shell.sh` - shortens `impala-shell` command to connect to [Impala](https://impala.apache.org/) by parsing the Hadoop topology map and selecting a random datanode to connect to its Impalad, acting as a cheap CLI load balancer. For a real load balancer see [HAProxy config for Impala](https://github.com/HariSekhon/HAProxy-configs) (and many other Big Data & NoSQL technologies). Optional environment variables `$IMPALA_HOST` (eg. point to an explicit node or an HAProxy load balancer) and `IMPALA_SSL=1` (or use regular impala-shell `--ssl` argument pass through)
+  - `impala_shell.sh` - shortens `impala-shell` command to connect to [Impala](https://impala.apache.org/) by parsing the Hadoop topology map and selecting a random datanode to connect to its Impalad, acting as a cheap CLI load balancer. For a real load balancer see [HAProxy config for Impala](https://github.com/austinsonger/HAProxy-configs) (and many other Big Data & NoSQL technologies). Optional environment variables `$IMPALA_HOST` (eg. point to an explicit node or an HAProxy load balancer) and `IMPALA_SSL=1` (or use regular impala-shell `--ssl` argument pass through)
   - `impala_foreach_table.sh` - executes a SQL query against every table, replacing `{db}` and `{table}` in each iteration eg. `select count(*) from {table}`
   - `impala_list_databases.sh` - list Impala databases, one per line, suitable for scripting pipelines
   - `impala_list_tables.sh` - list Impala tables, one per line, suitable for scripting pipelines
@@ -762,9 +762,9 @@ See also [Knowledge Base notes for Docker](https://github.com/HariSekhon/Knowled
   - `impala_tables_column_counts.sh` - lists the column count per Impala table
 - `hdfs_*.sh` - Hadoop [HDFS](https://en.wikipedia.org/wiki/Apache_Hadoop#Hadoop_distributed_file_system) scripts:
   - `hdfs_checksum*.sh` - walks an HDFS directory tree and outputs HDFS native checksums (faster) or portable externally comparable CRC32, in serial or in parallel to save time
-  - `hdfs_find_replication_factor_1.sh` / `hdfs_set_replication_factor_3.sh` - finds HDFS files with replication factor 1 / sets HDFS files with replication factor <=2 to replication factor 3 to repair replication safety and avoid no replica alarms during maintenance operations (see also Python API version in the [DevOps Python Tools](https://github.com/HariSekhon/DevOps-Python-tools) repo)
+  - `hdfs_find_replication_factor_1.sh` / `hdfs_set_replication_factor_3.sh` - finds HDFS files with replication factor 1 / sets HDFS files with replication factor <=2 to replication factor 3 to repair replication safety and avoid no replica alarms during maintenance operations (see also Python API version in the [DevOps Python Tools](https://github.com/austinsonger/DevOps-Python-tools) repo)
   - `hdfs_file_size.sh` / `hdfs_file_size_including_replicas.sh` - quickly differentiate HDFS files raw size vs total replicated size
-  - `hadoop_random_node.sh` - picks a random Hadoop cluster worker node, like a cheap CLI load balancer, useful in scripts when you want to connect to any worker etc. See also the read [HAProxy Load Balancer configurations](https://github.com/HariSekhon/HAProxy-configs) which focuses on master nodes
+  - `hadoop_random_node.sh` - picks a random Hadoop cluster worker node, like a cheap CLI load balancer, useful in scripts when you want to connect to any worker etc. See also the read [HAProxy Load Balancer configurations](https://github.com/austinsonger/HAProxy-configs) which focuses on master nodes
 - `cloudera_*.sh` - [Cloudera](https://www.cloudera.com/) scripts:
   - `cloudera_manager_api.sh` - script to simplify querying [Cloudera Manager](https://www.cloudera.com/products/product-components/cloudera-manager.html) API using environment variables, prompts, authentication and sensible defaults. Built on top of `curl_auth.sh`
   - `cloudera_manager_impala_queries*.sh` - queries [Cloudera Manager](https://www.cloudera.com/products/product-components/cloudera-manager.html) for recent [Impala](https://impala.apache.org/) queries, failed queries, exceptions, DDL statements, metadata stale errors, metadata refresh calls etc. Built on top of `cloudera_manager_api.sh`
@@ -773,7 +773,7 @@ See also [Knowledge Base notes for Docker](https://github.com/HariSekhon/Knowled
   - `cloudera_navigator_audit_logs.sh` - fetches [Cloudera Navigator](https://www.cloudera.com/products/product-components/cloudera-navigator.html) audit logs for given service eg. hive/impala/hdfs via the API, simplifying date handling, authentication and common settings. Built on top of `cloudera_navigator_api.sh`
   - `cloudera_navigator_audit_logs_download.sh` - downloads [Cloudera Navigator](https://www.cloudera.com/products/product-components/cloudera-navigator.html) audit logs for each service by year. Skips existing logs, deletes partially downloaded logs on failure, generally retry safe (while true, Control-C, not `kill -9` obviously). Built on top of `cloudera_navigator_audit_logs.sh`
 
-See also [Knowledge Base notes for Hadoop](https://github.com/HariSekhon/Knowledge-Base/blob/main/hadoop.md).
+See also [Knowledge Base notes for Hadoop](https://github.com/austinsonger/Knowledge-Base/blob/main/hadoop.md).
 
 ### Git - GitHub, GitLab, Bitbucket, Azure DevOps
 
@@ -784,12 +784,12 @@ See also [Knowledge Base notes for Hadoop](https://github.com/HariSekhon/Knowled
   - `git_diff_commit.sh` - quickly commits added or updated files to Git, showing a diff and easy enter prompt for each file. Super convenient for fast commits on the command line, and in vim and IDEs via hotkeys
   - `git_review_push.sh` - shows diff of what would be pushed upstream and prompts to push. Convenient for fast reviewed pushes via vim or IDEs hotkeys
   - `git_branch_delete_squash_merged.sh` - carefully detects if a squash merged branch you want to delete has no changes with the default trunk branch before deleting it.
-     See [Squash Merges](https://github.com/HariSekhon/Knowledge-Base/blob/main/git.md#squash-merges-require-force-deleting-branches) in knowledge-base about why this is necessary.
+     See [Squash Merges](https://github.com/austinsonger/Knowledge-Base/blob/main/git.md#squash-merges-require-force-deleting-branches) in knowledge-base about why this is necessary.
   - `git_tag_release.sh` - creates a Git tag, auto-incrementing a `.N` suffix on the year/month/day date format if no exact version given
-  - `git_foreach_branch.sh` - executes a command on all branches (useful in heavily version branched repos like in my [Dockerfiles](https://github.com/HariSekhon/Dockerfiles) repo)
+  - `git_foreach_branch.sh` - executes a command on all branches (useful in heavily version branched repos like in my [Dockerfiles](https://github.com/austinsonger/Dockerfiles) repo)
   - `git_foreach_repo.sh` - executes a command against all adjacent repos from a given repolist (used heavily by many adjacent scripts)
   - `git_foreach_modified.sh` - executes a command against each file with git modified status
-  - `git_merge_all.sh` / `git_merge_master.sh` / `git_merge_master_pull.sh` - merges updates from master branch to all other branches to avoid drift on longer lived feature branches / version branches (eg. [Dockerfiles](https://github.com/HariSekhon/Dockerfiles) repo)
+  - `git_merge_all.sh` / `git_merge_master.sh` / `git_merge_master_pull.sh` - merges updates from master branch to all other branches to avoid drift on longer lived feature branches / version branches (eg. [Dockerfiles](https://github.com/austinsonger/Dockerfiles) repo)
   - `git_remotes_add_origin_providers.sh` - auto-creates remotes for the 4 major public repositories ([GitHub](https://github.com/)/[GitLab](https://gitlab.com/)/[Bitbucket](https://bitbucket.org)/[Azure DevOps](https://dev.azure.com/)), useful for `git pull -all` to fetch and merge updates from all providers in one command
   - `git_remotes_set_multi_origin.sh` - sets up multi-remote origin for unified push to automatically keep the 4 major public repositories in sync (especially useful for [Bitbucket](https://bitbucket.org) and [Azure DevOps](https://dev.azure.com/) which don't have [GitLab](https://gitlab.com/)'s auto-mirroring from [GitHub](https://github.com/) feature)
   - `git_remotes_set_https_to_ssh.sh` - converts local repo's remote URLs from https to ssh (more convenient with SSH keys instead of https auth tokens, especially since Azure DevOps expires personal access tokens every year)
@@ -815,7 +815,7 @@ See also [Knowledge Base notes for Hadoop](https://github.com/HariSekhon/Knowled
   - `github_graph_commit_times.sh` - graphs the GitHub commit times from all public GitHub repos for a given user. Fetches the commit data via the GitHub API and generates a bar chart using GNUplot
   - `github_clone_or_pull_all_repos.sh` - git clones or pulls all repos for a user or organization into directories of the same name under the current directory
   - `github_download_release_file.sh` - downloads a file from GitHub Releases, optionally determining the latest version, uses `bin/download_url_file.sh`
-  - `github_download_release_jar.sh` - downloads a JAR file from GitHub Releases (used by `install/download_*_jar.sh` for things like [JDBC](https://github.com/HariSekhon/Knowledge-Base/blob/main/jdbc.md) drivers or [Java](#java) [decompilers](https://github.com/HariSekhon/Knowledge-Base/blob/main/java.md#java-decompilers)), optionally determines latest version to download, and finally validates the downloaded file's format
+  - `github_download_release_jar.sh` - downloads a JAR file from GitHub Releases (used by `install/download_*_jar.sh` for things like [JDBC](https://github.com/austinsonger/Knowledge-Base/blob/main/jdbc.md) drivers or [Java](#java) [decompilers](https://github.com/austinsonger/Knowledge-Base/blob/main/java.md#java-decompilers)), optionally determines latest version to download, and finally validates the downloaded file's format
   - `github_invitations.sh` - lists / accepts repo invitations. Useful to accept a large number of invites to repos generated by automation
   - `github_mirror_repos_to_gitlab.sh` - creates/syncs GitHub repos to GitLab for migrations or to cron fast free Disaster Recovery, including all branches and tags, plus the repo descriptions. Note this doesn't include PRs/wikis/releases
   - `github_mirror_repos_to_bitbucket.sh` - creates/syncs GitHub repos to BitBucket for migrations or to cron fast free Disaster Recovery, including all branches and tags, plus the repo descriptions. Note this doesn't include PRs/wikis/releases
@@ -861,7 +861,7 @@ See also [Knowledge Base notes for Hadoop](https://github.com/HariSekhon/Knowled
   - `github_ssh_add_public_keys.sh` - uploads SSH keys from local files or standard input to the currently authenticated GitHub account. Specify pubkey files (default: `~/.ssh/id_rsa.pub`) or read from standard input for piping from adjacent tools
   - `github_ssh_delete_public_keys.sh` - deletes given SSH keys from the currently authenticated GitHub account by key id or title regex match
   - `github_gpg_get_user_public_keys.sh` - fetches a given GitHub user's public GPG keys via the API
-  - `github_generate_status_page.sh` - generates a [STATUS.md](https://harisekhon.github.io/CI-CD/) page by merging all the README.md headers for all of a user's non-forked GitHub repos or a given list of any repos etc.
+  - `github_generate_status_page.sh` - generates a [STATUS.md](https://austinsonger.github.io/CI-CD/) page by merging all the README.md headers for all of a user's non-forked GitHub repos or a given list of any repos etc.
   - `github_purge_camo_cache.sh` - send HTTP Purge requests to all camo urls (badge caches) for the current or given GitHub repo's landing/README.md page
   - `github_ip_ranges.sh` - returns GitHub's IP ranges, either all by default or for a select given service such as hooks or actions
   - `github_sync_repo_descriptions.sh` - syncs GitHub repo descriptions to GitLab & BitBucket repos
@@ -923,7 +923,7 @@ See also [Knowledge Base notes for Hadoop](https://github.com/HariSekhon/Knowled
   - `bitbucket_ssh_add_public_keys.sh` - uploads SSH keys from local files or standard input to the currently authenticated BitBucket account. Specify pubkey files (default: `~/.ssh/id_rsa.pub`) or read from standard input for piping from adjacent tools
   - `bitbucket_ssh_delete_public_keys.sh` - uploads SSH keys from local files or standard input to the currently authenticated BitBucket account. Specify pubkey files (default: `~/.ssh/id_rsa.pub`) or read from standard input for piping from adjacent tools
 
-See also [Knowledge Base notes for Git](https://github.com/HariSekhon/Knowledge-Base/blob/main/git.md).
+See also [Knowledge Base notes for Git](https://github.com/austinsonger/Knowledge-Base/blob/main/git.md).
 
 ### CI/CD - Continuous Integration / Continuous Deployment
 
@@ -1006,7 +1006,7 @@ See also [Knowledge Base notes for Git](https://github.com/HariSekhon/Knowledge-
     - `jenkins_cred_set_user_pass.sh` - creates or updates a Jenkins username/password credential
   - `jenkins_cli.sh` - shortens `jenkins-cli.jar` command by auto-inferring basic configuations, auto-downloading the CLI if absent, inferrings a bunch of Jenkins related variables like `$JENKINS_URL`, `$JENKINS_CLI_ARGS` and authentication using `$JENKINS_USER`/`$JENKINS_PASSWORD`, or finds admin password from inside local docker container. Used heavily by `jenkins.sh` one-shot setup and the following scripts:
     - `jenkins_foreach_job_cli.sh` - runs a templated command for each Jenkins job
-    - `jenkins_create_job_parallel_test_runs.sh` - creates a freestyle parameterized test sleep job and launches N parallel runs of it to test scaling and parallelization of [Jenkins on Kubernetes](https://github.com/HariSekhon/Kubernetes-configs#jenkins-on-kubernetes) agents
+    - `jenkins_create_job_parallel_test_runs.sh` - creates a freestyle parameterized test sleep job and launches N parallel runs of it to test scaling and parallelization of [Jenkins on Kubernetes](https://github.com/austinsonger/Kubernetes-configs#jenkins-on-kubernetes) agents
     - `jenkins_create_job_check_gcp_serviceaccount.sh` - creates a freestyle test job which runs a GCP Metadata query to determine the GCP serviceaccount the agent pod is operating under to check GKE Workload Identity integration
     - `jenkins_jobs_download_configs_cli.sh` - downloads all Jenkins job configs to xml files of the same name
     - `jenkins_cred_cli_add_cert.sh` - creates a Jenkins certificate credential from a PKCS#12 keystore
@@ -1030,9 +1030,9 @@ See also [Knowledge Base notes for Git](https://github.com/HariSekhon/Knowledge-
     - `jenkins_cred_cli_set_ssh_key.sh` - creates or updates a Jenkins SSH key credential from a string or an SSH private key file
     - `jenkins_cred_cli_set_user_pass.sh` - creates or updates a Jenkins username/password credential
   - `jenkins_password.sh` - gets Jenkins admin password from local docker container. Used by `jenkins_cli.sh`
-  - `jenkins_plugins_latest_versions.sh` - finds the latest versions of given Jenkins plugins. Useful to programmatically upgrade your Jenkins on Kubernetes plugins defined in [values.yaml](https://github.com/HariSekhon/Kubernetes-configs/blob/6d9e34b74d3fa8f353b0fe56e74cea3af439e01a/jenkins/base/values.yaml#L145)
+  - `jenkins_plugins_latest_versions.sh` - finds the latest versions of given Jenkins plugins. Useful to programmatically upgrade your Jenkins on Kubernetes plugins defined in [values.yaml](https://github.com/austinsonger/Kubernetes-configs/blob/6d9e34b74d3fa8f353b0fe56e74cea3af439e01a/jenkins/base/values.yaml#L145)
   - `check_jenkinsfiles.sh` - validates all `*Jenkinsfile*` files in the given directory trees using the online Jenkins validator
-  - See also [Knowledge Base notes for Jenkins](https://github.com/HariSekhon/Knowledge-Base/blob/main/jenkins.md).
+  - See also [Knowledge Base notes for Jenkins](https://github.com/austinsonger/Knowledge-Base/blob/main/jenkins.md).
 - `teamcity/*.sh` - [TeamCity CI](https://www.jetbrains.com/teamcity/) scripts:
   - `teamcity.sh` - one-touch [TeamCity CI](https://www.jetbrains.com/teamcity/) cluster:
     - launches Docker containers with server and 1 agent
@@ -1043,7 +1043,7 @@ See also [Knowledge Base notes for Git](https://github.com/HariSekhon/Knowledge-
     - creates a VCS Root if `$PWD` has a `.teamcity.vcs.json` / `.teamcity.vcs.ssh.json` / `.teamcity.vcs.oauth.json` and corresponding `$TEAMCITY_SSH_KEY` or `$TEAMCITY_GITHUB_CLIENT_ID`+`$TEAMCITY_GITHUB_CLIENT_SECRET` environment variables
     - creates a Project and imports all settings and builds from the VCS Root
     - creates an admin user and an API token for you
-    - see also: [TeamCity CI](https://github.com/HariSekhon/TeamCity-CI) config repo for importing pipelines
+    - see also: [TeamCity CI](https://github.com/austinsonger/TeamCity-CI) config repo for importing pipelines
   - `teamcity_api.sh` - queries TeamCity's API, auto-handling authentication and other quirks of the API
   - `teamcity_create_project.sh` - creates a TeamCity project using the API
   - `teamcity_create_github_oauth_connection.sh` - creates a TeamCity GitHub OAuth VCS connection in the Root project, useful for bootstrapping projects from VCS configs
@@ -1142,13 +1142,13 @@ See also [Knowledge Base notes for Git](https://github.com/HariSekhon/Knowledge-
   - `terraform_import_github_team_repos.sh` - finds all `github_team_repository` in Terraform plan that would be added, then queries the GitHub API for the repos and team IDs and if they both exist then imports them to Terraform state
   - `terraform_resources.sh` - external program to get all resource ids and attribute for a given resource type to work around Terraform splat expression limitation ([#19931](https://github.com/hashicorp/terraform/issues/19931))
   - `terraform_managed_resource_types.sh` - quick parse of what Terraform resource types are found in `*.tf` files under the current or given directory tree. Useful to give you a quick glance of what services you are managing
-  - See also [Knowledge Base notes for Terraform](https://github.com/HariSekhon/Knowledge-Base/blob/main/terraform.md).
+  - See also [Knowledge Base notes for Terraform](https://github.com/austinsonger/Knowledge-Base/blob/main/terraform.md).
 - `checkov_resource_*.sh` - [Checkov](https://www.checkov.io/) resource counts - useful to estimate [Bridgecrew Cloud](https://www.bridgecrew.cloud/) costs which are charged per resource:
   - `checkov_resource_count.sh` - counts the number of resources Checkov is scanning in the current or given directory
   - `checkov_resource_count_all.sh` - counts the total number of resources Checkov is scanning across all given repo checkouts
 - `octopus_api.sh` - queries the [Octopus Deploy](https://octopus.com/) API
 
-See also [Knowledge Base notes for CI/CD](https://github.com/HariSekhon/Knowledge-Base/blob/main/ci-cd.md).
+See also [Knowledge Base notes for CI/CD](https://github.com/austinsonger/Knowledge-Base/blob/main/ci-cd.md).
 
 ### AI & IPaaS
 
@@ -1217,8 +1217,8 @@ See also [Knowledge Base notes for CI/CD](https://github.com/HariSekhon/Knowledg
   - `cfr.sh` - runs CFR command line Java decompiler, downloading its jar the first time if it's not already present
   - `procyon.sh` - runs Procyon command line Java decompiler, downloading its jar the first time if it's not already present
 
-See also [Knowledge Base notes for Java](https://github.com/HariSekhon/Knowledge-Base/blob/main/java.md)
-and [JVM Performance Tuning](https://github.com/HariSekhon/Knowledge-Base/blob/main/java-jvm-performance-tuning.md).
+See also [Knowledge Base notes for Java](https://github.com/austinsonger/Knowledge-Base/blob/main/java.md)
+and [JVM Performance Tuning](https://github.com/austinsonger/Knowledge-Base/blob/main/java-jvm-performance-tuning.md).
 
 ### Python
 
@@ -1227,7 +1227,7 @@ and [JVM Performance Tuning](https://github.com/HariSekhon/Knowledge-Base/blob/m
 - `python_compile.sh` - byte-compiles Python scripts and libraries into `.pyo` optimized files
 - `python_pip_install.sh` - bulk installs PyPI modules from mix of arguments / file lists / stdin, accounting for User vs System installs, root vs user sudo, VirtualEnvs / Anaconda / GitHub Workflows/ Google Cloud Shell, Mac vs Linux library paths, and ignore failure option
 - `python_pip_install_if_absent.sh` - installs PyPI modules not already in Python libary path (OS or pip installed) for faster installations only where OS packages are already providing some of the modules, reducing time and failure rates in CI builds
-- `python_pip_install_for_script.sh` - installs PyPI modules for given script(s) if not already installed. Used for dynamic individual script dependency installation in the [DevOps Python tools](https://github.com/HariSekhon/DevOps-Python-tools) repo
+- `python_pip_install_for_script.sh` - installs PyPI modules for given script(s) if not already installed. Used for dynamic individual script dependency installation in the [DevOps Python tools](https://github.com/austinsonger/DevOps-Python-tools) repo
 - `python_pip_reinstall_all_modules.sh` - reinstalls all PyPI modules which can fix some issues
 - `pythonpath.sh` - prints all Python libary search paths, one per line
 - `python_find_library_path.sh` - finds directory where a PyPI module is installed - without args finds the Python library base
@@ -1239,7 +1239,7 @@ and [JVM Performance Tuning](https://github.com/HariSekhon/Knowledge-Base/blob/m
 - `python_pyinstaller.sh` - creates [PyInstaller](https://pypi.org/project/pyinstaller/) self-contained Python programs with Python interpreter and all PyPI modules included
 - `python_pypi_versions.sh` - prints all available versions of a given PyPi module using the API
 
-See also [Knowledge Base notes for Python](https://github.com/HariSekhon/Knowledge-Base/blob/main/python.md).
+See also [Knowledge Base notes for Python](https://github.com/austinsonger/Knowledge-Base/blob/main/python.md).
 
 ### Perl
 
@@ -1255,7 +1255,7 @@ See also [Knowledge Base notes for Python](https://github.com/HariSekhon/Knowled
 - `perl_find_duplicate_cpan_requirements.sh` - finds duplicate CPAN modules listed for install more than once under the directory tree (useful for deduping module installs in a project and across submodules)
 - `perl_generate_fatpacks.sh` - creates [Fatpacks](https://metacpan.org/pod/App::FatPacker) - self-contained Perl programs with all CPAN modules built-in
 
-See also [Knowledge Base notes for Perl](https://github.com/HariSekhon/Knowledge-Base/blob/main/perl.md).
+See also [Knowledge Base notes for Perl](https://github.com/austinsonger/Knowledge-Base/blob/main/perl.md).
 
 ### Golang
 
@@ -1276,11 +1276,11 @@ See also [Knowledge Base notes for Perl](https://github.com/HariSekhon/Knowledge
 - `mkv_to_mp4.sh` - converts mkv files to mp4 using ffmpeg. Same use case as above
 - `youtube_download_channel.sh` - downloads all videos from a given YouTube channel URL
 
-See also [Knowledge Base notes for MultiMedia](https://github.com/HariSekhon/Knowledge-Base/blob/main/multimedia.md).
+See also [Knowledge Base notes for MultiMedia](https://github.com/austinsonger/Knowledge-Base/blob/main/multimedia.md).
 
 ### Spotify
 
-40+ [Spotify](https://www.spotify.com/) API scripts (used extensively to manage my [Spotify-Playlists](https://github.com/HariSekhon/Spotify-Playlists) repo).
+40+ [Spotify](https://www.spotify.com/) API scripts (used extensively to manage my [Spotify-Playlists](https://github.com/austinsonger/Spotify-Playlists) repo).
 
 `spotify/` directory:
 
@@ -1357,7 +1357,7 @@ See also [Knowledge Base notes for MultiMedia](https://github.com/HariSekhon/Kno
 
 - `lint.sh` - lints one or more files, auto-determines the file types, parses lint headers and calls appropriate scripts and tools. Integrated with my custom `.vimrc`
 - `run.sh` - runs one or more files, auto-determines the file types, any run or arg headers and executes each file using the appropriate script or CLI tool. Integrated with my custom `.vimrc`
-- `check_*.sh` - extensive collection of generalized tests - these run against all my GitHub repos via [CI](https://harisekhon.github.io/CI-CD/). Some examples:
+- `check_*.sh` - extensive collection of generalized tests - these run against all my GitHub repos via [CI](https://austinsonger.github.io/CI-CD/). Some examples:
 
   - Programming language linting:
 
@@ -1503,7 +1503,7 @@ make python
     make terraform              installs Terraform to ~/bin/
     make vim                    installs Vundle and plugins
     make tmux                   installs TMUX TPM and plugin for kubernetes context
-    make ccmenu                 installs and (re)configures CCMenu to watch this and all other major HariSekhon GitHub repos
+    make ccmenu                 installs and (re)configures CCMenu to watch this and all other major austinsonger GitHub repos
     make status                 open the Github Status page of all my repos build statuses across all CI platforms
 
     make aws                    installs AWS CLI tools
@@ -1525,7 +1525,7 @@ make: *** [help] Error 3
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=HariSekhon/DevOps-Bash-tools&type=Date)](https://star-history.com/#HariSekhon/DevOps-Bash-tools&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=austinsonger/DevOps-Bash-tools&type=Date)](https://star-history.com/#austinsonger/DevOps-Bash-tools&Date)
 
 [git.io/bash-tools](https://git.io/bash-tools)
 
@@ -1535,68 +1535,68 @@ make: *** [help] Error 3
 
 ### Knowledge
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Knowledge-Base&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Knowledge-Base)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Diagrams-as-Code&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Diagrams-as-Code)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Knowledge-Base&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Knowledge-Base)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Diagrams-as-Code&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Diagrams-as-Code)
 
 <!--
 
 Not support on GitHub Markdown:
 
-<iframe src="https://raw.githubusercontent.com/HariSekhon/HariSekhon/main/knowledge.md" width="100%" height="500px"></iframe>
+<iframe src="https://raw.githubusercontent.com/austinsonger/austinsonger/main/knowledge.md" width="100%" height="500px"></iframe>
 
 Does nothing:
 
-<embed src="https://raw.githubusercontent.com/HariSekhon/HariSekhon/main/knowledge.md" width="100%" height="500px" />
+<embed src="https://raw.githubusercontent.com/austinsonger/austinsonger/main/knowledge.md" width="100%" height="500px" />
 
 -->
 
 ### DevOps Code
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=DevOps-Bash-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/DevOps-Bash-tools)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=DevOps-Python-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/DevOps-Python-tools)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=DevOps-Perl-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/DevOps-Perl-tools)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=DevOps-Golang-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/DevOps-Golang-tools)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=DevOps-Bash-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/DevOps-Bash-tools)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=DevOps-Python-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/DevOps-Python-tools)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=DevOps-Perl-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/DevOps-Perl-tools)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=DevOps-Golang-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/DevOps-Golang-tools)
 
 <!--
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=f8f551332440f1ca8897ff010e363e03)](https://gist.github.com/HariSekhon/f8f551332440f1ca8897ff010e363e03)
+[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=f8f551332440f1ca8897ff010e363e03)](https://gist.github.com/austinsonger/f8f551332440f1ca8897ff010e363e03)
 -->
 
 ### Containerization
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Kubernetes-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Kubernetes-configs)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Dockerfiles&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Dockerfiles)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Kubernetes-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Kubernetes-configs)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Dockerfiles&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Dockerfiles)
 
 ### CI/CD
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=GitHub-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/GitHub-Actions)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Jenkins&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Jenkins)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=GitHub-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/GitHub-Actions)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Jenkins&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Jenkins)
 
 ### DBA - SQL
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=SQL-scripts&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/SQL-scripts)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=SQL-scripts&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/SQL-scripts)
 
 ### DevOps Reloaded
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Nagios-Plugins&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Nagios-Plugins)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=HAProxy-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/HAProxy-configs)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Terraform&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Terraform)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Packer-templates&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Packer-templates)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Nagios-Plugin-Kafka&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Nagios-Plugin-Kafka)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Nagios-Plugins&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Nagios-Plugins)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=HAProxy-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/HAProxy-configs)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Terraform&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Terraform)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Packer-templates&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Packer-templates)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Nagios-Plugin-Kafka&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Nagios-Plugin-Kafka)
 
 ### Templates
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Templates&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Templates)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Template-repo&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Template-repo)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Templates&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Templates)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Template-repo&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Template-repo)
 
 ### Misc
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Spotify-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Spotify-tools)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Spotify-playlists&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Spotify-playlists)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Spotify-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Spotify-tools)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Spotify-playlists&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Spotify-playlists)
 
 The rest of my original source repos are
-[here](https://github.com/HariSekhon?tab=repositories&q=&type=source&language=&sort=stargazers).
+[here](https://github.com/austinsonger?tab=repositories&q=&type=source&language=&sort=stargazers).
 
-Pre-built Docker images are available on my [DockerHub](https://hub.docker.com/u/harisekhon/).
+Pre-built Docker images are available on my [DockerHub](https://hub.docker.com/u/austinsonger/).
 
 <!-- 1x1 pixel counter to record hits -->
 ![](https://hit.yhype.me/github/profile?user_id=2211051)

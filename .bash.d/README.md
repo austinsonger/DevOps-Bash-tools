@@ -36,4 +36,4 @@ To disable any these source files, simply rename them to not match the `*.sh` gl
     - `ssh-agent.sh` / `gpg-agent.sh` - auto-starts SSH and GPG agents if not already running, stores and auto-sources their details for new shells to automatically use them
     - `title.sh` - auto-title tricks for Screen and Terminals
 
-More script related functions can be found in the [lib/](https://github.com/HariSekhon/DevOps-Bash-tools/tree/master/lib) directory at the top level.
+More script related functions can be found in the [lib/](https://github.com/austinsonger/DevOps-Bash-tools/tree/master/lib) directory at the top level.

@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-11-30 19:06:40 +0000 (Mon, 30 Nov 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # https://www.jetbrains.com/help/teamcity/rest-api-reference.html#vcs_root+Configuration+And+Template+Settings
@@ -67,7 +67,7 @@ sort -u |
 sed '/^[[:space:]]*$/d' |
 while read -r vcs_root_id vcs_root_name; do
     # basing the filename off the ID instead of the Name is because it's more suitable for filenames
-    # instead of 'github.com/harisekhon/blah (1)', 'MyProject_GithubComHariSekhonBlah1 ' is safer and easier to use in daily practice
+    # instead of 'github.com/austinsonger/blah (1)', 'MyProject_GithubComaustinsongerBlah1 ' is safer and easier to use in daily practice
     filename="$vcs_root_id.json"
     vcs_root_name="${vcs_root_name:-$vcs_root_id}"
     timestamp "Exporting vcs_root '$vcs_root_name' to '$filename'"

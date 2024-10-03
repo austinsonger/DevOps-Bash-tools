@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2016-01-23 00:02:17 +0000 (Sat, 23 Jan 2016)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # borrowed from here:
@@ -19,7 +19,7 @@
 
 # This is only for local use, there is a much better Python version in my DevOps Python Tools repo:
 #
-#  https://github.com/HariSekhon/DevOps-Python-tools
+#  https://github.com/austinsonger/DevOps-Python-tools
 
 set -euo pipefail
 

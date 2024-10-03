@@ -3,11 +3,11 @@
 #  Author: Hari Sekhon
 #  Date: 2020-03-19 19:31:41 +0000 (Thu, 19 Mar 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail

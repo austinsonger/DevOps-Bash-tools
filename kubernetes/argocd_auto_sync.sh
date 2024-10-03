@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2023-08-10 21:06:30 +0100 (Thu, 10 Aug 2023)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -27,7 +27,7 @@ Enables/Disable ArgoCD Auto-Sync
 Need to be able to manually fix apps sometimes, without ArgoCD reverting the changes before they're testing and committed
 
 If ArgoCD apps of the name 'argocd' and 'apps' are found, then toggles them too to prevent cascading auto-sync re-enabling via the App-of-Apps pattern
-(see https://github.com/HariSekhon/Kubernetes-configs)
+(see https://github.com/austinsonger/Kubernetes-configs)
 "
 
 # used by usage() in lib/utils.sh

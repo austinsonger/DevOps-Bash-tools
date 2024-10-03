@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-03-24 16:06:50 +0000 (Tue, 24 Mar 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -25,7 +25,7 @@ if [ -z "${SHIPPABLE_TOKEN:-}" ]; then
     exit 0
 fi
 echo "Checking Shippable README.md Project Badge"
-# https://img.shields.io/shippable/5e52c634d79b7d00077bf5ed/master?label=Shippable)](https://app.shippable.com/github/HariSekhon/DevOps-Bash-tools/dashboard/jobs
+# https://img.shields.io/shippable/5e52c634d79b7d00077bf5ed/master?label=Shippable)](https://app.shippable.com/github/austinsonger/DevOps-Bash-tools/dashboard/jobs
 find . -name README.md -exec grep -Eo 'img.shields.io/shippable/.*app.shippable.com/[^/]+/[^/]+/[^/]+' {} \; |
 sed 's,img.shields.io/shippable/,,; s,[^[:alnum:]].*app.shippable.com/[^/]*/, ,' |
 while read -r id name; do

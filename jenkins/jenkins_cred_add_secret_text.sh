@@ -5,13 +5,13 @@
 #  Author: Hari Sekhon
 #  Date: 2022-06-28 18:34:34 +0100 (Tue, 28 Jun 2022)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # https://github.com/jenkinsci/credentials-plugin/blob/master/docs/user.adoc#creating-a-credentials

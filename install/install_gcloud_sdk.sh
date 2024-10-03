@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2019-11-14 20:56:43 +0000 (Thu, 14 Nov 2019)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Install Google Cloud SDK - uses packages where available or else installs to $HOME via the script installer

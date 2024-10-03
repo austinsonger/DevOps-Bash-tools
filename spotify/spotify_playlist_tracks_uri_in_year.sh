@@ -5,13 +5,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-11-18 12:07:54 +0000 (Wed, 18 Nov 2020)
 #
-#  https://github.com/HariSekhon/Spotify-Playlists
+#  https://github.com/austinsonger/Spotify-Playlists
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # https://developer.spotify.com/documentation/web-api/reference/playlists/get-playlist/

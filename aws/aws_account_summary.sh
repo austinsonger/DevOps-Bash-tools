@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-01-07 15:08:44 +0000 (Tue, 07 Jan 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -48,7 +48,7 @@ This can be safely ignored, the rest of the IAM account summary info containing 
 See Also:
 
     aws_iam_users_mfa_active_report.sh (adjacent)
-    check_aws_root_account.py   -   in The Advanced Nagios Plugins collection (https://github.com/HariSekhon/Nagios-Plugins)
+    check_aws_root_account.py   -   in The Advanced Nagios Plugins collection (https://github.com/austinsonger/Nagios-Plugins)
 
 
 $usage_aws_cli_required

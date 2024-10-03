@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2021-12-03 17:41:23 +0000 (Fri, 03 Dec 2021)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # https://docs.bitbucket.com/ee/api/pipeline_level_variables.html
@@ -33,14 +33,14 @@ Variable keys are case-sensitive - a change in case will create a new one
 
 Examples:
 
-    ${0##*/} HariSekhon AWS_ACCESS_KEY_ID=AKIA...
+    ${0##*/} austinsonger AWS_ACCESS_KEY_ID=AKIA...
 
-    echo AWS_ACCESS_KEY_ID=AKIA... | ${0##*/} HariSekhon
+    echo AWS_ACCESS_KEY_ID=AKIA... | ${0##*/} austinsonger
 
 
     Loads both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY via stdin:
 
-        aws_csv_creds.sh credentials_exported.csv | ${0##*/} HariSekhon
+        aws_csv_creds.sh credentials_exported.csv | ${0##*/} austinsonger
 
 
 XXX: WARNING: variables at this level can be accessed by all users with 'write' permission for any repository (private or public) that belongs to this workspace

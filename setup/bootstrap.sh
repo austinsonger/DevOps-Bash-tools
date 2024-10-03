@@ -4,28 +4,28 @@
 #  Author: Hari Sekhon
 #  Date: 2019-10-16 10:33:03 +0100 (Wed, 16 Oct 2019)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Alpine / Wget:
 #
-#   wget -O- https://raw.githubusercontent.com/HariSekhon/DevOps-Bash-tools/master/setup/bootstrap.sh | sh
+#   wget -O- https://raw.githubusercontent.com/austinsonger/DevOps-Bash-tools/master/setup/bootstrap.sh | sh
 #
 # Curl:
 #
-#   curl https://raw.githubusercontent.com/HariSekhon/DevOps-Bash-tools/master/setup/bootstrap.sh | sh
+#   curl https://raw.githubusercontent.com/austinsonger/DevOps-Bash-tools/master/setup/bootstrap.sh | sh
 
 set -eu
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(dirname "$0")"
 
-repo="https://github.com/HariSekhon/DevOps-Bash-tools"
+repo="https://github.com/austinsonger/DevOps-Bash-tools"
 
 directory="bash-tools"
 

@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2022-05-12 11:57:37 +0100 (Thu, 12 May 2022)
 #
-#  https://github.com/HariSekhon/Nagios-Plugins
+#  https://github.com/austinsonger/Nagios-Plugins
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail

@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2024-02-25 23:53:53 +0000 (Sun, 25 Feb 2024)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -28,7 +28,7 @@ Uses the adjacent script solr_api.sh - see it for required environment variables
 
 See Also
 
-    Solr CLI - https://github.com/HariSekhon/DevOps-Perl-tools
+    Solr CLI - https://github.com/austinsonger/DevOps-Perl-tools
 "
 
 # used by usage() in lib/utils.sh

@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-01-16 12:22:40 +0000 (Thu, 16 Jan 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Script to print a random Hadoop node by parsing the Hadoop topology map from /etc
@@ -19,9 +19,9 @@
 #
 # See also:
 #
-#   find_active_*.py - https://github.com/HariSekhon/DevOps-Python-tools
+#   find_active_*.py - https://github.com/austinsonger/DevOps-Python-tools
 #
-#   HAProxy Configs for many Hadoop and other technologies - https://github.com/HariSekhon/HAProxy-configs
+#   HAProxy Configs for many Hadoop and other technologies - https://github.com/austinsonger/HAProxy-configs
 #
 
 set -euo pipefail

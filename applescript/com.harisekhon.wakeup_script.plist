@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.harisekhon.wakeup_script</string>
+    <string>com.austinsonger.wakeup_script</string>
     <key>Program</key>
     <string>/Users/hari/github/bash-tools/applescript/wakeup_script.sh</string>
     <key>WatchPaths</key>

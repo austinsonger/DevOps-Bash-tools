@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2021-02-05 14:48:56 +0000 (Fri, 05 Feb 2021)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -31,7 +31,7 @@ Such rules should be rare, eg:
 - GKE ingress generated GCP firewall rules (too open by default)
     - to lock them down see my adjacent Kubernetes-templates repo's service.yaml:
 
-    https://github.com/HariSekhon/Kubernetes-templates/blob/master/service.yaml
+    https://github.com/austinsonger/Kubernetes-templates/blob/master/service.yaml
 "
 
 # used by usage() in lib/utils.sh

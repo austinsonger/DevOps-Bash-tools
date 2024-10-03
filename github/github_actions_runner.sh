@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 #  vim:ts=4:sts=4:sw=4:et
-#  args: harisekhon/spark-apps
+#  args: austinsonger/spark-apps
 #
 #  Author: Hari Sekhon
 #  Date: 2021-11-05 04:25:16 +0000 (Fri, 05 Nov 2021)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # https://docs.github.com/en/rest/reference/actions#create-a-registration-token-for-an-organization
@@ -31,7 +31,7 @@ Generates a GitHub Actions Runner token for the given Repo or Organization via t
 
 See Also:
 
-    https://github.com/HariSekhon/Kubernetes-configs - for running GitHub Actions Runners in Kubernetes
+    https://github.com/austinsonger/Kubernetes-configs - for running GitHub Actions Runners in Kubernetes
 "
 
 # used by usage() in lib/utils.sh
@@ -50,7 +50,7 @@ token="$("$srcdir/github_actions_runner_token.sh" "$repo_or_org")"
 docker run -ti \
            --rm \
            -v /var/run/docker.sock:/var/run/docker.sock \
-           harisekhon/github-actions-runner \
+           austinsonger/github-actions-runner \
            --url "https://github.com/$repo_or_org" \
            --token "$token" \
            --unattended "$@"

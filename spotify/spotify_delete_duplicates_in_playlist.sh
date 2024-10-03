@@ -6,13 +6,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-07-24 19:05:25 +0100 (Fri, 24 Jul 2020)
 #
-#  https://github.com/HariSekhon/Spotify-Playlists
+#  https://github.com/austinsonger/Spotify-Playlists
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail

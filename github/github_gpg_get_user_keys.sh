@@ -3,11 +3,11 @@
 #  Author: Hari Sekhon
 #  Date: 2020-08-17 09:32:20 +0100 (Mon, 17 Aug 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # https://docs.github.com/en/rest/reference/users#list-gpg-keys-for-a-user
@@ -41,7 +41,7 @@ elif [ -n "${GITHUB_USER:-}" ]; then
     user="$GITHUB_USER"
 elif [ -n "${USER:-}" ]; then
     if [[ "$USER" =~ hari|sekhon ]]; then
-        user=harisekhon
+        user=austinsonger
     else
         user="$USER"
     fi

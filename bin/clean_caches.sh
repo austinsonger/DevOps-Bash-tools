@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-04-28 17:39:13 +0100 (Tue, 28 Apr 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Removes local caches for OS package installations and Programming Language development libraries
@@ -21,7 +21,7 @@
 #
 # Add this to the end of each of your RUN statements in your Dockerfile to clean up the installation caches and not save them in the Docker layer:
 #
-#   curl -s https://raw.githubusercontent.com/HariSekhon/bash-tools/master/bin/clean_caches.sh | sh
+#   curl -s https://raw.githubusercontent.com/austinsonger/bash-tools/master/bin/clean_caches.sh | sh
 #
 
 set -eu  #o pipefail

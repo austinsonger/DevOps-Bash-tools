@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2022-09-01 10:54:32 +0100 (Thu, 01 Sep 2022)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -39,7 +39,7 @@ Any field not found or commented out like valuesFile in kustomization.yaml will 
 
 Used by adjacent script kustomize_install_helm_charts.sh in CI/CD GitHub Actions for repo:
 
-    https://github.com/HariSekhon/Kubernetes-configs
+    https://github.com/austinsonger/Kubernetes-configs
 
 
 Requires yq and installs it if not found

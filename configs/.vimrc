@@ -238,7 +238,7 @@ nmap          ;[ :w<CR> :call GitPush() <CR>
 nmap          ;, :w<CR> :s/^/</ <CR> :s/$/>/ <CR>
 " write then grep all URLs that are not mine, followed by all URLs that are mine in reverse order to urlview
 " this is so that 3rd party URLs followed by my URLs from within the body of files get higher priority than my header links
-nmap <silent> ;u :w<CR> :! bash -c 'grep -vi harisekhon "%" ; grep -i harisekhon "%" \| tail -r' \| urlview <CR> :<CR>
+nmap <silent> ;u :w<CR> :! bash -c 'grep -vi austinsonger "%" ; grep -i austinsonger "%" \| tail -r' \| urlview <CR> :<CR>
 " pass current line as stdin to urlview to quickly go to this url
 " messes up interactive vim (disables vim's arrow keys) - calling a terminal reset fixes it
 "nmap <silent> ;U :.w !urlview<CR><CR> :!reset<CR><CR>
@@ -350,7 +350,7 @@ if has('autocmd')
 "    autocmd FileType vim              let b:comment_char = '"'
 
     " headtail.py is useful to see the top things to fix and the score on each run and can be found in the
-    " https://github.com/HariSekhon/Python-DevOps-Tools repo which should be downloaded, run 'make' and add to $PATH
+    " https://github.com/austinsonger/Python-DevOps-Tools repo which should be downloaded, run 'make' and add to $PATH
     au BufNew,BufRead *.py   nmap ;l :w<CR>:!clear; pylint "%" \| headtail.py<CR>
     au BufNew,BufRead *.pl   nmap ;l :w<CR>:!clear; perl -I . -tc "%"<CR>
     au BufNew,BufRead *.rb   nmap ;l :w<CR>:!clear; ruby -c "%"<CR>
@@ -377,7 +377,7 @@ if has('autocmd')
 
     au BufNewFile,BufRead .vimrc    nmap ;l :w<CR> :!clear<CR> :call LintVimrc() <CR>
 
-    " these tools are in the https://github.com/HariSekhon/DevOps-Python-tools & DevOps-Bash-tools repos which should be downloaded, run 'make' and add to $PATH
+    " these tools are in the https://github.com/austinsonger/DevOps-Python-tools & DevOps-Bash-tools repos which should be downloaded, run 'make' and add to $PATH
     au BufNew,BufRead *.csv        nmap ;l :w<CR>:!clear; validate_csv.py "%"<CR>
     au BufNew,BufRead *.cson       nmap ;l :w<CR>:!clear; validate_cson.py "%"<CR>
     au BufNew,BufRead *.d2         nmap ;l :w<CR>:!clear; d2 fmt "%" <CR> :edit <CR> :1s/^# \!\//#\!\// <CR>

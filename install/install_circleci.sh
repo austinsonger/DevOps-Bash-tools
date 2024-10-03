@@ -3,11 +3,11 @@
 #  Author: Hari Sekhon
 #  Date: 2020-03-10 14:34:41 +0000 (Tue, 10 Mar 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Installs Circle CI using Homebrew on Mac or direct download to ~/bin otherwise

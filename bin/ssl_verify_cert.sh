@@ -5,13 +5,13 @@
 #  Author: Hari Sekhon
 #  Date: 2019-04-11 18:48:01 +0100 (Thu, 11 Apr 2019)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -32,7 +32,7 @@ For a much better version of this see check_ssl_cert.pl in the Advanced Nagios P
 
     check_ssl_cert.pl - checks Expiry days remaining, Domain, Subject Alternative Names, SNI
 
-    https://github.com/HariSekhon/Nagios-Plugins
+    https://github.com/austinsonger/Nagios-Plugins
 "
 
 # used by usage() in lib/utils.sh

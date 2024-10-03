@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-10-06 18:59:32 +0100 (Tue, 06 Oct 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -28,7 +28,7 @@ If the given arg is a file, then opens the first URL found in the file
 
 Used by .vimrc to instantly open a URL on the given line in the editor
 
-Very useful for quickly referencing inline documentation links in config files and templates such as those found at https://github.com/HariSekhon/Templates
+Very useful for quickly referencing inline documentation links in config files and templates such as those found at https://github.com/austinsonger/Templates
 "
 
 # used by usage() in lib/utils.sh

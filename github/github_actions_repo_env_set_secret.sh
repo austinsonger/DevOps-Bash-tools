@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 #  vim:ts=4:sts=4:sw=4:et
-#  args: harisekhon/devops-bash-tools testenv haritest=stuff haritest2=stuff2
+#  args: austinsonger/devops-bash-tools testenv haritest=stuff haritest2=stuff2
 #
 #  Author: Hari Sekhon
 #  Date: 2021-12-03 17:41:23 +0000 (Fri, 03 Dec 2021)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # https://docs.github.com/ee/api/project_level_variables.html
@@ -33,18 +33,18 @@ If no subsequent key=value pair arguments are given, reads environment variables
 
 Examples:
 
-    ${0##*/} HariSekhon/DevOps-Bash-tools testenv AWS_ACCESS_KEY_ID=AKIA...
+    ${0##*/} austinsonger/DevOps-Bash-tools testenv AWS_ACCESS_KEY_ID=AKIA...
 
-    echo AWS_ACCESS_KEY_ID=AKIA... | ${0##*/} HariSekhon/DevOps-Bash-tools testenv
+    echo AWS_ACCESS_KEY_ID=AKIA... | ${0##*/} austinsonger/DevOps-Bash-tools testenv
 
-    echo AWS_ACCESS_KEY_ID=AKIA... | gh secret set -R HariSekhon/DevOps-Bash-tools --env testenv -f -
+    echo AWS_ACCESS_KEY_ID=AKIA... | gh secret set -R austinsonger/DevOps-Bash-tools --env testenv -f -
 
 
     Loads both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY via stdin:
 
-        aws_csv_creds.sh credentials_exported.csv | ${0##*/} HariSekhon/DevOps-Bash-tools testenv
+        aws_csv_creds.sh credentials_exported.csv | ${0##*/} austinsonger/DevOps-Bash-tools testenv
 
-        aws_csv_creds.sh credentials_exported.csv | gh secret set -R HariSekhon/DevOps-Bash-tools --env testenv -f -
+        aws_csv_creds.sh credentials_exported.csv | gh secret set -R austinsonger/DevOps-Bash-tools --env testenv -f -
 
 
 Requires the GitHub CLI 'gh' to be installed and available in the \$PATH

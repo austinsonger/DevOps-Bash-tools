@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2023-07-26 00:38:43 +0100 (Wed, 26 Jul 2023)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -106,7 +106,7 @@ if [ -z "$k8s_secret_value" ]; then
     exit 1
 fi
 
-# https://github.com/HariSekhon/Kubernetes-configs/blob/master/external-secret.yaml
+# https://github.com/austinsonger/Kubernetes-configs/blob/master/external-secret.yaml
 yaml="---
 apiVersion: external-secrets.io/v1beta1
 kind: ExternalSecret

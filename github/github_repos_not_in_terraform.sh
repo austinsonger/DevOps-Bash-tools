@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2022-02-25 16:00:24 +0000 (Fri, 25 Feb 2022)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -54,7 +54,7 @@ for repo in $repos; do
     # literal terraform resource github_repository are easy to find, but assumes the resource name is the same as the repo name
     # search without the dot prefix which isn't allowed in Terraform code identifiers
     grep -Eq '^[[:space:]]*resource[[:space:]]+"github_repository"[[:space:]]+"'"${repo#.}"'"' ./*.tf ||
-    # but if using a module such as github_repo (https://github.com/HariSekhon/Terraform) then need to find names in a repos.tf file, not very portable, may need tuning if you do something different
+    # but if using a module such as github_repo (https://github.com/austinsonger/Terraform) then need to find names in a repos.tf file, not very portable, may need tuning if you do something different
     grep -Eq "^[[:space:]]+name[[:space:]]*=[[:space:]]*\"$repo\"[[:space:]]*$" repos.tf 2>/dev/null ||
     echo "$repo"
 done

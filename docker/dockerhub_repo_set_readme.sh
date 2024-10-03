@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2022-04-22 17:36:34 +0100 (Fri, 22 Apr 2022)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -33,12 +33,12 @@ Uses the adajcent script dockerhub_api.sh, see there for authentication details
 
 Example:
 
-    ${0##*/} HariSekhon/my-repo    my new readme description
+    ${0##*/} austinsonger/my-repo    my new readme description
 
 
 If no second arg is given, will read repo description from standard input
 
-    cat README.md | ${0##*/} HariSekhon/my-repo
+    cat README.md | ${0##*/} austinsonger/my-repo
 "
 
 # used by usage() in lib/utils.sh

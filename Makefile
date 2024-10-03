@@ -4,16 +4,16 @@
 #
 #  vim:ts=4:sts=4:sw=4:noet
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 include Makefile.in
 
-REPO := HariSekhon/DevOps-Bash-tools
+REPO := austinsonger/DevOps-Bash-tools
 
 CONF_FILES := $(shell sed "s/\#.*//; /^[[:space:]]*$$/d" setup/files.txt)
 
@@ -75,7 +75,7 @@ define MAKEFILE_USAGE
     make terraform              installs Terraform to ~/bin/
     make vim                    installs Vundle and plugins
     make tmux                   installs TMUX TPM and plugin for kubernetes context
-    make ccmenu                 installs and (re)configures CCMenu to watch this and all other major HariSekhon GitHub repos
+    make ccmenu                 installs and (re)configures CCMenu to watch this and all other major austinsonger GitHub repos
     make status                 open the Github Status page of all my repos build statuses across all CI platforms
 
     make aws                    installs AWS CLI tools
@@ -379,7 +379,7 @@ wcbash2: wcbashrc2
 
 .PHONY: pipreqs-mapping
 pipreqs-mapping:
-	#wget -O resources/pipreqs_mapping.txt https://raw.githubusercontent.com/HariSekhon/pipreqs/mysql-python/pipreqs/mapping
+	#wget -O resources/pipreqs_mapping.txt https://raw.githubusercontent.com/austinsonger/pipreqs/mysql-python/pipreqs/mapping
 	wget -O resources/pipreqs_mapping.txt https://raw.githubusercontent.com/bndr/pipreqs/master/pipreqs/mapping
 .PHONY: pip-mapping
 pip-mapping: pipreqs-mapping

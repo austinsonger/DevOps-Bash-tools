@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2022-02-17 11:32:45 +0000 (Thu, 17 Feb 2022)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -138,7 +138,7 @@ if [ "$owner_repo" = '{owner}/{repo}' ]; then
 fi
 
 title="${GITHUB_PULL_REQUEST_TITLE:-Merge $head branch into $base branch}"
-body="${GITHUB_PULL_REQUEST_BODY:-${body_template:-Created automatically by script \`${0##*/}\` in the [DevOps Bash tools](https://github.com/HariSekhon/DevOps-Bash-tools) repo}}"
+body="${GITHUB_PULL_REQUEST_BODY:-${body_template:-Created automatically by script \`${0##*/}\` in the [DevOps Bash tools](https://github.com/austinsonger/DevOps-Bash-tools) repo}}"
 
 total_commits="$(gh api "/repos/$owner/$repo/compare/$base...$head" -q '.total_commits')"
 
@@ -179,7 +179,7 @@ if [ "$total_commits" -gt 0 ]; then
     fi
     if [ "${GITHUB_PULL_REQUEST_AUTO_MERGE:-}" = true ]; then
         pr_url="$(get_pr_url)"
-        # not supporting Rebase on purpose - see https://medium.com/@harisekhon/the-evils-of-git-rebasing-beec34a607c7
+        # not supporting Rebase on purpose - see https://medium.com/@austinsonger/the-evils-of-git-rebasing-beec34a607c7
         merge_type="--merge"
         if [ "${GITHUB_PULL_REQUEST_SQUASH:-}" = true ]; then
             merge_type="--squash"

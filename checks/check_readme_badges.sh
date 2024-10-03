@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-03-26 02:03:33 +0000 (Thu, 26 Mar 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help improve or steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Checks for duplicates badge lines, assuming one badge per line as per std layout in headers across all my repos (more git / diff friendly)
@@ -26,8 +26,8 @@ section "Checking README badges for duplicates and incorrect links"
 
 ignored_lines_regex="
 STATUS.md
-harisekhon/github
-harisekhon/centos-github
+austinsonger/github
+austinsonger/centos-github
 StarTrack
 STARCHARTS.md
 LinkedIn
@@ -42,7 +42,7 @@ https://aws.amazon.com
 https://sonarcloud.io/dashboard
 https://hub.docker.com/
 https://img.shields.io/badge/
-https://github.com/HariSekhon/[[:alnum:]-]*$
+https://github.com/austinsonger/[[:alnum:]-]*$
 "
 
 start_time="$(start_timer)"

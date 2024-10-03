@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2022-02-22 15:20:27 +0000 (Tue, 22 Feb 2022)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -31,7 +31,7 @@ This can take a while to run on large directories with lots of resources
 Any customization to the 'checkov' settings must use local .checkov.yaml config file in each repo root
 such as which directories to scan or skip, see this working config for example:
 
-    https://github.com/HariSekhon/Templates/blob/master/.checkov.yaml
+    https://github.com/austinsonger/Templates/blob/master/.checkov.yaml
 
 
 Each given repo dir should be the root of the repo so that .checkov.yaml can be found

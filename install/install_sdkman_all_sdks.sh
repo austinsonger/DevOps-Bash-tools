@@ -3,11 +3,11 @@
 #  Author: Hari Sekhon
 #  Date: 2019-10-08 16:48:17 +0100 (Tue, 08 Oct 2019)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Installs SDKman's most commonly used build tools e.g Java, Scala, Groovy + Maven, SBT, Gradle

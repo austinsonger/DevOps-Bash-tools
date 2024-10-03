@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2019-12-19 10:02:31 +0000 (Thu, 19 Dec 2019)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_getting-report.html
@@ -35,8 +35,8 @@ See Also:
 
     more AWS tools in the DevOps Python Tools repo and The Advanced Nagios Plugins Collection:
 
-    - https://github.com/HariSekhon/DevOps-Python-tools
-    - https://github.com/HariSekhon/Nagios-Plugins
+    - https://github.com/austinsonger/DevOps-Python-tools
+    - https://github.com/austinsonger/Nagios-Plugins
 
 
 $usage_aws_cli_required

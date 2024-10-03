@@ -5,13 +5,13 @@
 #  Author: Hari Sekhon
 #  Date: 2016-02-07 22:42:47 +0000 (Sun, 07 Feb 2016)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -291,7 +291,7 @@ dockerhub_latest_version(){
     fi
     set +e
     local version
-    version="$(curl -sS "https://raw.githubusercontent.com/HariSekhon/Dockerfiles/master/$repo/Dockerfile" | awk -F= '/^ARG[[:space:]]+[A-Za-z0-9_]+_VERSION=/ {print $2; exit}')"
+    version="$(curl -sS "https://raw.githubusercontent.com/austinsonger/Dockerfiles/master/$repo/Dockerfile" | awk -F= '/^ARG[[:space:]]+[A-Za-z0-9_]+_VERSION=/ {print $2; exit}')"
     set -e
     if [ -z "$version" ]; then
         version='.*'

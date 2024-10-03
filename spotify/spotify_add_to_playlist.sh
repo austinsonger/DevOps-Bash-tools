@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-07-23 18:02:26 +0100 (Thu, 23 Jul 2020)
 #
-#  https://github.com/HariSekhon/Spotify-Playlists
+#  https://github.com/austinsonger/Spotify-Playlists
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -28,7 +28,7 @@ Playlist must be specified as the first argument and can be either a Spotify pla
 
 Can take file(s) with URIs as arguments or read from standard input for chaining with other tools
 
-Useful for chaining with other 'spotify_*_uri.sh' tools (eg. spotify_playlist_tracks_uri.sh, spotify_search_uri.sh) or loading from saved spotify format playlists (eg. HariSekhon/Spotify-Playlists github repo)
+Useful for chaining with other 'spotify_*_uri.sh' tools (eg. spotify_playlist_tracks_uri.sh, spotify_search_uri.sh) or loading from saved spotify format playlists (eg. austinsonger/Spotify-Playlists github repo)
 
 $usage_playlist_help
 

@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2021-11-26 11:19:24 +0000 (Fri, 26 Nov 2021)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -24,7 +24,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 usage_description="
 Finds the latest Kubernetes Autoscaler release that matches your local kubnernetes cluster version using kubectl and the GitHub API
 
-Useful to populate eks-cluster-autoscaler-kustomization.yaml image override in https://github.com/HariSekhon/Kubernetes-configs
+Useful to populate eks-cluster-autoscaler-kustomization.yaml image override in https://github.com/austinsonger/Kubernetes-configs
 
 
 Requires Kubectl to be installed and configured, as well as jq

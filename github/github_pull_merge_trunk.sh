@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2024-06-19 19:12:25 +0200 (Wed, 19 Jun 2024)
 #
-#  https///github.com/HariSekhon/DevOps-Bash-tools
+#  https///github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -37,7 +37,7 @@ commits that a default merge commit would have auto-resolved
 
 Read:
 
-    https://github.com/HariSekhon/Knowledge-Base/blob/main/git.md#the-evils-of-rebasing
+    https://github.com/austinsonger/Knowledge-Base/blob/main/git.md#the-evils-of-rebasing
 
 Requires GitHub CLI to be installed and authenticated, as well as jq
 "

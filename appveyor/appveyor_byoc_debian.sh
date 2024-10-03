@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-03-09 23:16:47 +0000 (Mon, 09 Mar 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -30,5 +30,5 @@ fi
 export DEBIAN_FRONTEND=noninteractive
 
 #exec docker run -ti --rm -e APPVEYOR_TOKEN -e DEBIAN_FRONTEND -v "$PWD":/pwd -w /pwd debian:9 ./appveyor_byoc.sh
-#exec docker run -ti --rm -e APPVEYOR_TOKEN -e DEBIAN_FRONTEND -v "$PWD":/pwd -w /pwd harisekhon/appveyor:debian ./appveyor_byoc.sh
-exec docker run -ti --rm -e APPVEYOR_TOKEN -e DEBIAN_FRONTEND harisekhon/appveyor:debian
+#exec docker run -ti --rm -e APPVEYOR_TOKEN -e DEBIAN_FRONTEND -v "$PWD":/pwd -w /pwd austinsonger/appveyor:debian ./appveyor_byoc.sh
+exec docker run -ti --rm -e APPVEYOR_TOKEN -e DEBIAN_FRONTEND austinsonger/appveyor:debian

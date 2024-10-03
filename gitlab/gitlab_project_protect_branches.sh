@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-08-16 09:52:29 +0100 (Sun, 16 Aug 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -36,7 +36,7 @@ Enables branch protection for one or more branches in the given GitLab project (
 If no branch is specified, the applies branches protections to any of the following branches if they're found:
 $default_branches_to_protect
 
-Project can be the full project name (eg. HariSekhon/DevOps-Bash-tools) or the project ID
+Project can be the full project name (eg. austinsonger/DevOps-Bash-tools) or the project ID
 
 Project username prefix can be omitted, will use \$GITLAB_USER if available, otherwise will query the GitLab API to determine the user owning the \$GITLAB_TOKEN
 

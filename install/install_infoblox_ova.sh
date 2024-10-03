@@ -4,11 +4,11 @@
 #  Author: Hari Sekhon
 #  Date: early 2019
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Download InfoBlox DDI OVA and calls it to trigger the import to VirtualBox pop up

@@ -6,13 +6,13 @@
 #
 #  vim:ts=4:sts=4:sw=4:et
 #
-#  https///github.com/HariSekhon/DevOps-Bash-tools
+#  https///github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # ============================================================================ #
@@ -88,7 +88,7 @@ idea(){
     for arg in "$@"; do
         # because otherwise README Markdown Preview will not render images with relative paths to images inside project:
         #
-        #   https://github.com/HariSekhon/Knowledge-Base/blob/69bb8d4220596e90e6c0e61c48dd8e1b9ffdf720/intellij.md#markdown-images-with-relative-paths-not-displaying-in-preview
+        #   https://github.com/austinsonger/Knowledge-Base/blob/69bb8d4220596e90e6c0e61c48dd8e1b9ffdf720/intellij.md#markdown-images-with-relative-paths-not-displaying-in-preview
         #
         # can't find any reliable method for this function, see comment just above function itself for more details
         #open_intellij_project_if_not_already "$arg"

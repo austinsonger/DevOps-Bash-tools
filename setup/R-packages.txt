@@ -2,11 +2,11 @@
 #  Author: Hari Sekhon
 #  Date: 2014-12-29 21:10:12 +0000 (Mon, 29 Dec 2014)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # R packages to install from CRAN

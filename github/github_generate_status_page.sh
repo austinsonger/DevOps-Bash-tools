@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-02-07 15:01:31 +0000 (Fri, 07 Feb 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -37,9 +37,9 @@ Examples:
 
     With arguments will query those repo's README.md at the top level - if omitting the owner prefix will prepend \$GITHUB_ORGANIZATION/ or \$GITHUB_USER/
 
-        GITHUB_USER=HariSekhon ./github_generate_status_page.sh  DevOps-Python-tools  DevOps-Perl-tools SomeOtherCoolGuy/his-repo
+        GITHUB_USER=austinsonger ./github_generate_status_page.sh  DevOps-Python-tools  DevOps-Perl-tools SomeOtherCoolGuy/his-repo
 
-        GITHUB_ORGANIZATION=my-org ./github_generate_status_page.sh  HariSekhon/DevOps-Python-tools  some-org-repo
+        GITHUB_ORGANIZATION=my-org ./github_generate_status_page.sh  austinsonger/DevOps-Python-tools  some-org-repo
 
 Supported Environment Variables:
 
@@ -84,7 +84,7 @@ get_repos(){
             exit 1
         fi
         # use authenticated requests if you are hitting the API rate limit - this is automatically done above now if USER/PASSWORD GITHUB_USER/GITHUB_PASSWORD/GITHUB_TOKEN environment variables are detected
-        # eg. CURL_OPTS="-u harisekhon:$GITHUB_TOKEN" ...
+        # eg. CURL_OPTS="-u austinsonger:$GITHUB_TOKEN" ...
         if [ -z "$(jq '.[]' <<< "$output")" ]; then
             break
         elif jq -r '.message' <<< "$output" >&2 2>/dev/null; then
@@ -240,21 +240,21 @@ self_hosted_build_regex+='|img\.shields\.io/badge/TeamCity'
 
 num_CI_systems=22
 
-is_owner_harisekhon(){
+is_owner_austinsonger(){
     shopt -s nocasematch
-    [[ "$OWNER" =~ ^HariSekhon$ ]]
+    [[ "$OWNER" =~ ^austinsonger$ ]]
 }
 
-if is_owner_harisekhon; then
+if is_owner_austinsonger; then
     cat >> "$tempfile_summary" <<EOF
-[![Generate README](https://github.com/HariSekhon/CI-CD/actions/workflows/readme.yaml/badge.svg)](https://github.com/HariSekhon/CI-CD/actions/workflows/readme.yaml)
-[![pages-build-deployment](https://github.com/HariSekhon/CI-CD/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/HariSekhon/CI-CD/actions/workflows/pages/pages-build-deployment)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/853ef60c-c01b-4b83-99ba-8fda541f850f/deploy-status)](https://app.netlify.com/sites/harisekhon/deploys)
+[![Generate README](https://github.com/austinsonger/CI-CD/actions/workflows/readme.yaml/badge.svg)](https://github.com/austinsonger/CI-CD/actions/workflows/readme.yaml)
+[![pages-build-deployment](https://github.com/austinsonger/CI-CD/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/austinsonger/CI-CD/actions/workflows/pages/pages-build-deployment)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/853ef60c-c01b-4b83-99ba-8fda541f850f/deploy-status)](https://app.netlify.com/sites/austinsonger/deploys)
 ![Last Generated](https://img.shields.io/badge/Last%20Generated-$(date +%F |
                                                                   # "$srcdir/../bin/urlencode.sh" |
                                                                   # need to escape dashes to avoid shields.io interpreting them as field separators
                                                                   sed 's/-/--/g')-yellowgreen?logo=github)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/HariSekhon/CI-CD?logo=github)](https://github.com/HariSekhon/CI-CD/commits/master)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/austinsonger/CI-CD?logo=github)](https://github.com/austinsonger/CI-CD/commits/master)
 EOF
 fi
 
@@ -293,36 +293,36 @@ cat >> "$tempfile_header" <<EOF
 [![GitStar Ranking Profile](https://img.shields.io/badge/GitStar%20Ranking-$OWNER-blue?logo=github)](https://gitstar-ranking.com/$OWNER)
 EOF
 
-if is_owner_harisekhon; then
+if is_owner_austinsonger; then
     cat >> "$tempfile_header" <<-EOF
-[![StarCharts](https://img.shields.io/badge/Star-Charts-blue?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/STARCHARTS.md)
+[![StarCharts](https://img.shields.io/badge/Star-Charts-blue?logo=github)](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/STARCHARTS.md)
 EOF
 fi
 
-if is_owner_harisekhon; then
+if is_owner_austinsonger; then
     # XXX: workaround to include Readme Generate, GitHub Pages and Netlify builds here because we cannot precalculate them from $tempfile_header as they are added after the CI Builds count is needed here
     # XXX: must update this if editing this header to add/remove any builds
     ((num_CI_systems += 1))  # for Netlify
     cat >> "$tempfile_header" <<EOF
 
-[![Azure DevOps Profile](https://img.shields.io/badge/Azure%20DevOps-HariSekhon-0078D7?logo=azure%20devops)](https://dev.azure.com/harisekhon/GitHub)
-[![GitHub Profile](https://img.shields.io/badge/GitHub-HariSekhon-2088FF?logo=github)](https://github.com/HariSekhon)
-[![GitLab Profile](https://img.shields.io/badge/GitLab-HariSekhon-FCA121?logo=gitlab)](https://gitlab.com/HariSekhon)
-[![BitBucket Profile](https://img.shields.io/badge/BitBucket-HariSekhon-0052CC?logo=bitbucket)](https://bitbucket.org/HariSekhon)
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-2088FF?logo=github)](https://harisekhon.github.io/CI-CD/)
-[![Netlify](https://img.shields.io/badge/Netlify-site-00C7B7?logo=netlify)](https://harisekhon.netlify.app/)
+[![Azure DevOps Profile](https://img.shields.io/badge/Azure%20DevOps-austinsonger-0078D7?logo=azure%20devops)](https://dev.azure.com/austinsonger/GitHub)
+[![GitHub Profile](https://img.shields.io/badge/GitHub-austinsonger-2088FF?logo=github)](https://github.com/austinsonger)
+[![GitLab Profile](https://img.shields.io/badge/GitLab-austinsonger-FCA121?logo=gitlab)](https://gitlab.com/austinsonger)
+[![BitBucket Profile](https://img.shields.io/badge/BitBucket-austinsonger-0052CC?logo=bitbucket)](https://bitbucket.org/austinsonger)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-2088FF?logo=github)](https://austinsonger.github.io/CI-CD/)
+[![Netlify](https://img.shields.io/badge/Netlify-site-00C7B7?logo=netlify)](https://austinsonger.netlify.app/)
 
-[![CI/CD Builds](https://img.shields.io/badge/CI%2FCD%20Builds-$num_builds-blue?logo=circleci)](https://harisekhon.github.io/CI-CD/)
+[![CI/CD Builds](https://img.shields.io/badge/CI%2FCD%20Builds-$num_builds-blue?logo=circleci)](https://austinsonger.github.io/CI-CD/)
 $(cat "$tempfile_summary")
 EOF
 fi
 
-#if is_owner_harisekhon; then
+#if is_owner_austinsonger; then
 #    cat <<EOF
 #
-#[git.io/hari-ci](https://git.io/hari-ci) generated by \`${0##*/}\` in [HariSekhon/DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools)
+#[git.io/hari-ci](https://git.io/hari-ci) generated by \`${0##*/}\` in [austinsonger/DevOps-Bash-tools](https://github.com/austinsonger/DevOps-Bash-tools)
 #
-#This page usually loads better on [BitBucket](https://bitbucket.org/harisekhon/ci-cd/src/master/README.md) due to less aggressive proxy timeouts cutting off badge loading than GitHub / GitLab
+#This page usually loads better on [BitBucket](https://bitbucket.org/austinsonger/ci-cd/src/master/README.md) due to less aggressive proxy timeouts cutting off badge loading than GitHub / GitLab
 #
 #EOF
 #

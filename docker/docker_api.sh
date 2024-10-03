@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 #  vim:ts=4:sts=4:sw=4:et
-#  args: https://hub.docker.com/v2/repositories/harisekhon/hbase/tags | jq .
+#  args: https://hub.docker.com/v2/repositories/austinsonger/hbase/tags | jq .
 #
 #  Author: Hari Sekhon
 #  Date: 2020-09-14 15:25:12 +0100 (Mon, 14 Sep 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -43,9 +43,9 @@ API Reference:
 
 Examples:
 
-# Get all the tags for a given repository called 'harisekhon/hbase' on DockerHub's public registry:
+# Get all the tags for a given repository called 'austinsonger/hbase' on DockerHub's public registry:
 
-    ${0##*/} https://hub.docker.com/v2/repositories/harisekhon/hbase/tags
+    ${0##*/} https://hub.docker.com/v2/repositories/austinsonger/hbase/tags
 
 
 For authenticated queries against DockerHub which requires a more complicated OAuth or JWT workflow

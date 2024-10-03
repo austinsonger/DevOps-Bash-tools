@@ -22,7 +22,7 @@
 # ====================================================================
 # Smaller more concise .dockerignore files are found in the builds at:
 #
-#   https://github.com/HariSekhon/Dockerfiles
+#   https://github.com/austinsonger/Dockerfiles
 
 # =========================================================
 # This is a huge list of exclusions which covers most cases
@@ -35,7 +35,7 @@
 #
 # Sloppy Docker builds which do 'COPY/ADD .' are a ** Security Risk ** - see Dockerfiles repo's tests/ which checks for their existence in all Dockerfile's
 #
-#   https://github.com/HariSekhon/Dockerfiles
+#   https://github.com/austinsonger/Dockerfiles
 
 # *
 
@@ -3072,7 +3072,8 @@
 # General
 
 # Icon must end with two \r
-**/Icon
+**/Icon
+
 
 # Thumbnails
 

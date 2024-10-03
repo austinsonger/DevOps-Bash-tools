@@ -4,7 +4,7 @@
 #
 # For a more comprehensive list of awesome plugins, see:
 #
-#   https://github.com/HariSekhon/Kubernetes-configs/blob/master/jenkins-values.yaml
+#   https://github.com/austinsonger/Kubernetes-configs/blob/master/jenkins-values.yaml
 #
 blueocean:1.22.0
 build-timeout:1.19.1

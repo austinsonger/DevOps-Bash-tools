@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2019-12-20 16:01:28 +0000 (Fri, 20 Dec 2019)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Helper script for calling from vim function to run programs or execute with args extraction
@@ -99,7 +99,7 @@ else
                .envrc)  direnv allow .
                         ;;
                  *.d2)  if test -x "$basename"; then
-                            # use its shebang line to get the settings like --theme or --layout elk eg. for github_actions_cicd.d2 in https://github.com/HariSekhon/Diagrams-as-Code
+                            # use its shebang line to get the settings like --theme or --layout elk eg. for github_actions_cicd.d2 in https://github.com/austinsonger/Diagrams-as-Code
                             ./"$basename"
                             # shellcheck disable=SC2012
                             latest_image="$(ls -t "${basename%.d2}".{png,svg} 2>/dev/null | head -n1 || :)"

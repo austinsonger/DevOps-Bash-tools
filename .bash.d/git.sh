@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: circa 2006 (forked from .bashrc)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # ============================================================================ #
@@ -129,7 +129,7 @@ alias remote='remotes'
 #}
 #githubgrep(){
 #    for repo in $(sed 's/#.*//;s/:.*//;/^[[:space:]]*$/d' "$srcdir/setup/repos.txt"); do
-#        githubls "HariSekhon/$repo"
+#        githubls "austinsonger/$repo"
 #    done |
 #    grep "$@"
 #}
@@ -406,7 +406,7 @@ st(){
         for x in "$target"/*; do
             [ -d "$x" ] || continue
             pushd "$x" >/dev/null || { echo "failed to pushd to '$x'"; return 1; }
-            if git remote -v | grep -qi harisekhon; then
+            if git remote -v | grep -qi austinsonger; then
                 echo "> GitHub: git status $x $*"
                 git status . "$@"
                 echo
@@ -493,7 +493,7 @@ stq(){
 #            # get last character of string
 #            [ "${x: -1}" = 2 ] && continue
 #            pushd "$x" >/dev/null || { echo "failed to pushd to '$x'"; return 1; }
-#            if git remote -v | grep -qi harisekhon; then
+#            if git remote -v | grep -qi austinsonger; then
 #                echo "> GitHub: git pull $x ${*:2}"
 #                git pull "${@:2}"
 #                echo

@@ -3,11 +3,11 @@
 #  Author: Hari Sekhon
 #  Date: 2019-09-12
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Install Homebrew on Mac OS X or Linux (used by AWS CLI on Linux)

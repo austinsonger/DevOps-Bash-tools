@@ -4,20 +4,20 @@
 #  Author: Hari Sekhon
 #  Date: 2020-08-16 19:45:46 +0100 (Sun, 16 Aug 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 #  args: /user | jq .
 #  args: /workspaces | jq .
-#  args: /repositories/harisekhon | jq .
-#  args: /repositories/harisekhon/devops-bash-tools/pipelines/ | jq .
-#  args: /repositories/harisekhon/devops-bash-tools -X PUT -H 'Content-Type: application/json' -d '{"description": "some words"}'
+#  args: /repositories/austinsonger | jq .
+#  args: /repositories/austinsonger/devops-bash-tools/pipelines/ | jq .
+#  args: /repositories/austinsonger/devops-bash-tools -X PUT -H 'Content-Type: application/json' -d '{"description": "some words"}'
 
 set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
@@ -65,42 +65,42 @@ Examples:
 
     ${0##*/} /repositories/{workspace}
 
-    ${0##*/} /repositories/harisekhon | jq .
+    ${0##*/} /repositories/austinsonger | jq .
 
 
 # Get a repo's BitBucket Pipelines [oldest first] (must have a slash on the end otherwise gets 404 error):
 
     ${0##*/} /repositories/{workspace}/{repo_slug}/pipelines/
 
-    ${0##*/} /repositories/harisekhon/devops-bash-tools/pipelines/ | jq .
+    ${0##*/} /repositories/austinsonger/devops-bash-tools/pipelines/ | jq .
 
 
 # List repo variables (requires trailing slash or gets 404):
 
     ${0##*/} /repositories/{workspace}/{repo_slug}/pipelines_config/variables/
 
-    ${0##*/} /repositories/harisekhon/devops-bash-tools/pipelines_config/variables/ | jq .
+    ${0##*/} /repositories/austinsonger/devops-bash-tools/pipelines_config/variables/ | jq .
 
 
 # Create a repo variable (see bitbucket_repo_set_env_vars.sh for a more convenient way of adding/updating env vars, optionally in bulk):
 
     ${0##*/} /repositories/{workspace}/{repo_slug}/pipelines_config/variables/ -X POST -d '{\"key\": \"mykey\", \"value\": \"myvalue\", \"secured\": true }'
 
-    ${0##*/} /repositories/harisekhon/devops-bash-tools/pipelines_config/variables/ -X POST -d '{\"key\": \"mykey\", \"value\": \"myvalue\", \"secured\": true }'
+    ${0##*/} /repositories/austinsonger/devops-bash-tools/pipelines_config/variables/ -X POST -d '{\"key\": \"mykey\", \"value\": \"myvalue\", \"secured\": true }'
 
 
 # Update a repo variable (must include braces around the variable uuid but url encode the braces, omitting key still works, providing key overwrites the key field):
 
     ${0##*/} /repositories/{workspace}/{repo_slug}/pipelines_config/variables/%7B{variable_uuid}%7D -X PUT -d '{\"key\": \"mykey\", \"value\": \"myvalue\", \"secured\": true }'
 
-    ${0##*/} /repositories/harisekhon/devops-bash-tools/pipelines_config/variables/%7B9dc735a8-a3d5-4432-9afc-fad58e368a93%7D -X PUT -d '{\"key\": \"mykey\", \"value\": \"myvalue\", \"secured\": true }'
+    ${0##*/} /repositories/austinsonger/devops-bash-tools/pipelines_config/variables/%7B9dc735a8-a3d5-4432-9afc-fad58e368a93%7D -X PUT -d '{\"key\": \"mykey\", \"value\": \"myvalue\", \"secured\": true }'
 
 
 # List workspace variables (notice 2 inconsistencies here: for repos it's pipelines_config with a trailing slash, for workspaces it's pipelines-config with no trailing slash - the slash can result in 404):
 
     ${0##*/} /workspaces/{workspace}/pipelines-config/variables
 
-    ${0##*/} /workspaces/harisekhon/pipelines-config/variables | jq .
+    ${0##*/} /workspaces/austinsonger/pipelines-config/variables | jq .
 
 
 # Create a workspace variable (see bitbucket_workspace_set_env_vars.sh for a more convenient way of adding/updating env vars, optionally in bulk):
@@ -109,14 +109,14 @@ Examples:
 
     ${0##*/} /workspaces/{workspace}/pipelines-config/variables -X POST -d '{\"key\": \"mykey\", \"value\": \"myvalue\", \"secured\": true }'
 
-    ${0##*/} /workspaces/harisekhon/pipelines-config/variables -X POST -d '{\"key\": \"mykey\", \"value\": \"myvalue\", \"secured\": true }'
+    ${0##*/} /workspaces/austinsonger/pipelines-config/variables -X POST -d '{\"key\": \"mykey\", \"value\": \"myvalue\", \"secured\": true }'
 
 
 # Update a workspace variable (must include braces around the variable uuid but url encode the braces, omitting key still works, providing key overwrites the key field):
 
     ${0##*/} /workspaces/{workspace}/pipelines_config/variables/%7B{variable_uuid}%7D -X PUT -d '{\"key\": \"mykey\", \"value\": \"myvalue\", \"secured\": true }'
 
-    ${0##*/} /workspaces/harisekhon/pipelines-config/variables/%7Bfc70af25-ec2e-46fd-96bc-d7c2bed3cb4b%7D -X PUT -d '{\"key\": \"mykey\", \"value\": \"myvalue\", \"secured\": true }'
+    ${0##*/} /workspaces/austinsonger/pipelines-config/variables/%7Bfc70af25-ec2e-46fd-96bc-d7c2bed3cb4b%7D -X PUT -d '{\"key\": \"mykey\", \"value\": \"myvalue\", \"secured\": true }'
 
 
 
@@ -124,7 +124,7 @@ Examples:
 
     ${0##*/} /repositories/{workspace}/{repo_slug} -X PUT -d '{\"description\": \"some words\"}'
 
-    ${0##*/} /repositories/harisekhon/devops-bash-tools -X PUT -d '{\"description\": \"some words\"}' | jq .
+    ${0##*/} /repositories/austinsonger/devops-bash-tools -X PUT -d '{\"description\": \"some words\"}' | jq .
 
 
 # Get currently authenticated user (unfortunately this is less useful than with GitHub / GitLab APIs since you can't use a standard OAuth2 authentication with just the bearer token, and must specify a username to authenticate to the API in the first place):

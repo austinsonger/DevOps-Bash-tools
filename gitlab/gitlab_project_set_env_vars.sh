@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 #  vim:ts=4:sts=4:sw=4:et
-#  args: HariSekhon/DevOps-Bash-tools haritest=stuff
+#  args: austinsonger/DevOps-Bash-tools haritest=stuff
 #
 #  Author: Hari Sekhon
 #  Date: 2021-12-03 17:41:23 +0000 (Fri, 03 Dec 2021)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # https://docs.gitlab.com/ee/api/project_level_variables.html
@@ -34,14 +34,14 @@ If GITLAB_VARIABLES_UNMASKED=1 is set in the environment, then environment varia
 
 Examples:
 
-    ${0##*/} github/HariSekhon/DevOps-Bash-tools AWS_ACCESS_KEY_ID=AKIA...
+    ${0##*/} github/austinsonger/DevOps-Bash-tools AWS_ACCESS_KEY_ID=AKIA...
 
-    echo AWS_ACCESS_KEY_ID=AKIA... | ${0##*/} HariSekhon/DevOps-Bash-tools
+    echo AWS_ACCESS_KEY_ID=AKIA... | ${0##*/} austinsonger/DevOps-Bash-tools
 
 
     Loads both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY via stdin:
 
-        aws_csv_creds.sh credentials_exported.csv | ${0##*/} HariSekhon/DevOps-Bash-tools
+        aws_csv_creds.sh credentials_exported.csv | ${0##*/} austinsonger/DevOps-Bash-tools
 
 
 XXX: Caveat - GitLab only masks variables 8 characters or longer and they are retrievable in plaintext via the API - better to use a secrets value if possible

@@ -1,18 +1,18 @@
 [submodule "SQL"]
 	path = SQL
-	url = https://github.com/HariSekhon/SQL-scripts
+	url = https://github.com/austinsonger/SQL-scripts
 [submodule "sql"]
 	path = sql
-	url = https://github.com/HariSekhon/SQL-scripts
+	url = https://github.com/austinsonger/SQL-scripts
 [submodule "templates"]
 	path = templates
-	url = https://github.com/HariSekhon/Templates
+	url = https://github.com/austinsonger/Templates
 [submodule "vagrant-configs"]
 	path = vagrant-configs
-	url = https://github.com/HariSekhon/Vagrant-templates
+	url = https://github.com/austinsonger/Vagrant-templates
 [submodule "packer"]
 	path = packer
-	url = https://github.com/HariSekhon/Packer-templates
+	url = https://github.com/austinsonger/Packer-templates
 [submodule "kubernetes-configs"]
 	path = kubernetes-configs
-	url = https://github.com/HariSekhon/Kubernetes-configs
+	url = https://github.com/austinsonger/Kubernetes-configs

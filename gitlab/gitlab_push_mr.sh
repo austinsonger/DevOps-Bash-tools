@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2024-02-16 21:58:25 +0000 (Fri, 16 Feb 2024)
 #
-#  https://gitlab.com/HariSekhon/DevOps-Bash-tools
+#  https://gitlab.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail

@@ -6,13 +6,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-09-17 18:35:11 +0100 (Thu, 17 Sep 2020)
 #
-#  https://travis.com/harisekhon/bash-tools
+#  https://travis.com/austinsonger/bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -82,7 +82,7 @@ Examples:
 
     ${0##*/} /repo/<user>%2F<repo>/crons
 
-    ${0##*/} /repo/HariSekhon%2FDevOps-Bash-tools/crons
+    ${0##*/} /repo/austinsonger%2FDevOps-Bash-tools/crons
 
 
 # Get jobs:
@@ -94,21 +94,21 @@ Examples:
 
     ${0##*/} /repo/<user>%2F<repo>/settings
 
-    ${0##*/} /repo/HariSekhon%2FDevOps-Bash-tools/settings
+    ${0##*/} /repo/austinsonger%2FDevOps-Bash-tools/settings
 
 
 # List caches for a repository:
 
     ${0##*/} /repo/<user>%2F<repo>/caches
 
-    ${0##*/} /repo/HariSekhon%2FDevOps-Bash-tools/caches
+    ${0##*/} /repo/austinsonger%2FDevOps-Bash-tools/caches
 
 
 # List environment variables for a repository:
 
     ${0##*/} /repo/<user>%2F<repo>/env_vars
 
-    ${0##*/} /repo/HariSekhon%2FDevOps-Bash-tools/env_vars
+    ${0##*/} /repo/austinsonger%2FDevOps-Bash-tools/env_vars
 "
 
 # used by usage() in lib/utils.sh

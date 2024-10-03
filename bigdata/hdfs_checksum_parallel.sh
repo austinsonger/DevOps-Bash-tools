@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2019-11-27 16:09:34 +0000 (Wed, 27 Nov 2019)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -43,7 +43,7 @@ hadoop_hdfs_files_native_checksums.jy
 
 from the adjacent GitHub repo:
 
-https://github.com/HariSekhon/DevOps-Python-tools
+https://github.com/austinsonger/DevOps-Python-tools
 
 I would have written this version in Python but the Snakebite library doesn't support checksum extraction
 

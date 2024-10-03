@@ -7,7 +7,7 @@
 # configure your user name and email in ~/.gitconfig.local
 #[user]
 #    name = Hari Sekhon
-#    email = harisekhon@gmail.com
+#    email = austinsonger@gmail.com
 
 [include]
   path = .gitconfig.local

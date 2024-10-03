@@ -5,13 +5,13 @@
 #  Author: Hari Sekhon
 #  Date: 2021-06-18 17:13:10 +0100 (Fri, 18 Jun 2021)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -27,7 +27,7 @@ Returns all the AWS IPs for a given Region and Service using the AWS ip-range js
 
     https://ip-ranges.amazonaws.com/ip-ranges.json
 
-To get and use these IPs directly in Terraform, see the Cloudflare Firewall module in https://github.com/HariSekhon/Terraform
+To get and use these IPs directly in Terraform, see the Cloudflare Firewall module in https://github.com/austinsonger/Terraform
 
 Examples:
 

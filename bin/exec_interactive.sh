@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2019-02-15 12:51:17 +0000 (Fri, 15 Feb 2019)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # cannot -set -o pipefail because some docker images version of 'sh' do not support it, namely debian and ubuntu

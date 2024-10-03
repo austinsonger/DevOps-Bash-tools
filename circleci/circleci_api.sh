@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2021-12-03 12:08:21 +0000 (Fri, 03 Dec 2021)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -63,27 +63,27 @@ Examples:
 
     ${0##*/} /project/<vcs>/<user_or_org>/<repo>
 
-    ${0##*/} /project/github/HariSekhon/DevOps-Bash-tools | jq .
+    ${0##*/} /project/github/austinsonger/DevOps-Bash-tools | jq .
 
 
 # Get a list of pipeline runs for a project:
 
     ${0##*/} /project/<vcs>/<user_or_org>/<repo>/pipeline
 
-    ${0##*/} /project/github/HariSekhon/DevOps-Bash-tools/pipeline | jq .
+    ${0##*/} /project/github/austinsonger/DevOps-Bash-tools/pipeline | jq .
 
     # just the pipelines triggered by you
 
     ${0##*/} /project/<vcs>/<user_or_org>/<repo>/pipeline/mine
 
-    ${0##*/} /project/github/HariSekhon/DevOps-Bash-tools/pipeline/mine | jq .
+    ${0##*/} /project/github/austinsonger/DevOps-Bash-tools/pipeline/mine | jq .
 
 
 # Get environment variables for a project (see circleci_project_set_env_vars.sh to easily set them):
 
     ${0##*/} /project/<vcs>/<user_or_org>/<repo>/envvar
 
-    ${0##*/} /project/github/HariSekhon/DevOps-Bash-tools/envvar | jq .
+    ${0##*/} /project/github/austinsonger/DevOps-Bash-tools/envvar | jq .
 
 # see circleci_project_set_env_vars.sh to easily set these variables
 
@@ -92,13 +92,13 @@ Examples:
 
     ${0##*/} /project/<vcs>/<user_or_org>/<repo>/envvar -X POST -d '{\"name\": \"AWS_ACCESS_KEY_ID\", \"value\": \"AKIA...\"}'
 
-    ${0##*/} /project/github/HariSekhon/DevOps-Bash-tools/envvar -X POST -d '{\"name\": \"AWS_ACCESS_KEY_ID\", \"value\": \"AKIA...\"}' | jq .
+    ${0##*/} /project/github/austinsonger/DevOps-Bash-tools/envvar -X POST -d '{\"name\": \"AWS_ACCESS_KEY_ID\", \"value\": \"AKIA...\"}' | jq .
 
 
 # List contexts for a user or organization (this org id is different to a user id even for a user's context):
 #                                          (organization ID can be found on organization settings page as it is not currently exposed in the API)
 #                                          (find organization ID here: https://app.circleci.com/settings/organization/VCS/MY_USER_OR_ORG/contexts)
-#                                                                  eg. https://app.circleci.com/settings/organization/github/HariSekhon/contexts
+#                                                                  eg. https://app.circleci.com/settings/organization/github/austinsonger/contexts
 
     ${0##*/} '/context/<context_id>/environment-variable' | jq .
 

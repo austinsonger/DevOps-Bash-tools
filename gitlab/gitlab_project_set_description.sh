@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-08-16 09:52:29 +0100 (Sun, 16 Aug 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -29,7 +29,7 @@ Uses the adajcent script gitlab_api.sh, see there for authentication details
 \$CURL_OPTS can be set to provide extra arguments to curl
 
 
-Project can be the full project name (eg. HariSekhon/DevOps-Bash-tools) or the project ID
+Project can be the full project name (eg. austinsonger/DevOps-Bash-tools) or the project ID
 
 Project username prefix can be omitted, will use \$GITLAB_USER if available, otherwise will query the GitLab API to determine it
 
@@ -38,7 +38,7 @@ Automatically url encodes the project name and description for you since the Git
 
 Example:
 
-    ${0##*/} HariSekhon/DevOps-Bash-tools    my new description
+    ${0##*/} austinsonger/DevOps-Bash-tools    my new description
 
 
 If no args are given, will read project and description from standard input for easy chaining with other tools, can easily update multiple repositories this way, one project + description per line:

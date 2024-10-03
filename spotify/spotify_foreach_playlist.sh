@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-06-24 16:33:04 +0100 (Wed, 24 Jun 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -39,9 +39,9 @@ $usage_auth_help
 
 Examples:
 
-./spotify_foreach_playlist.sh './spotify_playlist_tracks.sh {playlist_id} > playlists/{playlist}.txt' harisekhon
+./spotify_foreach_playlist.sh './spotify_playlist_tracks.sh {playlist_id} > playlists/{playlist}.txt' austinsonger
 
-./spotify_foreach_playlist.sh './spotify_playlist_tracks_uri.sh {playlist_id} > playlist-backups/{playlist}.txt' harisekhon
+./spotify_foreach_playlist.sh './spotify_playlist_tracks_uri.sh {playlist_id} > playlist-backups/{playlist}.txt' austinsonger
 
 (see spotify_backup_playlists.sh for an even better implementation of this above one liner using this script)
 

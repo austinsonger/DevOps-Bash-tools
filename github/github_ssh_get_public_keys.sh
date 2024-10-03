@@ -3,11 +3,11 @@
 #  Author: Hari Sekhon
 #  Date: 2019-09-18
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # https://docs.github.com/en/free-pro-team@latest/rest/reference/users#list-public-ssh-keys-for-the-authenticated-user

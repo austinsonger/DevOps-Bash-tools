@@ -5,13 +5,13 @@
 #  Author: Hari Sekhon
 #  Date: 2017-11-21 10:45:41 +0100 (Tue, 21 Nov 2017)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Export of useful Git utility functions from years gone by
@@ -148,7 +148,7 @@ mybranch(){
     git rev-parse --abbrev-ref HEAD
 }
 
-# shouldn't need to use this any more, git_check_branches_upstream.py from DevOps Python Tools repo has a --fix flag which will do this for all branches if they have no upstream set - https://github.com/HariSekhon/DevOps-Python-tools
+# shouldn't need to use this any more, git_check_branches_upstream.py from DevOps Python Tools repo has a --fix flag which will do this for all branches if they have no upstream set - https://github.com/austinsonger/DevOps-Python-tools
 set_upstream(){
     git branch --set-upstream-to "origin/$(mybranch)" "$(mybranch)"
 }
@@ -231,8 +231,8 @@ azure_to_git_url(){
     #url="${url/\/_git\//\/}"
     # XXX: strip the middle component out from Azure URLs that aren't found in other major Git providers like GitHub / GitLab / Bitbucket:
     #
-    #   git@ssh.dev.azure.com:v3/harisekhon/GitHub/DevOps-Bash-tools
-    #   https://dev.azure.com/harisekhon/GitHub/_git/DevOps-Bash-tools
+    #   git@ssh.dev.azure.com:v3/austinsonger/GitHub/DevOps-Bash-tools
+    #   https://dev.azure.com/austinsonger/GitHub/_git/DevOps-Bash-tools
     #
     url="$(perl -pe 's/([\/:][^\/:]+)\/[^\/]+\/_git(\/[^\/]+)$/$1$2/' <<< "$url")"
     echo "$url"

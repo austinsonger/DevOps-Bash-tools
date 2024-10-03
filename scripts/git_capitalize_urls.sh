@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2022-04-28 19:22:01 +0100 (Thu, 28 Apr 2022)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -32,18 +32,18 @@ usage_args=""
 help_usage "$@"
 
 sed_script="
-s|https\\?://www.linkedin.com/in/HariSekhon|https://www.linkedin.com/in/HariSekhon|gi;
-s|https\\?://ghcr.io/harisekhon/|https://ghcr.io/HariSekhon/|gi;
+s|https\\?://www.linkedin.com/in/austinsonger|https://www.linkedin.com/in/austinsonger|gi;
+s|https\\?://ghcr.io/austinsonger/|https://ghcr.io/austinsonger/|gi;
 
 $(
     sed 's/#.*//; /^[[:space:]]*$/d; s/:/ /' "$srcdir/../setup/repos.txt" |
     while read -r repo shortname; do
         if [ -n "$repo" ]; then
-            echo "s|https\\?://github.com/harisekhon/$repo|https://github.com/HariSekhon/$repo|gi;"
+            echo "s|https\\?://github.com/austinsonger/$repo|https://github.com/austinsonger/$repo|gi;"
         fi
         if [ -n "$shortname" ]; then
-            echo "s|https\\?://github.com/harisekhon/$shortname$|https://github.com/HariSekhon/$repo|gi;"
-            echo "s|https\\?://github.com/harisekhon/$shortname/|https://github.com/HariSekhon/$repo/|gi;"
+            echo "s|https\\?://github.com/austinsonger/$shortname$|https://github.com/austinsonger/$repo|gi;"
+            echo "s|https\\?://github.com/austinsonger/$shortname/|https://github.com/austinsonger/$repo/|gi;"
         fi
         echo
     done

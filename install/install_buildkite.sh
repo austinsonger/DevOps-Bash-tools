@@ -3,11 +3,11 @@
 #  Author: Hari Sekhon
 #  Date: 2020-03-11 17:49:09 +0000 (Wed, 11 Mar 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Installs BuildKite using Homebrew on Mac or direct download to ~/bin otherwise

@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2024-09-04 14:42:02 +0200 (Wed, 04 Sep 2024)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -20,7 +20,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck disable=SC1090,SC1091
 . "$srcdir/lib/utils.sh"
 
-default_url="https://raw.githubusercontent.com/HariSekhon/HariSekhon/main/README.md"
+default_url="https://raw.githubusercontent.com/austinsonger/austinsonger/main/README.md"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="

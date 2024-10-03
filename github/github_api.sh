@@ -1,20 +1,20 @@
 #!/usr/bin/env bash
 #  vim:ts=4:sts=4:sw=4:et
 #  args: /user | jq .
-#  args: /users/HariSekhon/repos | jq .
-#  args: /repos/HariSekhon/DevOps-Bash-tools/actions/workflows | jq.
+#  args: /users/austinsonger/repos | jq .
+#  args: /repos/austinsonger/DevOps-Bash-tools/actions/workflows | jq.
 #  args: /repos/:user/:repo/actions/workflows | jq.
 #
 #  Author: Hari Sekhon
 #  Date: 2020-02-12 23:43:00 +0000 (Wed, 12 Feb 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -60,12 +60,12 @@ Examples:
 
 # Get a specific user:
 
-    ${0##*/} /users/HariSekhon
+    ${0##*/} /users/austinsonger
 
 
 # List a user's GitHub repos:
 
-    ${0##*/} /users/HariSekhon/repos
+    ${0##*/} /users/austinsonger/repos
 
 
 # List an organization's GitHub repos:
@@ -75,7 +75,7 @@ Examples:
 
 # Get the GitHub Actions workflows for a given repo:
 
-    ${0##*/} /repos/HariSekhon/DevOps-Bash-tools/actions/workflows
+    ${0##*/} /repos/austinsonger/DevOps-Bash-tools/actions/workflows
 
 # List repository invitations:
 

@@ -5,13 +5,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-08-30 10:08:07 +0100 (Sun, 30 Aug 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help improve or steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -33,7 +33,7 @@ WARNING: do not run any command reading from standard input, otherwise it will c
 
 The command template replaces the following for convenience in each iteration:
 
-{owner}               => the user or organization that owns the repo eg. HariSekhon or MyOrg, whichever owns the repo
+{owner}               => the user or organization that owns the repo eg. austinsonger or MyOrg, whichever owns the repo
 {repo}                => the repo name without the owner prefix eg. DevOps-Bash-tools
 
 eg.

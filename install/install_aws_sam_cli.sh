@@ -5,11 +5,11 @@
 #  Date: 2019-09-19 11:26:11
 #  (moved from Makefile)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Installs AWS SAM CLI

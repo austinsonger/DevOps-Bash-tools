@@ -6,11 +6,11 @@
 #  Author: Hari Sekhon
 #  Date: 2020-12-11 11:59:42 +0000 (Fri, 11 Dec 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 #"$srcdir/install_homebrew.sh"

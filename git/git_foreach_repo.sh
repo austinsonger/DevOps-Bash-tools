@@ -5,13 +5,13 @@
 #  Author: Hari Sekhon
 #  Date: 2016-01-17 12:14:06 +0000 (Sun, 17 Jan 2016)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help improve or steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -41,7 +41,7 @@ All arguments become the command template
 
 The command template replaces the following for convenience in each iteration:
 
-{owner} - repo owner eg. HariSekhon
+{owner} - repo owner eg. austinsonger
 {repo}  - repo name without the user/org prefix (eg. DevOps-Bash-tools)
 {dir}   - directory on disk (eg. /Users/hari/github/bash-tools)
 
@@ -81,7 +81,7 @@ elif [ -f "$repofile" ]; then
     repolist="$(sed 's/#.*//; /^[[:space:]]*$/d' < "$repofile")"
 else
     log "fetching repos from GitHub repo list" >&2
-    repolist="$(curl -sSL https://raw.githubusercontent.com/HariSekhon/bash-tools/master/setup/repos.txt | sed 's/#.*//')"
+    repolist="$(curl -sSL https://raw.githubusercontent.com/austinsonger/bash-tools/master/setup/repos.txt | sed 's/#.*//')"
 fi
 
 execute_repo(){
@@ -101,7 +101,7 @@ execute_repo(){
     if grep -q "/" <<< "$owner_repo"; then
         owner="${owner_repo%/*}"
     else
-        #owner_repo="HariSekhon/$repo"
+        #owner_repo="austinsonger/$repo"
         owner="$(cd "$repo_dir"; git remotes | awk '{print $2}' | sed 's|/[^/]*$||; s|/[^/]*/_git||; s|.*[/:]||' | head -n1)"
         if [ -z "$owner" ]; then
             die "Failed to find owner for repo '$repo' at dir '$repo_dir'"

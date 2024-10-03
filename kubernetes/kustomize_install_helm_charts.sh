@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2022-09-01 10:54:32 +0100 (Thu, 01 Sep 2022)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -30,11 +30,11 @@ If no argument is given attempts to use a kustomization.yaml in the current work
 
 Environment variables:
   - if \$SKIP_EXISTING_HELM_INSTALLATIONS is set to any value, then will skip those installations (useful for CI/CD retries without failing on existing installation from previous run)
-  - if \$SKIP_ERRORS is set to any value, will ignore failures to install each helm chart, such as webhooks failing to contact cert-manager (useful for CI/CD runs where you just want the charts installed to test outdated release versions with Nova such as https://github.com/HariSekhon/Kubernetes-configs/actions/workflows/kustomize-nova.yaml)
+  - if \$SKIP_ERRORS is set to any value, will ignore failures to install each helm chart, such as webhooks failing to contact cert-manager (useful for CI/CD runs where you just want the charts installed to test outdated release versions with Nova such as https://github.com/austinsonger/Kubernetes-configs/actions/workflows/kustomize-nova.yaml)
 
 Uses adjacent script kustomize_parse_helm_charts.sh and is used in CI/CD GitHub Actions for repo:
 
-    https://github.com/HariSekhon/Kubernetes-configs CI/CD GitHub Actions
+    https://github.com/austinsonger/Kubernetes-configs CI/CD GitHub Actions
 
 
 Requires Helm and yq to be installed and installs them if not found

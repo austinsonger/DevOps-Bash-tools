@@ -5,13 +5,13 @@
 #  Author: Hari Sekhon
 #  Date: Fri Nov 1 19:04:26 2019 +0000
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Various Git log author commit checks against Name / Email / Domain inconsistencies to catch committing with the wrong or default user.name / user.email
@@ -156,7 +156,7 @@ check_duplicate_email_prefixes(){
     # need to use sed not built-in variable replacement in order to handle multi-line emails
     # shellcheck disable=SC2001
     duplicate_email_prefixes="$(sed 's/@.*$//;s/\.//g' <<< "$emails" | sort | uniq -d || :)"
-    # email prefixes normalize hari.sekhon => harisekhon since email accounts like gmail treat them the same, so remember duplicates for harisekhon may include hari.sekhon
+    # email prefixes normalize hari.sekhon => austinsonger since email accounts like gmail treat them the same, so remember duplicates for austinsonger may include hari.sekhon
     check_error "$duplicate_email_prefixes" "duplicate email prefixes detected (misconfigured domain name in git user.email?)" &&
     echo "OK: no duplicate email prefixes detected" || :
 }

@@ -6,11 +6,11 @@
 #  Author: Hari Sekhon
 #  Date: 2020-03-06 17:38:12 +0000 (Fri, 06 Mar 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Installs Azure CLI
@@ -44,7 +44,7 @@ echo "Next step configure your default organization and project to avoid having 
 echo
 echo "Example:"
 echo
-echo "  az devops configure --defaults organization=https://dev.azure.com/harisekhon project=GitHub"
+echo "  az devops configure --defaults organization=https://dev.azure.com/austinsonger project=GitHub"
 echo
 echo "Show configuration:"
 echo

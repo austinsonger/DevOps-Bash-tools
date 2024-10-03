@@ -55,7 +55,7 @@ bash  # version 5, not old version 3 from Apple due to licensing
 #bazel
 bazelisk  # bazel wrapper downloader like mvnw/gradlew, addes 'bazel' to $PATH so conflicts with bazel package above
 brew-cask-completion
-#duckdb  # open-source in-memory columnar RDBMS, see Knowledge Base for more details: https://github.com/HariSekhon/Knowledge-Base
+#duckdb  # open-source in-memory columnar RDBMS, see Knowledge Base for more details: https://github.com/austinsonger/Knowledge-Base
 cfssl
 #cfn-lint
 checkov
@@ -123,7 +123,7 @@ gnuplot
 gping  # graphs pings in terminal interactive ascii art
 gradle
 #gradle-completion  # forces bash-completion which slows down my shells
-graphviz  # for the 'dot' command (use with terraform graph), and also github.com/HariSekhon/Diagrams-as-Code
+graphviz  # for the 'dot' command (use with terraform graph), and also github.com/austinsonger/Diagrams-as-Code
 gron  # flattens JSON to be greppable
 #groovy  # see near end
 #groovysdk  # see near end
@@ -144,7 +144,7 @@ infracost  # Cloud cost estimator for Terraform code
 ipcalc
 iperf
 ipython
-#isc-dhcp  # the classic DHCP daemon, use for bootstrapping PXE installing Debian Linux or similar as per https://github.com/HariSekhon/Knowledge-Base/blob/main/dhcp.md
+#isc-dhcp  # the classic DHCP daemon, use for bootstrapping PXE installing Debian Linux or similar as per https://github.com/austinsonger/Knowledge-Base/blob/main/dhcp.md
 #intellij-idea-ce
 jsonlint  # in brew-packages.txt
 jenkins-x/jx/jx

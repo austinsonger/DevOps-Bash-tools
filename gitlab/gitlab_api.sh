@@ -4,21 +4,21 @@
 #  Author: Hari Sekhon
 #  Date: 2020-08-15 23:27:44 +0100 (Sat, 15 Aug 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 #  args: /user | jq .
 #  args: /users/:id/projects | jq .
-#  args: /users/$(gitlab_api.sh /users?username=harisekhon | jq -r .[].id) | jq .
-#  args: /users/HariSekhon/projects | jq .
+#  args: /users/$(gitlab_api.sh /users?username=austinsonger | jq -r .[].id) | jq .
+#  args: /users/austinsonger/projects | jq .
 #  args: /projects/:id | jq .
-#  args: /projects/HariSekhon%2FDevOps-Bash-tools/pipelines | jq .
+#  args: /projects/austinsonger%2FDevOps-Bash-tools/pipelines | jq .
 #  args: /projects/:id/pipelines | jq .
 
 set -euo pipefail
@@ -63,19 +63,19 @@ Examples:
 
 # List a user's GitLab projects (repos):
 
-    ${0##*/} /users/HariSekhon/projects | jq .
+    ${0##*/} /users/austinsonger/projects | jq .
 
 
 # Update a project's description:
 
-    ${0##*/} /projects/HariSekhon%2FDevOps-Bash-tools -X PUT -d 'description=test'
+    ${0##*/} /projects/austinsonger%2FDevOps-Bash-tools -X PUT -d 'description=test'
 
     # Specify project ID or name (url-encoded otherwise will return 404 and fail to find project)
 
 
 # List a project's protected branches:
 
-    ${0##*/} /projects/HariSekhon%2fDevOps-Bash-tools/protected_branches | jq .
+    ${0##*/} /projects/austinsonger%2fDevOps-Bash-tools/protected_branches | jq .
 
 
 # List a user's GitLab groups (contexts for sharing environment variables across projects):
@@ -85,12 +85,12 @@ Examples:
 
 # List a project's CI pipeline environment variables (careful this even returns 'masked' variable values in plaintext):
 
-    ${0##*/} /projects/HariSekhon%2fDevOps-Bash-tools/variables
+    ${0##*/} /projects/austinsonger%2fDevOps-Bash-tools/variables
 
 
 # Delete all environment variables for a given CI pipeline (see also gitlab_project_set_env_vars.sh to load them):
 
-    ${0##*/} /projects/HariSekhon%2fDevOps-Bash-tools/variables | jq -r '.[].key' | while read -r key; do ${0##*/} \"/projects/HariSekhon%2fDevOps-Bash-tools/variables/\$key\" -X DELETE; done
+    ${0##*/} /projects/austinsonger%2fDevOps-Bash-tools/variables | jq -r '.[].key' | while read -r key; do ${0##*/} \"/projects/austinsonger%2fDevOps-Bash-tools/variables/\$key\" -X DELETE; done
 
 
 # List a group's CI pipeline environment variables (careful this even returns 'masked' variable values in plaintext):
@@ -100,22 +100,22 @@ Examples:
 
 # List a project's CI pipeline runs, sorted by newest run first:
 
-    ${0##*/} /projects/HariSekhon%2FDevOps-Bash-tools/pipelines
+    ${0##*/} /projects/austinsonger%2FDevOps-Bash-tools/pipelines
 
 
 # List a project's jobs (contains the status and pipeline reference):
 
-    ${0##*/} /projects/HariSekhon%2FDevOps-Bash-tools/jobs
+    ${0##*/} /projects/austinsonger%2FDevOps-Bash-tools/jobs
 
 
 # List a project's jobs for a specific pipeline:
 
-    ${0##*/} /projects/HariSekhon%2FDevOps-Bash-tools/pipelines/<pipeline_id>/jobs
+    ${0##*/} /projects/austinsonger%2FDevOps-Bash-tools/pipelines/<pipeline_id>/jobs
 
 
 # List a project's deployments:
 
-    ${0##*/} /projects/HariSekhon%2FDevOps-Bash-tools/deployments
+    ${0##*/} /projects/austinsonger%2FDevOps-Bash-tools/deployments
 
 
 # Get details for a single job:
@@ -125,7 +125,7 @@ Examples:
 
 # Get a project's remote mirrors:
 
-    ${0##*/} /projects/HariSekhon%2FDevOps-Bash-tools/remote_mirrors
+    ${0##*/} /projects/austinsonger%2FDevOps-Bash-tools/remote_mirrors
 
 
 # Get log for a specific job:

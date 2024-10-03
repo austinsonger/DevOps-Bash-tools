@@ -3,13 +3,13 @@
 #  Author: Hari Sekhon
 #  Date: 2016-01-19 12:12:35 +0000 (Tue, 19 Jan 2016)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # ============================================================================ #
@@ -45,28 +45,28 @@ concourse/concourse
 jenkins
 #sonarqube
 
-harisekhon/github
-harisekhon/pytools
-harisekhon/perl-tools
-harisekhon/bash-tools
-harisekhon/nagios-plugins
-harisekhon/alpine-java
-harisekhon/centos-java
-harisekhon/debian-java
-harisekhon/fedora-java
-harisekhon/ubuntu-java
-harisekhon/centos-scala
-harisekhon/fedora-scala
-harisekhon/alpine-dev
-harisekhon/centos-dev
-harisekhon/debian-dev
-harisekhon/fedora-dev
-harisekhon/ubuntu-dev
-harisekhon/alpine-github
-harisekhon/centos-github
-harisekhon/debian-github
-harisekhon/fedora-github
-harisekhon/ubuntu-github
+austinsonger/github
+austinsonger/pytools
+austinsonger/perl-tools
+austinsonger/bash-tools
+austinsonger/nagios-plugins
+austinsonger/alpine-java
+austinsonger/centos-java
+austinsonger/debian-java
+austinsonger/fedora-java
+austinsonger/ubuntu-java
+austinsonger/centos-scala
+austinsonger/fedora-scala
+austinsonger/alpine-dev
+austinsonger/centos-dev
+austinsonger/debian-dev
+austinsonger/fedora-dev
+austinsonger/ubuntu-dev
+austinsonger/alpine-github
+austinsonger/centos-github
+austinsonger/debian-github
+austinsonger/fedora-github
+austinsonger/ubuntu-github
 
 # pypy
 # perl

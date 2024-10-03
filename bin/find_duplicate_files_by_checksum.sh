@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-07-23 13:05:24 +0100 (Thu, 23 Jul 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -35,7 +35,7 @@ find_duplicate_files.py
 
 in the DevOps Python tools repo:
 
-https://github.com/HariSekhon/DevOps-Python-tools
+https://github.com/austinsonger/DevOps-Python-tools
 "
 
 # used by usage() in lib/utils.sh

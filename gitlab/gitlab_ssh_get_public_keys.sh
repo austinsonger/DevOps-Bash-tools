@@ -3,11 +3,11 @@
 #  Author: Hari Sekhon
 #  Date: 2020-08-16 18:13:02 +0100 (Sun, 16 Aug 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # https://docs.gitlab.com/ee/api/users.html#list-ssh-keys

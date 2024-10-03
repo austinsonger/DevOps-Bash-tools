@@ -4,11 +4,11 @@
 #  Author: Hari Sekhon
 #  Date: 2019-09-24
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Updated gitignore based on existing gitignore.io API in the file

@@ -5,13 +5,13 @@
 #  Author: Hari Sekhon
 #  Date: 2016-09-23 09:16:45 +0200 (Fri, 23 Sep 2016)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -68,7 +68,7 @@ get_pytools(){
     else
         pushd "$srcdir"
         rm -fr -- pytools_checks
-        git clone https://github.com/harisekhon/pytools pytools_checks
+        git clone https://github.com/austinsonger/pytools pytools_checks
         pushd pytools_checks
         NOJAVA=1 make
         popd

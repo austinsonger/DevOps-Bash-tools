@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2024-10-03 10:41:23 +0300 (Thu, 03 Oct 2024)
 #
-#  https///github.com/HariSekhon/DevOps-Bash-tools
+#  https///github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -28,7 +28,7 @@ Fetches the commit data via the GitHub API and generates a bar chart using GNUpl
 
 A Golang version of this program can be found here:
 
-    https://github.com/HariSekhon/GitHub-Graph-Commit-Times
+    https://github.com/austinsonger/GitHub-Graph-Commit-Times
 
 Fetching GitHub commits via the API is slow so if \$CACHE_GITHUB_COMMITS is set will cache the data locally and not
 re-fetch it on subsequent runs (useful for tweaking the graph and just re-running quickly)

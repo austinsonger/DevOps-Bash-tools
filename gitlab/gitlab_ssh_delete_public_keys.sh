@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2020-08-16 09:52:29 +0100 (Sun, 16 Aug 2020)
 #
-#  https://gitlab.com/harisekhon/bash-tools
+#  https://gitlab.com/austinsonger/bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # https://docs.gitlab.com/ee/api/users.html#delete-ssh-key-for-current-user

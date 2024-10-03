@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2019-12-06 11:10:26 +0000 (Fri, 06 Dec 2019)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 set -euo pipefail
@@ -59,7 +59,7 @@ See also:
 
   https://cwiki.apache.org/confluence/display/Hive/HiveServer2+Clients#HiveServer2Clients-Usinghive-site.xmltoautomaticallyconnecttoHiveServer2
 
-  hive_foreach_table.py / impala_foreach_table.py and similar tools in DevOps Python Tools repo - https://github.com/HariSekhon/DevOps-Python-tools
+  hive_foreach_table.py / impala_foreach_table.py and similar tools in DevOps Python Tools repo - https://github.com/austinsonger/DevOps-Python-tools
 "
 
 # used by usage() in lib/utils.sh

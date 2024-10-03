@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2019-09-18 23:21:50 +0100 (Wed, 18 Sep 2019)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Checks if .bashrc and .bash_profile are sourced, otherwise injects source lines in to the $HOME directory equivalents
@@ -80,6 +80,6 @@ done
 # shellcheck disable=SC2086
 ln -sv $opts -- ~/.gitignore ~/.gitignore_global || :
 
-if [[ "${USER:-}" =~ harisekhon|hsekhon ]]; then
+if [[ "${USER:-}" =~ austinsonger|hsekhon ]]; then
     ln -sv -- "$PWD/.gitconfig.local" ~ || :
 fi

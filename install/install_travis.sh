@@ -3,18 +3,18 @@
 #  Author: Hari Sekhon
 #  Date: Tue Sep 17 16:41:02 2019 +0100
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Installs the Travis CI gem to home dir, logs in and generates a $TRAVIS_TOKEN
 #
 # putting the $TRAVIS_TOKEN in your environment is useful for the travis tools available in
 #
-#  https://github.com/HariSekhon/DevOps-Python-tools
+#  https://github.com/austinsonger/DevOps-Python-tools
 
 set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x

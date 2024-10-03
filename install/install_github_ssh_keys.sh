@@ -3,11 +3,11 @@
 #  Author: Hari Sekhon
 #  Date: 2019-09-16
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Installs the SSH Key(s) from user's GitHub to the local $HOME/.ssh/authorized_keys

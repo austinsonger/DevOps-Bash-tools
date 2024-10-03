@@ -4,11 +4,11 @@
 #  Author: Hari Sekhon
 #  Date: 2022-05-17 16:02:53 +0100 (Tue, 17 May 2022)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Installs Elastic Beanstalk CLI

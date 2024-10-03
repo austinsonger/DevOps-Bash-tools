@@ -4,11 +4,11 @@
 #  Author: Hari Sekhon
 #  Date: 2020-01-03 12:14:36 +0000 (Fri, 03 Jan 2020)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying LICENSE file
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Installs Vim plugin manager Vundle to $HOME/.vim/bundle/Vundle.vim

@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2015-11-05 20:53:32 +0000
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # ============================================================================ #
@@ -116,7 +116,7 @@ function dockerrunrm(){
                 if [ "${x:0:1}" = "/" ]; then
                     if [[ "$x" != */Users/* && "$x" != */home/* ]] &&
                        [ "$(strLastIndexOf "$x" / )" -eq 1 ]; then
-                        x="harisekhon$x"
+                        x="austinsonger$x"
                     fi
                 fi
                 passed_first_non_switch_arg=3
@@ -205,7 +205,7 @@ dockerexec(){
 docker_get_images(){
     # uniq_order_preserved.pl is in the DevOps-Perl-tools repo on github and should be in the $PATH
     # too many images on dockerhub to pull, fills up filesystem
-    #echo "$(dockerhub_search.py harisekhon -n 1000 | tail -n +2 | awk '{print $1}' | sort) $(sed 's/#.*//;/^[[:space:]]*$/d' "$bash_tools/setup/docker-images.txt" | uniq_order_preserved.pl)"
+    #echo "$(dockerhub_search.py austinsonger -n 1000 | tail -n +2 | awk '{print $1}' | sort) $(sed 's/#.*//;/^[[:space:]]*$/d' "$bash_tools/setup/docker-images.txt" | uniq_order_preserved.pl)"
     sed 's/#.*//;/^[[:space:]]*$/d' "$bash_tools/setup/docker-images.txt" |
     uniq_order_preserved.pl
 }
@@ -227,20 +227,20 @@ dockerpull1(){
     done
 }
 dockerpullgithub(){
-    dockerpull1 harisekhon/{nagios-plugins,pytools,tools,centos-github,debian-github,ubuntu-github,alpine-github}
+    dockerpull1 austinsonger/{nagios-plugins,pytools,tools,centos-github,debian-github,ubuntu-github,alpine-github}
 }
 
 dockerpull(){
     local images="${*:-}"
     [ -z "$images" ] && images="$(docker_get_images)"
     dockerpull1 "$images"
-    images="$(grep -i -e harisekhon -e ":" <<< "$images")"
+    images="$(grep -i -e austinsonger -e ":" <<< "$images")"
     #local images="$(grep -i -e ":" <<< "$images")"
     # now pull all tags, mine first, then official
     whendone "docker pull" # must be first arg so quoted, [l] trick not needed as grep -v grep's
     for image in $images; do
         #whendone "docker pull" # must be first arg so quoted, [l] trick not needed as grep -v grep's
-        if [[ "$image" = harisekhon/* && ! "$image" =~ ":" ]]; then
+        if [[ "$image" = austinsonger/* && ! "$image" =~ ":" ]]; then
             [[ "$image" =~ presto.*-dev ]] && continue
             for tag in $(dockerhub_show_tags.py -q "$image" | grep -v '^latest$'); do
                 timestamp "docker pull $image:$tag"

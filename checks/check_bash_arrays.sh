@@ -4,13 +4,13 @@
 #  Author: Hari Sekhon
 #  Date: 2018-08-16 13:47:32 +0100 (Thu, 16 Aug 2018)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https://github.com/austinsonger/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
 #
-#  https://www.linkedin.com/in/HariSekhon
+#  https://www.linkedin.com/in/austinsonger
 #
 
 # Checks we don't get any bash array variables getting overwritten
