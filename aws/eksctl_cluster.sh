@@ -36,7 +36,7 @@ AWS_ZONES - defaults to zones a, b and c in AWS_DEFAULT_REGION (eg. 'eu-west-2a,
 
 See Also:
 
-    eksctl.yaml - in austinsonger/Templates repo
+    eksctl.yaml - in austinsonger/base-templates repo
 "
 
 # used by usage() in lib/utils.sh

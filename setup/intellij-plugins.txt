@@ -195,7 +195,7 @@ com.github.shiraji.yaemoji
 # Mongo - https://plugins.jetbrains.com/plugin/7141-mongo-plugin
 #"Mongo Plugin"  # who uses Mongo any more?
 
-# Pieces - https://plugins.jetbrains.com/plugin/17328-pieces--save-search-share--reuse-code-snippets  - code snippets - you should be using libraries but unfortunately some languages have boilerplate for which library do not solve the repetition between programs. See also  austinsonger/Templates - https://github.com/austinsonger/Templates
+# Pieces - https://plugins.jetbrains.com/plugin/17328-pieces--save-search-share--reuse-code-snippets  - code snippets - you should be using libraries but unfortunately some languages have boilerplate for which library do not solve the repetition between programs. See also  austinsonger/base-templates - https://github.com/austinsonger/base-templates
 
 
 # ============================================================================ #

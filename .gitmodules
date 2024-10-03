@@ -6,7 +6,7 @@
 	url = https://github.com/austinsonger/SQL-scripts
 [submodule "templates"]
 	path = templates
-	url = https://github.com/austinsonger/Templates
+	url = https://github.com/austinsonger/base-templates
 [submodule "vagrant-configs"]
 	path = vagrant-configs
 	url = https://github.com/austinsonger/Vagrant-templates

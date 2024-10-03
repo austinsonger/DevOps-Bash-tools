@@ -20,7 +20,7 @@
 
 # Master Template with more advanced config:
 #
-#   https://github.com/austinsonger/Templates/blob/master/circleci_config.yml
+#   https://github.com/austinsonger/base-templates/blob/master/circleci_config.yml
 
 # Reference:
 #

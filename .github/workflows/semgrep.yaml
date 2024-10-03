@@ -17,7 +17,7 @@
 
 # Generates code scanning alerts in GitHub's Security tab -> Code scanning alerts
 
-# https://semgrep.dev/docs/semgrep-ci/sample-ci-configs/#github-actions
+# https://semgrep.dev/docs/semgrep-ci/sample-ci-configs/#GitHubActions
 
 ---
 name: Semgrep
@@ -59,6 +59,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'austinsonger'
     name: Semgrep GitHub Security Tab
-    uses: austinsonger/GitHub-Actions/.github/workflows/semgrep.yaml@master
+    uses: austinsonger/GitHubActions/.github/workflows/semgrep.yaml@master
     with:
       debug: ${{ github.event.inputs.debug }}

@@ -55,7 +55,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'austinsonger'
     name: Semgrep Cloud
-    uses: austinsonger/GitHub-Actions/.github/workflows/semgrep-cloud.yaml@master
+    uses: austinsonger/GitHubActions/.github/workflows/semgrep-cloud.yaml@master
     secrets:
       SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
     with:

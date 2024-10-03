@@ -40,7 +40,7 @@ jobs:
   docker_build:
     if: github.event.repository.fork == false && github.ref_type == 'branch' && ( github.ref_name == github.event.repository.default_branch || github.ref_name == 'docker' )
     name: Docker Build
-    uses: austinsonger/GitHub-Actions/.github/workflows/docker_build_ghcr.yaml@master
+    uses: austinsonger/GitHubActions/.github/workflows/docker_build_ghcr.yaml@master
     with:
       image: bash-tools
       tags: ubuntu latest

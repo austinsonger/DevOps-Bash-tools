@@ -31,7 +31,7 @@ This can take a while to run on large directories with lots of resources
 Any customization to the 'checkov' settings must use local .checkov.yaml config file in each repo root
 such as which directories to scan or skip, see this working config for example:
 
-    https://github.com/austinsonger/Templates/blob/master/.checkov.yaml
+    https://github.com/austinsonger/base-templates/blob/master/.checkov.yaml
 
 
 Each given repo dir should be the root of the repo so that .checkov.yaml can be found

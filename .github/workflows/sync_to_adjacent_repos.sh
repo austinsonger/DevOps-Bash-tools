@@ -50,7 +50,7 @@ sync_file(){
 
 sed 's/#.*//; s/:/ /' ../../setup/repos.txt |
 grep -v -e bash-tools \
-        -e github-actions \
+        -e GitHubActions \
         -e '^[[:space:]]*$' |
 while read -r repo dir; do
     if [ $# -gt 0 ]; then

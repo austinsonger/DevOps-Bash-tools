@@ -43,6 +43,6 @@ jobs:
     #if: github.event.repository.fork == true
     if: github.repository_owner != 'austinsonger'
     name: Fork Sync
-    uses: austinsonger/GitHub-Actions/.github/workflows/fork-sync.yaml@master
+    uses: austinsonger/GitHubActions/.github/workflows/fork-sync.yaml@master
     with:
       debug: ${{ github.event.inputs.debug }}

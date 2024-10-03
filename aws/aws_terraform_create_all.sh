@@ -36,11 +36,11 @@ Optional:
 
 Examples:
 
-    # create buckets, tables and user with all IAM policies for an account called 'myaccount' and a user called 'github-actions-myrepo'
+    # create buckets, tables and user with all IAM policies for an account called 'myaccount' and a user called 'GitHubActions-myrepo'
 
-        ${0##*/} myaccount github-actions-terraform  # gets AdministratorAccess by default
+        ${0##*/} myaccount GitHubActions-terraform  # gets AdministratorAccess by default
 
-        ${0##*/} myaccount github-actions-terraform-plan ReadOnly
+        ${0##*/} myaccount GitHubActions-terraform-plan ReadOnly
 
 "
 

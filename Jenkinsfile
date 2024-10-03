@@ -18,7 +18,7 @@
 
 // Epic Jenkinsfile template:
 //
-// https://github.com/austinsonger/Templates/blob/master/Jenkinsfile
+// https://github.com/austinsonger/base-templates/blob/master/Jenkinsfile
 
 
 // Official Documentation:

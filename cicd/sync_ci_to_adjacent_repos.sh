@@ -44,7 +44,7 @@ tmpfile="$(mktemp)"
 sed 's/#.*//; s/:/ /' "$srcdir/../setup/repos.txt" |
 grep -vi -e bash-tools \
          -e jenkins \
-         -e github-actions \
+         -e GitHubActions \
          -e playlist \
          -e sql-scripts \
          -e sql-keywords \

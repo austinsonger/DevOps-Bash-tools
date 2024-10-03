@@ -53,6 +53,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'austinsonger'
     name: Check JSON
-    uses: austinsonger/GitHub-Actions/.github/workflows/json.yaml@master
+    uses: austinsonger/GitHubActions/.github/workflows/json.yaml@master
     with:
       debug: ${{ github.event.inputs.debug }}

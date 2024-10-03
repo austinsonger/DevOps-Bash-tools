@@ -30,8 +30,8 @@
 austinsonger:austinsonger
 Knowledge-Base:knowledge
 # order repos by dependent submodule repos first
-GitHub-Actions:github-actions
-GitHub-Actions-Contexts:contexts
+GitHubActions:GitHubActions
+GitHubActions-Contexts:contexts
 Jenkins:jenkins
 SQL-scripts:sql
 SQL-keywords:sql-keywords

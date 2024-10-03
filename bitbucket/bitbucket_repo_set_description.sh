@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #  vim:ts=4:sts=4:sw=4:et
-#  args: github-actions-contexts test
+#  args: GitHubActions-contexts test
 #
 #  Author: Hari Sekhon
 #  Date: 2020-08-16 09:52:29 +0100 (Sun, 16 Aug 2020)

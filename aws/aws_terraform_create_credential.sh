@@ -38,13 +38,13 @@ Idempotent - safe to re-run, will skip creating a user that already exists or CS
 
 Examples:
 
-    # creates user 'github-actions-MYREPO' with full AdministratorAccess and saves the key in ~/.aws/keys/
+    # creates user 'GitHubActions-MYREPO' with full AdministratorAccess and saves the key in ~/.aws/keys/
 
-        ${0##*/} github-actions-MYREPO
+        ${0##*/} GitHubActions-MYREPO
 
-    # creates a read-only user 'github-actions-MYREPO-readonly' with ReadOnlyAccess standard AWS-managed policy attached for GitHub Actions environment secret that can be automatically used in Pull Request workflows without approval, saves key to ~/.aws/keys/
+    # creates a read-only user 'GitHubActions-MYREPO-readonly' with ReadOnlyAccess standard AWS-managed policy attached for GitHub Actions environment secret that can be automatically used in Pull Request workflows without approval, saves key to ~/.aws/keys/
 
-        ${0##*/} github-actions-MYREPO-readonly ReadOnlyAccess
+        ${0##*/} GitHubActions-MYREPO-readonly ReadOnlyAccess
 
 
 $usage_aws_cli_required

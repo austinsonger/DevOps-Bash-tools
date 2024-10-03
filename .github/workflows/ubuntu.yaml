@@ -78,7 +78,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'austinsonger'
     name: Build
-    uses: austinsonger/GitHub-Actions/.github/workflows/make.yaml@master
+    uses: austinsonger/GitHubActions/.github/workflows/make.yaml@master
     with:
       container: ubuntu:latest
       caches: apt pip cpanm

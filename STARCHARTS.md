@@ -104,13 +104,13 @@ Cloud & DevOps Architecture Diagrams-as-Code in Python and D2 languages
 ---
 ## Code & Config Templates
 
-[![Repo on GitHub](https://img.shields.io/badge/GitHub-repo-blue?logo=github)](https://github.com/austinsonger/Templates)
-[![GitHub stars](https://img.shields.io/github/stars/austinsonger/Templates?logo=github)](https://github.com/austinsonger/Templates/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/austinsonger/Templates?logo=github)](https://github.com/austinsonger/Templates/network)
+[![Repo on GitHub](https://img.shields.io/badge/GitHub-repo-blue?logo=github)](https://github.com/austinsonger/base-templates)
+[![GitHub stars](https://img.shields.io/github/stars/austinsonger/base-templates?logo=github)](https://github.com/austinsonger/base-templates/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/austinsonger/base-templates?logo=github)](https://github.com/austinsonger/base-templates/network)
 
 100+ DevOps Code & Config templates for Kubernetes, AWS, GCP, Terraform, Docker, Packer, Jenkins, CircleCI, GitHub Actions, Lambda, AWS CodeBuild, GCP Cloud Build, Vagrant, Puppet, Python, Bash, Go, Perl, Java, Scala, Groovy, Maven, SBT, Gradle, Make, Jenkinsfile, Makefile, Dockerfile, docker-compose.yml, Vagrantfile, M4 etc...
 
-[![Stargazers over time](https://starchart.cc/austinsonger/Templates.svg)](https://starchart.cc/austinsonger/Templates)
+[![Stargazers over time](https://starchart.cc/austinsonger/base-templates.svg)](https://starchart.cc/austinsonger/base-templates)
 
 ---
 ## Hari Sekhon - DevOps Perl Tools
@@ -181,13 +181,13 @@ Terraform HCL code for AWS / GCP / Azure / GitHub management
 ---
 ## GitHub Actions
 
-[![Repo on GitHub](https://img.shields.io/badge/GitHub-repo-blue?logo=github)](https://github.com/austinsonger/GitHub-Actions)
-[![GitHub stars](https://img.shields.io/github/stars/austinsonger/GitHub-Actions?logo=github)](https://github.com/austinsonger/GitHub-Actions/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/austinsonger/GitHub-Actions?logo=github)](https://github.com/austinsonger/GitHub-Actions/network)
+[![Repo on GitHub](https://img.shields.io/badge/GitHub-repo-blue?logo=github)](https://github.com/austinsonger/GitHubActions)
+[![GitHub stars](https://img.shields.io/github/stars/austinsonger/GitHubActions?logo=github)](https://github.com/austinsonger/GitHubActions/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/austinsonger/GitHubActions?logo=github)](https://github.com/austinsonger/GitHubActions/network)
 
 GitHub Actions Reusable Workflows and Master Template
 
-[![Stargazers over time](https://starchart.cc/austinsonger/GitHub-Actions.svg)](https://starchart.cc/austinsonger/GitHub-Actions)
+[![Stargazers over time](https://starchart.cc/austinsonger/GitHubActions.svg)](https://starchart.cc/austinsonger/GitHubActions)
 
 ---
 ## Hari Sekhon - HashiCorp Packer templates

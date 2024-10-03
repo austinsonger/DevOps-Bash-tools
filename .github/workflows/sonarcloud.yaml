@@ -43,6 +43,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'austinsonger'
     name: SonarCloud
-    uses: austinsonger/GitHub-Actions/.github/workflows/sonarcloud.yaml@master
+    uses: austinsonger/GitHubActions/.github/workflows/sonarcloud.yaml@master
     secrets:
       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

@@ -45,7 +45,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'austinsonger'
     name: URL Links
-    uses: austinsonger/GitHub-Actions/.github/workflows/url_links.yaml@master
+    uses: austinsonger/GitHubActions/.github/workflows/url_links.yaml@master
     with:
       ignore_urls_without_dots: 'true'  # any value enables this
       url_links_ignored: |

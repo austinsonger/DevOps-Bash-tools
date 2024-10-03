@@ -59,6 +59,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'austinsonger'
     name: Check YAML
-    uses: austinsonger/GitHub-Actions/.github/workflows/yaml.yaml@master
+    uses: austinsonger/GitHubActions/.github/workflows/yaml.yaml@master
     with:
       debug: ${{ github.event.inputs.debug }}

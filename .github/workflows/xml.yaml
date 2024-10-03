@@ -53,4 +53,4 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'austinsonger'
     name: Check XML
-    uses: austinsonger/GitHub-Actions/.github/workflows/xml.yaml@master
+    uses: austinsonger/GitHubActions/.github/workflows/xml.yaml@master

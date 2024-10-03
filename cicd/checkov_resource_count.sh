@@ -34,7 +34,7 @@ The second argument onwards are passed as-is directly to the 'checkov' command
 Alternatively, use a local .checkov.yaml config file to configure checkov settings,
 such as multiple directories or skip directories, eg:
 
-    https://github.com/austinsonger/Templates/blob/master/.checkov.yaml
+    https://github.com/austinsonger/base-templates/blob/master/.checkov.yaml
 
 
 Requires Checkov, awk and jq to be installed

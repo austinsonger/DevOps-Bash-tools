@@ -50,7 +50,7 @@ token="$("$srcdir/github_actions_runner_token.sh" "$repo_or_org")"
 docker run -ti \
            --rm \
            -v /var/run/docker.sock:/var/run/docker.sock \
-           austinsonger/github-actions-runner \
+           austinsonger/GitHubActions-runner \
            --url "https://github.com/$repo_or_org" \
            --token "$token" \
            --unattended "$@"

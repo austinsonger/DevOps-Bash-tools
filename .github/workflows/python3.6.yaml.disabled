@@ -55,7 +55,7 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'austinsonger'
     name: Python 3.6
-    uses: austinsonger/GitHub-Actions/.github/workflows/make.yaml@master
+    uses: austinsonger/GitHubActions/.github/workflows/make.yaml@master
     with:
       python-version: 3.6
       caches: apt pip

@@ -25,7 +25,7 @@
 #
 # See master template at:
 #
-#   https://github.com/austinsonger/Templates/blob/master/.checkov.yaml
+#   https://github.com/austinsonger/base-templates/blob/master/.checkov.yaml
 
 ---
 compact: true

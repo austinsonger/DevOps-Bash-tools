@@ -58,7 +58,7 @@ dest[7]='git@devops.azure.com:v3/austinsonger/GitHub/SQL-scripts'
 src[8]='git@devops.azure.com:austinsonger/Spotify-Playlists.git'
 dest[8]='git@devops.azure.com:v3/austinsonger/GitHub/Spotify-Playlists'
 
-src[9]='git@devops.azure.com:austinsonger/Templates'
+src[9]='git@devops.azure.com:austinsonger/base-templates'
 dest[9]='git@devops.azure.com:v3/austinsonger/GitHub/Templates'
 
 src[10]='git@devops.azure.com:austinsonger/kubernetes-templates'
@@ -100,7 +100,7 @@ dest[21]='git@devops.azure.com:v3/austinsonger/GitHub/Spotify-Playlists'
 src[22]='git@devops.azure.com:austinsonger/Spotify-tools.git'
 dest[22]='git@devops.azure.com:v3/austinsonger/GitHub/Spotify-tools'
 
-src[23]='git@devops.azure.com:austinsonger/Templates'
+src[23]='git@devops.azure.com:austinsonger/base-templates'
 dest[23]='git@devops.azure.com:v3/austinsonger/GitHub/Templates'
 
 src[24]='git@devops.azure.com:austinsonger/kubernetes-templates'

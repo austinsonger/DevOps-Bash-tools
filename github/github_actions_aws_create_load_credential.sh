@@ -60,7 +60,7 @@ aws_account_id="$(aws_account_id)"
 
 keyfile=~/.aws/keys/"${repo}_${aws_account_id}_accessKeys.csv"
 
-user="github-actions-$repo"
+user="GitHubActions-$repo"
 
 "$srcdir/../aws/aws_cli_create_credential.sh" "$user" "$group_or_policy" "$keyfile"
 "$srcdir/../aws/aws_csv_creds.sh" "$keyfile" |

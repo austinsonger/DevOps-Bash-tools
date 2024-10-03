@@ -165,7 +165,7 @@ Heavily used in many [GitHub repos](https://github.com/search?o=desc&q=user%3Aau
   - `.bash.d/` - interactive library
   - `lib/` - scripting and CI library
 - [SQL Scripts](https://github.com/austinsonger/SQL-scripts) - 100+ scripts for [PostgreSQL](https://www.postgresql.org/), [MySQL](https://www.mysql.com/), [AWS Athena](https://aws.amazon.com/athena/) + [CloudTrail](https://aws.amazon.com/cloudtrail/), [Google BigQuery](https://cloud.google.com/bigquery)
-- [Templates](https://github.com/austinsonger/Templates) - templates for common programming languages and build configs
+- [Templates](https://github.com/austinsonger/base-templates) - templates for common programming languages and build configs
 - [Kubernetes Configs](https://github.com/austinsonger/Kubernetes-configs) - Kubernetes YAML configs for most common scenarios, including Production Best Practices, Tips & Tricks
 
 See Also: [similar DevOps repos](https://github.com/austinsonger/DevOps-Bash-tools/blob/master/README.md#see-also) in other languages
@@ -230,7 +230,7 @@ make
 - [Spotify](#spotify) - 40+ Spotify API scripts for backups, managing playlists, track deduplication, URI conversion, search, add/delete, liked tracks, followed artists, top artists, top tracks etc.
 - [More Linux & Mac](#more-linux--mac) - more systems administration scripts, package installation automation
 - [Builds, Languages & Linting](#builds-languages--linting) - programming language, build system & CI linting
-- [Templates](https://github.com/austinsonger/Templates) - Templates for AWS, GCP, Terraform, Docker, Jenkins, Cloud Build, Vagrant, Puppet, Python, Bash, Go, Perl, Java, Scala, Groovy, Maven, SBT, Gradle, Make, GitHub Actions, CircleCI, Jenkinsfile, Makefile, Dockerfile, docker-compose.yml etc.
+- [Templates](https://github.com/austinsonger/base-templates) - Templates for AWS, GCP, Terraform, Docker, Jenkins, Cloud Build, Vagrant, Puppet, Python, Bash, Go, Perl, Java, Scala, Groovy, Maven, SBT, Gradle, Make, GitHub Actions, CircleCI, Jenkinsfile, Makefile, Dockerfile, docker-compose.yml etc.
 - [Kubernetes Configs](https://github.com/austinsonger/Kubernetes-configs) - Kubernetes YAML configs for most common scenarios, including Production Best Practices, Tips & Tricks
 
 ### Linux & Mac
@@ -520,7 +520,7 @@ See also [Knowledge Base notes for AWS](https://github.com/austinsonger/Knowledg
     - `gcr_tags_timestamps.sh` - lists all the tags and their timestamps for a given GCR docker image
     - `gcr_tags_old.sh` - lists tags older than N days for a given GCR docker image
     - `gcr_delete_old_tags.sh` - deletes tags older than N days for a given GCR docker image. Lists the image:tags to be deleted and prompts for confirmation safety
-    - see also [cloudbuild.yaml](https://github.com/austinsonger/Templates/blob/master/cloudbuild.yaml) in the [Templates](https://github.com/austinsonger/Templates) repo
+    - see also [cloudbuild.yaml](https://github.com/austinsonger/base-templates/blob/master/cloudbuild.yaml) in the [Templates](https://github.com/austinsonger/base-templates) repo
   - CI/CD on GCP - trigger Google Cloud Build and GKE Kubernetes deployments from orthogonal CI/CD systems like Jenkins / TeamCity:
     - `gcp_ci_build.sh` - script template for CI/CD to trigger Google Cloud Build to build docker container image with extra datetime and latest tagging
     - `gcp_ci_deploy_k8s.sh` - script template for CI/CD to deploy GCR docker image to GKE Kubernetes using Kustomize
@@ -1568,7 +1568,7 @@ Does nothing:
 
 ### CI/CD
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=GitHub-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/GitHub-Actions)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=GitHubActions&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/GitHubActions)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Jenkins&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Jenkins)
 
 ### DBA - SQL
@@ -1585,7 +1585,7 @@ Does nothing:
 
 ### Templates
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Templates&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Templates)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Templates&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/base-templates)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=austinsonger&repo=Template-repo&theme=ambient_gradient&description_lines_count=3)](https://github.com/austinsonger/Template-repo)
 
 ### Misc

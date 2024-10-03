@@ -57,6 +57,6 @@ jobs:
     #if: github.event.repository.fork == false
     if: github.repository_owner == 'austinsonger'
     name: Trivy
-    uses: austinsonger/GitHub-Actions/.github/workflows/trivy.yaml@master
+    uses: austinsonger/GitHubActions/.github/workflows/trivy.yaml@master
     with:
       debug: ${{ github.event.inputs.debug }}
