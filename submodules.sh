@@ -20,7 +20,7 @@ git submodule init
 git submodule update
 
 # Stage the .gitmodules file and submodule directories
-git add .gitmodules SQL sql vagrant-configs packer kubernetes-configs templates
+git add .gitmodules sql vagrant-configs packer kubernetes-configs templates
 
 # Commit the changes
 git commit -m "Add submodules for SQL, Vagrant, Packer, Kubernetes, and templates"
